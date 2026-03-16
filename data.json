@@ -1,4 +1,4 @@
-﻿?[
+﻿[
     {
         "id":  1,
         "name":  "Universidad Nacional de Colombia",
@@ -13,31 +13,31 @@
         "careers":  [
                         {
                             "name":  "Medicina",
-                            "price":  "$0 –" $8.800.000 COP"
+                            "price": "$0 – $8.800.000 COP"
                         },
                         {
                             "name":  "Ingeniería de Sistemas",
-                            "price":  "$0 –" $6.400.000 COP"
+                            "price": "$0 – $6.400.000 COP"
                         },
                         {
                             "name":  "Derecho",
-                            "price":  "$0 –" $5.040.000 COP"
+                            "price": "$0 – $5.040.000 COP"
                         },
                         {
                             "name":  "Administración de Empresas",
-                            "price":  "$0 –" $5.000.000 COP"
+                            "price": "$0 – $5.000.000 COP"
                         },
                         {
                             "name":  "Economía",
-                            "price":  "$0 –" $4.680.000 COP"
+                            "price": "$0 – $4.680.000 COP"
                         },
                         {
                             "name":  "Psicología",
-                            "price":  "$0 –" $4.140.000 COP"
+                            "price": "$0 – $4.140.000 COP"
                         },
                         {
                             "name":  "Arquitectura",
-                            "price":  "$0 –" $6.820.000 COP"
+                            "price": "$0 – $6.820.000 COP"
                         }
                     ],
         "reviews":  [
@@ -187,23 +187,23 @@
         "careers":  [
                         {
                             "name":  "Ingeniería de Sistemas",
-                            "price":  "$0 –" $1.500.000 COP"
+                            "price": "$0 – $1.500.000 COP"
                         },
                         {
                             "name":  "Ingeniería Electrónica",
-                            "price":  "$0 –" $1.500.000 COP"
+                            "price": "$0 – $1.500.000 COP"
                         },
                         {
                             "name":  "Ingeniería Industrial",
-                            "price":  "$0 –" $1.500.000 COP"
+                            "price": "$0 – $1.500.000 COP"
                         },
                         {
                             "name":  "Ingeniería Catastral",
-                            "price":  "$0 –" $1.500.000 COP"
+                            "price": "$0 – $1.500.000 COP"
                         },
                         {
                             "name":  "Licenciatura en Matemáticas",
-                            "price":  "$0 –" $800.000 COP"
+                            "price": "$0 – $800.000 COP"
                         }
                     ],
         "reviews":  [
@@ -295,23 +295,23 @@
         "careers":  [
                         {
                             "name":  "Medicina",
-                            "price":  "$0 –" $6.000.000 COP"
+                            "price": "$0 – $6.000.000 COP"
                         },
                         {
                             "name":  "Ingeniería de Sistemas",
-                            "price":  "$0 –" $4.000.000 COP"
+                            "price": "$0 – $4.000.000 COP"
                         },
                         {
                             "name":  "Derecho",
-                            "price":  "$0 –" $3.500.000 COP"
+                            "price": "$0 – $3.500.000 COP"
                         },
                         {
                             "name":  "Psicología",
-                            "price":  "$0 –" $3.000.000 COP"
+                            "price": "$0 – $3.000.000 COP"
                         },
                         {
                             "name":  "Odontología",
-                            "price":  "$0 –" $5.000.000 COP"
+                            "price": "$0 – $5.000.000 COP"
                         }
                     ],
         "reviews":  [
@@ -565,23 +565,23 @@
         "careers":  [
                         {
                             "name":  "Medicina",
-                            "price":  "$0 –" $5.500.000 COP"
+                            "price": "$0 – $5.500.000 COP"
                         },
                         {
                             "name":  "Ingeniería de Sistemas",
-                            "price":  "$0 –" $4.000.000 COP"
+                            "price": "$0 – $4.000.000 COP"
                         },
                         {
                             "name":  "Administración de Empresas",
-                            "price":  "$0 –" $3.500.000 COP"
+                            "price": "$0 – $3.500.000 COP"
                         },
                         {
                             "name":  "Arquitectura",
-                            "price":  "$0 –" $4.500.000 COP"
+                            "price": "$0 – $4.500.000 COP"
                         },
                         {
                             "name":  "Psicología",
-                            "price":  "$0 –" $3.500.000 COP"
+                            "price": "$0 – $3.500.000 COP"
                         }
                     ],
         "reviews":  [
@@ -943,23 +943,23 @@
         "careers":  [
                         {
                             "name":  "Medicina",
-                            "price":  "$0 –" $5.000.000 COP"
+                            "price": "$0 – $5.000.000 COP"
                         },
                         {
                             "name":  "Ingeniería de Sistemas",
-                            "price":  "$0 –" $3.500.000 COP"
+                            "price": "$0 – $3.500.000 COP"
                         },
                         {
                             "name":  "Derecho",
-                            "price":  "$0 –" $3.000.000 COP"
+                            "price": "$0 – $3.000.000 COP"
                         },
                         {
                             "name":  "Administración de Empresas",
-                            "price":  "$0 –" $3.000.000 COP"
+                            "price": "$0 – $3.000.000 COP"
                         },
                         {
                             "name":  "Psicología",
-                            "price":  "$0 –" $2.800.000 COP"
+                            "price": "$0 – $2.800.000 COP"
                         }
                     ],
         "reviews":  [
@@ -1159,23 +1159,23 @@
         "careers":  [
                         {
                             "name":  "Medicina",
-                            "price":  "$0 –" $5.500.000 COP"
+                            "price": "$0 – $5.500.000 COP"
                         },
                         {
                             "name":  "Derecho",
-                            "price":  "$0 –" $3.000.000 COP"
+                            "price": "$0 – $3.000.000 COP"
                         },
                         {
                             "name":  "Ingeniería de Sistemas",
-                            "price":  "$0 –" $3.500.000 COP"
+                            "price": "$0 – $3.500.000 COP"
                         },
                         {
                             "name":  "Administración de Empresas",
-                            "price":  "$0 –" $3.000.000 COP"
+                            "price": "$0 – $3.000.000 COP"
                         },
                         {
                             "name":  "Odontología",
-                            "price":  "$0 –" $4.500.000 COP"
+                            "price": "$0 – $4.500.000 COP"
                         }
                     ],
         "reviews":  [
@@ -1375,23 +1375,23 @@
         "careers":  [
                         {
                             "name":  "Medicina",
-                            "price":  "$0 –" $6.000.000 COP"
+                            "price": "$0 – $6.000.000 COP"
                         },
                         {
                             "name":  "Ingeniería de Sistemas",
-                            "price":  "$0 –" $4.500.000 COP"
+                            "price": "$0 – $4.500.000 COP"
                         },
                         {
                             "name":  "Ingeniería Civil",
-                            "price":  "$0 –" $4.500.000 COP"
+                            "price": "$0 – $4.500.000 COP"
                         },
                         {
                             "name":  "Ingeniería Química",
-                            "price":  "$0 –" $4.500.000 COP"
+                            "price": "$0 – $4.500.000 COP"
                         },
                         {
                             "name":  "Derecho",
-                            "price":  "$0 –" $3.500.000 COP"
+                            "price": "$0 – $3.500.000 COP"
                         }
                     ],
         "reviews":  [
@@ -1591,7 +1591,7 @@
         "careers":  [
                         {
                             "name":  "Medicina",
-                            "price":  "$8.000.000 –" $12.000.000 COP"
+                            "price": "$8.000.000 – $12.000.000 COP"
                         },
                         {
                             "name":  "Ingeniería de Sistemas",
@@ -1632,4 +1632,5 @@
                     ]
     }
 ]
+
 
