@@ -2,7 +2,7 @@
 let currentUser = null;
 
 const STATIC_HOSTS = ['github.io'];
-const isStaticHost = 
+const isStaticHost = STATIC_HOSTS.some((host) => window.location.hostname.endsWith(host)) || window.location.protocol === 'file:';
 const API_BASE = isStaticHost ? 'https://unisearch-1sv1.onrender.com' : '';
 const useBackend = true;
 
@@ -971,6 +971,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   syncAuthUI();
   await loadUniversities();
 });
+
 
 
 
