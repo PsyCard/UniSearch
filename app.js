@@ -55,7 +55,7 @@ function capitalizeWords(value) {
 function formatType(value) {
   const clean = String(value || '').trim();
   if (!clean) return 'N/A';
-  if (toText(clean) === 'publica') return 'P�blica';
+  if (toText(clean) === 'publica') return 'P¿blica';
   return clean;
 }
 
@@ -126,7 +126,7 @@ function syncAuthUI() {
 function openAuthModal(isSignUp) {
   if (!$authModal || !$modalTitle || !$nameField || !$authMessage || !$authForm) return;
   signUpMode = isSignUp;
-  $modalTitle.textContent = isSignUp ? 'Registrarse' : 'Iniciar sesi�n';
+  $modalTitle.textContent = isSignUp ? 'Registrarse' : 'Iniciar sesi¿n';
   $nameField.style.display = isSignUp ? 'block' : 'none';
   if ($lastNameField) $lastNameField.style.display = isSignUp ? 'block' : 'none';
   $authMessage.textContent = '';
@@ -141,7 +141,7 @@ function closeAuthModal() {
 function registerUser(name, lastName, email, password) {
   const normalizedEmail = toText(email).trim();
   if (!normalizedEmail || !password.trim()) {
-    return { success: false, message: 'Completa correo y contrase�a.' };
+    return { success: false, message: 'Completa correo y contrase¿a.' };
   }
   if (!String(name || '').trim() || !String(lastName || '').trim()) {
     return { success: false, message: 'Completa nombre y apellido.' };
@@ -152,7 +152,7 @@ function registerUser(name, lastName, email, password) {
 
   const users = loadUsers();
   if (users.some((u) => toText(u.email) === normalizedEmail)) {
-    return { success: false, message: 'Este correo ya est� registrado.' };
+    return { success: false, message: 'Este correo ya está registrado.' };
   }
 
   const fullName = `${capitalizeWords(name)} ${capitalizeWords(lastName)}`.trim();
@@ -162,7 +162,7 @@ function registerUser(name, lastName, email, password) {
     password
   });
   saveUsers(users);
-  return { success: true, message: 'Registro exitoso. Ahora inicia sesi�n.' };
+  return { success: true, message: 'Registro exitoso. Ahora inicia sesi¿n.' };
 }
 
 function loginUser(email, password) {
@@ -170,7 +170,7 @@ function loginUser(email, password) {
 
   if (admins.includes(normalizedEmail)) {
     if (password !== adminPassword) {
-      return { success: false, message: 'contrase�a de administrador incorrecta.' };
+      return { success: false, message: 'contrase¿a de administrador incorrecta.' };
     }
     const adminUser = { name: 'Administrador', email: normalizedEmail, role: 'admin' };
     saveCurrentUser(adminUser);
@@ -181,7 +181,7 @@ function loginUser(email, password) {
   const users = loadUsers();
   const found = users.find((u) => toText(u.email) === normalizedEmail && u.password === password);
   if (!found) {
-    return { success: false, message: 'Correo o contrase�a incorrectos.' };
+    return { success: false, message: 'Correo o contrase¿a incorrectos.' };
   }
 
   saveCurrentUser({
@@ -327,14 +327,14 @@ function render(list) {
       })
       .join('');
 
-    const expandBtn = hiddenCareers.length ? `<button class="btn expand-careers" data-id="${u.id}">Mostrar m�s (${hiddenCareers.length})</button>`
+    const expandBtn = hiddenCareers.length ? `<button class="btn expand-careers" data-id="${u.id}">Mostrar más (${hiddenCareers.length})</button>`
       : '';
 
     article.innerHTML = `
       <h3>${u.name} <small class="rating">${renderStars(avg)} ${avg ? avg.toFixed(1) : 'N/A'}</small></h3>
-      <div class="meta">${formatType(u.type)} � ${u.city || 'N/A'} � ${u.address || 'Sin direcci�n'}</div>
+      <div class="meta">${formatType(u.type)} ¿ ${u.city || 'N/A'} ¿ ${u.address || 'Sin direcci¿n'}</div>
       <div class="meta">Tel: ${u.phone || 'N/A'}</div>
-      ${u.email ? `<div class="meta">Correo electr�nico: <a href="mailto:${u.email}">${u.email}</a></div>` : ''}
+      ${u.email ? `<div class="meta">Correo electrónico: <a href="mailto:${u.email}">${u.email}</a></div>` : ''}
       <div class="careers-section">
         <p class="careers-title">Carreras disponibles:</p>
         <div class="careers-list">${careersHtml}</div>
@@ -344,7 +344,7 @@ function render(list) {
       <div class="actions">
         <a class="btn view" target="_blank" rel="noopener" href="https://www.google.com/maps/search/${encodeURIComponent(`${u.name || ''} ${u.city || ''}`)}">Ver en mapa</a>
         <a class="btn info" target="_blank" rel="noopener" href="${u.website || '#'}">Sitio web</a>
-        <button class="btn info" data-id="${u.id}">Ver rese�as</button>
+        <button class="btn info" data-id="${u.id}">Ver rese¿as</button>
       </div>
       <div class="reviews" id="reviews-${u.id}"></div>
       <div class="add-review-form" id="form-${u.id}" style="margin-top:10px;">
@@ -357,7 +357,7 @@ function render(list) {
           <option value="5" selected>5</option>
         </select>
         <textarea class="rev-text" placeholder="Comentario" style="width:100%;height:60px;margin-bottom:4px"></textarea>
-        <button class="btn submit-review" data-id="${u.id}">Enviar rese�a</button>
+        <button class="btn submit-review" data-id="${u.id}">Enviar rese¿a</button>
       </div>
     `;
 
@@ -419,7 +419,7 @@ function renderReviewPage(container, reviews, page = 0, uniId = null) {
             <button class="btn delete-review" data-id="${uniId}">Eliminar</button>
           </div>`
         : '';
-      return `<div class="review"><strong>${r.author || 'An�nimo'}</strong> <span class="rating">(${r.role || 'usuario'} � ${'*'.repeat(Number(r.rating) || 0)})</span><div style="margin-top:6px">${r.text || ''}</div>${actions}</div>`;
+      return `<div class="review"><strong>${r.author || 'Anónimo'}</strong> <span class="rating">(${r.role || 'usuario'} ¿ ${'*'.repeat(Number(r.rating) || 0)})</span><div style="margin-top:6px">${r.text || ''}</div>${actions}</div>`;
     })
     .join('');
 
@@ -434,7 +434,7 @@ function renderReviewPage(container, reviews, page = 0, uniId = null) {
 
   if ((page + 1) * perPage < reviews.length) {
     const moreButton = document.createElement('button');
-    moreButton.textContent = 'Mostrar m�s';
+    moreButton.textContent = 'Mostrar más';
     moreButton.className = 'btn load-more';
     moreButton.addEventListener('click', () => renderReviewPage(container, reviews, page + 1, uniId));
     container.appendChild(moreButton);
@@ -463,7 +463,7 @@ function renderReviewPage(container, reviews, page = 0, uniId = null) {
       const id = btn.getAttribute('data-id');
       const email = getCurrentUserEmail();
       if (!email) return;
-      const confirmed = window.confirm('�Seguro que quieres eliminar tu rese�a?');
+      const confirmed = window.confirm('¿Seguro que quieres eliminar tu rese¿a?');
       if (!confirmed) return;
 
       try {
@@ -472,7 +472,7 @@ function renderReviewPage(container, reviews, page = 0, uniId = null) {
         applyFilters();
         showReviewsFor(id);
       } catch (error) {
-        alert(error.message || 'No se pudo eliminar la rese�a.');
+        alert(error.message || 'No se pudo eliminar la rese¿a.');
       }
     });
   });
@@ -487,7 +487,7 @@ function showReviewsFor(id) {
   box.classList.add('show');
 
   const btn = document.querySelector(`.actions button[data-id="${id}"]`);
-  if (btn) btn.textContent = 'Ocultar rese�as';
+  if (btn) btn.textContent = 'Ocultar rese¿as';
 }
 
 async function updateReview(id, payload) {
@@ -518,8 +518,8 @@ async function submitReview(id, role, rating, text) {
   const email = getCurrentUserEmail();
   if (!email) {
     openAuthModal(false);
-    if ($authMessage) $authMessage.textContent = 'Debes iniciar sesi�n para dejar una rese�a.';
-    throw new Error('Debes iniciar sesi�n para dejar una rese�a.');
+    if ($authMessage) $authMessage.textContent = 'Debes iniciar sesi¿n para dejar una rese¿a.';
+    throw new Error('Debes iniciar sesi¿n para dejar una rese¿a.');
   }
 
   const authorName = currentUser ? displayName(currentUser) : email;
@@ -563,7 +563,7 @@ function bindCardActions() {
       }
 
       box.classList.toggle('show');
-      btn.textContent = box.classList.contains('show') ? 'Ocultar rese�as' : 'Ver rese�as';
+      btn.textContent = box.classList.contains('show') ? 'Ocultar rese¿as' : 'Ver rese¿as';
     });
   });
 
@@ -578,7 +578,7 @@ function bindCardActions() {
         btn.textContent = 'Mostrar menos';
       } else {
         hidden.style.display = 'none';
-        btn.textContent = `Mostrar m�s (${hidden.querySelectorAll('.career-chip').length})`;
+        btn.textContent = `Mostrar más (${hidden.querySelectorAll('.career-chip').length})`;
       }
     });
   });
@@ -606,7 +606,7 @@ function bindCardActions() {
         applyFilters();
         showReviewsFor(id);
       } catch (error) {
-        alert(error.message || 'No se pudo enviar la rese�a.');
+        alert(error.message || 'No se pudo enviar la rese¿a.');
       }
     });
   });
@@ -657,7 +657,7 @@ if ($authForm) {
       $authMessage.textContent = result.message;
       if (result.success) {
         signUpMode = false;
-        $modalTitle.textContent = 'Iniciar sesi�n';
+        $modalTitle.textContent = 'Iniciar sesi¿n';
         $nameField.style.display = 'none';
         if ($lastNameField) $lastNameField.style.display = 'none';
       }
@@ -685,7 +685,7 @@ if ($dashboardBtn) {
     if (!getCurrentUser()) {
       e.preventDefault();
       openAuthModal(false);
-      if ($authMessage) $authMessage.textContent = 'Debes iniciar sesi�n para abrir el dashboard.';
+      if ($authMessage) $authMessage.textContent = 'Debes iniciar sesi¿n para abrir el dashboard.';
     }
   });
 }
@@ -697,7 +697,7 @@ if ($adminBtn) {
     if (!user) {
       e.preventDefault();
       openAuthModal(false);
-      if ($authMessage) $authMessage.textContent = 'Debes iniciar sesi�n como administrador.';
+      if ($authMessage) $authMessage.textContent = 'Debes iniciar sesi¿n como administrador.';
       return;
     }
 
@@ -764,8 +764,8 @@ function renderAdminDashboard(list) {
           <div class="card-title">${u.name || 'Universidad'}</div>
           <div class="info-row"><span class="info-label">Tipo:</span> ${formatType(u.type)}</div>
           <div class="info-row"><span class="info-label">Ciudad:</span> ${u.city || 'N/A'}</div>
-          <div class="info-row"><span class="info-label">Tel�fono:</span> ${u.phone || 'N/A'}</div>
-          <div class="info-row"><span class="info-label">Rese�as:</span> ${reviewCount}</div>
+          <div class="info-row"><span class="info-label">Tel¿fono:</span> ${u.phone || 'N/A'}</div>
+          <div class="info-row"><span class="info-label">Rese¿as:</span> ${reviewCount}</div>
           <div style="margin-top:12px;">
             <button type="button" class="btn-danger delete-uni-btn" data-id="${u.id}">Eliminar universidad</button>
           </div>
@@ -818,7 +818,7 @@ function bindAdminDeleteActions() {
 
       const target = universities.find((u) => String(u.id) === String(id));
       const name = target?.name || 'esta universidad';
-      const confirmed = window.confirm(`�Seguro que quieres eliminar ${name}?`);
+      const confirmed = window.confirm(`¿Seguro que quieres eliminar ${name}?`);
       if (!confirmed) return;
 
       try {
@@ -931,7 +931,7 @@ async function checkAdmin() {
   };
 
   if (!user) {
-    denyAccess('Debes iniciar sesi�n para acceder al panel de administrador.');
+    denyAccess('Debes iniciar sesi¿n para acceder al panel de administrador.');
     return;
   }
 
@@ -971,6 +971,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   syncAuthUI();
   await loadUniversities();
 });
+
 
 
 
