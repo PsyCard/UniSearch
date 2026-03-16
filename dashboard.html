@@ -1,0 +1,163 @@
+﻿<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .dash-wrap { max-width: 980px; margin: 20px auto; padding: 0 16px; }
+    .dash-grid { display: grid; grid-template-columns: repeat(auto-fill,minmax(270px,1fr)); gap: 12px; margin-top: 14px; }
+    .dash-card { background: #fff; border-radius: 10px; padding: 14px; border: 1px solid #e8e8e8; }
+    .dash-top { display:flex; justify-content:space-between; align-items:center; gap:10px; flex-wrap:wrap; }
+    .dash-actions { display:flex; gap:8px; }
+    .tag { background:#111d35; color:#fbe635; padding:4px 8px; border-radius:999px; font-size:12px; }
+    .meta { font-size: 13px; color: #666; margin-top: 6px; }
+    .stats { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:12px; margin-top:14px; }
+    .stat { background:#fff; border:2px solid #fbe635; border-radius:8px; padding:12px; }
+    .stat strong { font-size: 22px; display:block; margin-top:4px; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container dash-top">
+      <div>
+        <h1 style="margin:0;">Dashboard</h1>
+        <p class="lead" id="welcome-text" style="margin-top:6px;">Bienvenido</p>
+      </div>
+      <div class="dash-actions">
+        <a class="btn-secondary" href="./" style="text-decoration:none;display:inline-block;">Inicio</a>
+        <a id="switch-dashboard-btn" class="btn-secondary" href="admin.html" style="text-decoration:none;display:inline-block;background:#fbe635;color:#111d35;border:1px solid #fbe635;">Administrador</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="dash-wrap">
+    <section class="stats">
+      <article class="stat">
+        Total de universidades
+        <strong id="stat-unis">0</strong>
+      </article>
+      <article class="stat">
+        Promedio de reseñas
+        <strong id="stat-rating">N/A</strong>
+      </article>
+    </section>
+
+    <section id="dash-list" class="dash-grid"></section>
+    <div style="margin-top:16px;">
+      <button id="back-to-index-btn" class="btn-secondary" type="button">Regresar al inicio</button>
+    </div>
+  </main>
+
+  <script>
+    function getCurrentUser() {
+      try {
+        return JSON.parse(localStorage.getItem('currentUser'));
+      } catch {
+        return null;
+      }
+    }
+
+        function formatType(value) {
+      const clean = String(value || '').trim();
+      if (!clean) return 'Tipo no definido';
+      if (clean.toLowerCase() === 'publica') return 'Pública';
+      return clean;
+    }
+
+    function displayName(user) {
+      if (!user) return '';
+      if (user.name && user.name.trim()) return user.name.trim();
+      if (user.email && user.email.includes('@')) return user.email.split('@')[0];
+      return user.email || 'Usuario';
+    }
+
+    function requireSession() {
+      const user = getCurrentUser();
+      if (!user) {
+        window.location.href = './';
+        return null;
+      }
+      return user;
+    }
+
+    async function loadUniversities() {
+      try {
+        const response = await fetch('/api/universities', { credentials: 'include' });
+        if (!response.ok) throw new Error('No se pudo cargar la lista de universidades');
+        const data = await response.json();
+        localStorage.setItem('universities', JSON.stringify(data));
+        return data;
+      } catch {
+        const saved = localStorage.getItem('universities');
+        if (saved) {
+          try { return JSON.parse(saved); } catch {}
+        }
+        return [];
+      }
+    }
+
+    function averageRating(universities) {
+      const ratings = [];
+      universities.forEach((u) => {
+        (u.reviews || []).forEach((r) => {
+          const n = Number(r.rating);
+          if (!Number.isNaN(n)) ratings.push(n);
+        });
+      });
+      if (!ratings.length) return null;
+      const sum = ratings.reduce((a, b) => a + b, 0);
+      return (sum / ratings.length).toFixed(1);
+    }
+
+    function renderDashboard(universities) {
+      const list = document.getElementById('dash-list');
+      const statUnis = document.getElementById('stat-unis');
+      const statRating = document.getElementById('stat-rating');
+
+      statUnis.textContent = universities.length;
+      statRating.textContent = averageRating(universities) || 'N/A';
+
+      if (!universities.length) {
+        list.innerHTML = '<article class="dash-card">No hay universidades disponibles.</article>';
+        return;
+      }
+
+      list.innerHTML = universities.map((u) => {
+        const reviewCount = Array.isArray(u.reviews) ? u.reviews.length : 0;
+        return `
+          <article class="dash-card">
+            <h3 style="margin:0 0 8px;">${u.name || 'Universidad'}</h3>
+            <div class="tag">${formatType(u.type)}</div>
+            <div class="meta">Ciudad: ${u.city || 'N/A'}</div>
+            <div class="meta">Teléfono: ${u.phone || 'N/A'}</div>
+            <div class="meta">Reseñas: ${reviewCount}</div>
+          </article>
+        `;
+      }).join('');
+    }
+
+        document.getElementById('back-to-index-btn').addEventListener('click', () => {
+      window.location.href = './';
+    });
+
+    (async function init() {
+      const user = requireSession();
+      if (!user) return;
+      document.getElementById('welcome-text').textContent = `Bienvenido, ${displayName(user)}.`;
+      const universities = await loadUniversities();
+      renderDashboard(universities);
+    })();
+  </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+

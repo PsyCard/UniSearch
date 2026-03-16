@@ -1,0 +1,529 @@
+// Initialize variables
+let universities = [];
+let currentUser = null;
+
+// DOM elements
+const $results = document.getElementById('results');
+const $search = document.getElementById('search');
+const $type = document.getElementById('filterType');
+const $barrio = document.getElementById('filterBarrio');
+const $city = document.getElementById('filterCity');
+
+// Auth DOM elements
+const $openLoginBtn = document.getElementById('open-login-btn');
+const $signupBtn = document.getElementById('signup-btn');
+const $logoutBtn = document.getElementById('logout-btn');
+const $userInfo = document.getElementById('user-info');
+const $authButtons = document.getElementById('auth-buttons');
+const $userName = document.getElementById('user-name');
+const $authModal = document.getElementById('auth-modal');
+const $modalTitle = document.getElementById('modal-title');
+const $authForm = document.getElementById('loginForm') || document.getElementById('login-form');
+const $nameField = document.getElementById('name-field');
+const $authMessage = document.getElementById('auth-message');
+const $modalClose = document.querySelector('.close');
+
+// wire up login/signup submission (IDs updated in HTML)
+const loginForm = document.getElementById('login-form');
+let signingUp = false;    
+      
+if (loginForm) {
+  loginForm.addEventListener('submit', async function (e) {
+    e.preventDefault();
+    });
+}
+
+// modal open/close logic for login/signup buttons
+if ($openLoginBtn) {
+  $openLoginBtn.addEventListener('click', () => {
+    signingUp = false;
+    $modalTitle.textContent = 'Iniciar sesión';
+    $nameField.style.display = 'none';
+    $authMessage.textContent = '';
+    $authForm.reset && $authForm.reset();
+    $authModal.style.display = 'block';
+  });
+}
+if ($signupBtn) {
+  $signupBtn.addEventListener('click', () => {
+    signingUp = true;
+    $modalTitle.textContent = 'Registrarse';
+    $nameField.style.display = 'block';
+    $authMessage.textContent = '';
+    $authForm.reset && $authForm.reset();
+    $authModal.style.display = 'block';
+  });
+}
+if ($modalClose) {
+  $modalClose.addEventListener('click', () => {
+    $authModal.style.display = 'none';
+  });
+}
+// click outside modal closes it
+window.addEventListener('click', e => {
+  if (e.target === $authModal) $authModal.style.display = 'none';
+});
+
+function syncAuthUIFromStorage() {
+  try {
+    const savedUser = JSON.parse(localStorage.getItem("currentUser"));
+    if (savedUser && savedUser.email) {
+      currentUser = savedUser;
+      if ($userName) $userName.textContent = savedUser.name || savedUser.email;
+      if ($userInfo) $userInfo.style.display = 'block';
+      if ($authButtons) $authButtons.style.display = 'none';
+      return;
+    }
+  } catch (err) {
+    console.error('Error leyendo sesion local:', err);
+  }
+  currentUser = null;
+  if ($userInfo) $userInfo.style.display = 'none';
+  if ($authButtons) $authButtons.style.display = 'block';
+}
+
+// Utility helpers
+function formatCurrency(n) {
+  return new Intl.NumberFormat('es-CO', { style: 'currency', currency: 'COP', maximumFractionDigits: 0 }).format(n);
+}
+
+function renderStars(r) {
+  const round = Math.round(r);
+  const full = '★'.repeat(round);
+  const empty = '☆'.repeat(5 - round);
+  return `<span class="stars">${full}${empty}</span>`;
+}
+
+// feature: detect backend availability and enable STATIC_MODE when not available
+let STATIC_MODE = true;
+
+async function detectBackend() {
+  try {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 2000);
+    const resp = await fetch('/api/universities', { signal: controller.signal, credentials: 'same-origin' });
+    clearTimeout(timeout);
+    const contentType = resp.headers.get('content-type') || '';
+    if (!resp.ok || !contentType.includes('application/json')) throw new Error('no api');
+    await resp.clone().json();
+    STATIC_MODE = false;
+    return false;
+  } catch {
+    STATIC_MODE = true;
+    // attempt to load from cache or static data.json
+    const stored = localStorage.getItem('universities');
+    if (stored) {
+      universities = JSON.parse(stored);
+    } else {
+      try {
+        const r = await fetch('./data.json');
+        if (r.ok) universities = await r.json();
+      } catch { }
+    }
+    if (!universities || !universities.length) universities = [];
+    return true;
+  }
+}
+
+async function loadUniversities() {
+  try {
+    const response = await fetch('./data.json');
+
+    if (!response.ok) {
+      throw new Error("No se pudo cargar data.json");
+    }
+
+    universities = await response.json();
+
+  } catch (error) {
+    console.error("Error cargando universidades:", error);
+    universities = [];
+  }
+
+  populateCities();
+  render(universities);
+}
+function populateCities() {
+  const cities = Array.from(new Set(universities.map(u => u.city).filter(Boolean))).sort();
+  $city.innerHTML = '<option value="">Ciudad: Todas</option>';
+  cities.forEach(c => {
+    const o = document.createElement('option');
+    o.value = c;
+    o.textContent = c;
+    $city.appendChild(o);
+  });
+}
+
+function render(list) {
+  $results.innerHTML = '';
+  if (!list.length) {
+    $results.innerHTML = '<div class="card">No se encontraron universidades con esos criterios.</div>';
+    return;
+  }
+  const fragment = document.createDocumentFragment();
+  list.forEach(u => {
+    const el = document.createElement('article');
+    el.className = 'uni-card card';
+    const avg = (u.reviews && u.reviews.length) ? (u.reviews.reduce((s, rv) => s + rv.rating, 0) / u.reviews.length) : (u.rating || 0);
+    let tuitionInfo = '';
+    if (u.tuition) {
+      if (typeof u.tuition === 'string') {
+        tuitionInfo = `<div class="meta">Matrícula: ${u.tuition}</div>`;
+      } else if (typeof u.tuition === 'object') {
+        const parts = Object.entries(u.tuition).map(([k, v]) => `${k}: ${v}`);
+        tuitionInfo = `<div class="meta">Matrícula: ${parts.join(', ')}</div>`;
+      }
+    }
+    const allCareers = u.careers || [];
+    const MAX_VISIBLE = 3;
+    const careersToShow = allCareers.slice(0, MAX_VISIBLE);
+    const remainingCareers = allCareers.slice(MAX_VISIBLE);
+    const careersHTML = careersToShow.map(c => {
+      const careerName = typeof c === 'string' ? c : c.name;
+      const careerPrice = typeof c === 'object' ? c.price : null;
+      let priceHTML = '';
+      if (careerPrice) {
+        if (typeof careerPrice === 'number') {
+          priceHTML = `<span class="price">${formatCurrency(careerPrice)}</span>`;
+        } else {
+          priceHTML = `<span class="price">${careerPrice}</span>`;
+        }
+      }
+      return `<div class="career-chip">
+        <strong>${careerName}</strong>
+        ${priceHTML}
+      </div>`;
+    }).join('');
+    const remainingCareersHTML = remainingCareers.map(c => {
+      const careerName = typeof c === 'string' ? c : c.name;
+      const careerPrice = typeof c === 'object' ? c.price : null;
+      let priceHTML = '';
+      if (careerPrice) {
+        if (typeof careerPrice === 'number') {
+          priceHTML = `<span class="price">${formatCurrency(careerPrice)}</span>`;
+        } else {
+          priceHTML = `<span class="price">${careerPrice}</span>`;
+        }
+      }
+      return `<div class="career-chip">
+        <strong>${careerName}</strong>
+        ${priceHTML}
+      </div>`;
+    }).join('');
+    const expandButton = remainingCareers.length > 0 ? `<button class="btn expand-careers" data-id="${u.id}" style="cursor:pointer;margin-top:6px;">Mostrar más (${remainingCareers.length})</button>` : '';
+    const hiddenCareersDiv = remainingCareers.length > 0 ? `<div class="hidden-careers" id="hidden-careers-${u.id}" style="display:none;">${remainingCareersHTML}</div>` : '';
+    const inlineReviews = (u.reviews || []).slice(0, 2).map(r => `<div class="review"><strong>${r.author}</strong> <span class="rating">(${r.role} · ${'★'.repeat(r.rating)})</span><div style="margin-top:6px">${r.text}</div></div>`).join('');
+    el.innerHTML = `
+      <h3>${u.name} <small class="rating">${renderStars(avg)} ${avg ? avg.toFixed(1) : 'N/A'}</small></h3>
+      <div class="meta">${u.type} · ${u.barrio} · ${u.address}</div>
+      <div class="meta">Tel: ${u.phone}</div>
+      ${u.email ? `<div class="meta">Email: <a href="mailto:${u.email}">${u.email}</a></div>` : ''}
+      ${tuitionInfo}
+      <div class="careers-section">
+        <p class="careers-title">Carreras disponibles:</p>
+        <div class="careers-list">${careersHTML}</div>
+        ${expandButton}
+        ${hiddenCareersDiv}
+      </div>
+      <div class="actions">
+        <a class="btn view" target="_blank" rel="noopener" href="https://www.google.com/maps/search/${encodeURIComponent(u.name + ' ' + (u.city || ''))}">Ver en mapa</a>
+        <a class="btn info" target="_blank" rel="noopener" href="${u.website}">Sitio web</a>
+        <button class="btn info" data-id="${u.id}" style="cursor:pointer">Ver reseñas</button>
+      </div>
+      <div class="reviews" id="reviews-${u.id}">${inlineReviews}</div>
+      <div class="add-review-form" id="form-${u.id}" style="margin-top:10px;">
+        <input type="text" placeholder="Rol (estudiante/profesor...)" class="rev-role" style="width:100%;margin-bottom:4px" />
+        <select class="rev-rating" style="margin-bottom:4px">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5" selected>5</option>
+        </select>
+        <textarea class="rev-text" placeholder="Comentario" style="width:100%;height:60px;margin-bottom:4px"></textarea>
+        <button class="btn submit-review" data-id="${u.id}" style="cursor:pointer">Enviar reseña</button>
+      </div>
+    `;
+    fragment.appendChild(el);
+  });
+  $results.appendChild(fragment);
+
+  document.querySelectorAll('.actions button[data-id]').forEach(btn => {
+    btn.addEventListener('click', async () => {
+      const id = btn.getAttribute('data-id');
+      const box = document.getElementById('reviews-' + id);
+      if (!box) return;
+      if (!box.classList.contains('show')) {
+        const reviews = await loadReviews(id);
+        renderReviewPage(box, reviews);
+      }
+      box.classList.toggle('show');
+      btn.textContent = box.classList.contains('show') ? 'Ocultar reseñas' : 'Ver reseñas';
+    });
+  });
+
+  document.querySelectorAll('.expand-careers').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const id = btn.getAttribute('data-id');
+      const hiddenDiv = document.getElementById('hidden-careers-' + id);
+      if (!hiddenDiv) return;
+      if (hiddenDiv.style.display === 'none') {
+        hiddenDiv.style.display = 'block';
+        btn.textContent = 'Mostrar menos';
+      } else {
+        hiddenDiv.style.display = 'none';
+        const remaining = hiddenDiv.querySelectorAll('.career-chip').length;
+        btn.textContent = `Mostrar más (${remaining})`;
+      }
+    });
+  });
+
+  document.querySelectorAll('.submit-review').forEach(btn => {
+    btn.addEventListener('click', async () => {
+      const id = btn.getAttribute('data-id');
+      const form = document.getElementById('form-' + id);
+      if (!form) return;
+      const author = form.closest('.uni-card').querySelector('h3').textContent.split(' ')[0] || 'Anónimo';
+      const role = form.querySelector('.rev-role').value.trim();
+      const rating = parseInt(form.querySelector('.rev-rating').value, 10);
+      const text = form.querySelector('.rev-text').value.trim();
+      if (!text) return alert('Escribe un comentario');
+      try {
+        const resp = await fetch(`/api/universities/${id}/reviews`, {
+          method: 'POST',
+          credentials: 'same-origin',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ author, role, rating, text })
+        });
+        const data = await resp.json();
+        if (resp.ok) {
+          form.querySelector('.rev-role').value = '';
+          form.querySelector('.rev-rating').value = '5';
+          form.querySelector('.rev-text').value = '';
+          const box = document.getElementById('reviews-' + id);
+          if (box && box.classList.contains('show')) {
+            const reviews = await loadReviews(id);
+            renderReviewPage(box, reviews);
+            const card = box.closest('.uni-card');
+            if (card) {
+              const avg2 = reviews.reduce((s, r) => s + r.rating, 0) / reviews.length;
+              const span = card.querySelector('.rating');
+              if (span) span.innerHTML = `${renderStars(avg2)} ${avg2.toFixed(1)}`;
+            }
+          }
+        } else {
+          alert(data.message || 'Error enviando reseña');
+        }
+      } catch (err) {
+        console.error(err);
+        alert('Error de red');
+      }
+    });
+  });
+}
+
+async function loadReviews(id) {
+  try {
+    const resp = await fetch(`/api/universities/${id}/reviews`, { credentials: 'same-origin' });
+    if (!resp.ok) throw new Error('Error fetching reviews');
+    return await resp.json();
+  } catch (err) {
+    console.error('loadReviews error', err);
+    return [];
+  }
+}
+
+function renderReviewPage(box, reviews, page = 0) {
+  const per = 5;
+  const start = page * per;
+  const slice = reviews.slice(start, start + per);
+  const html = slice.map(r => `<div class="review"><strong>${r.author}</strong> <span class="rating">(${r.role} · ${'★'.repeat(r.rating)})</span><div style="margin-top:6px">${r.text}</div></div>`).join('');
+  if (page === 0) {
+    box.innerHTML = html;
+  } else {
+    box.innerHTML += html;
+  }
+  const existing = box.querySelector('.load-more');
+  if (existing) existing.remove();
+  if ((page + 1) * per < reviews.length) {
+    const more = document.createElement('button');
+    more.textContent = 'Mostrar más';
+    more.className = 'btn load-more';
+    more.style.marginTop = '6px';
+    more.addEventListener('click', () => renderReviewPage(box, reviews, page + 1));
+    box.appendChild(more);
+  }
+}
+
+function applyFilters() {
+  const q = $search.value.trim().toLowerCase();
+  const t = $type.value;
+  const b = $barrio.value;
+  const c = $city.value;
+  let filtered = universities;
+  if (t) filtered = filtered.filter(u => u.type === t);
+  if (b) filtered = filtered.filter(u => u.barrio === b);
+  if (c) filtered = filtered.filter(u => u.city === c);
+  if (q) filtered = filtered.filter(u => (u.name + ' ' + u.address + ' ' + u.barrio + ' ' + u.city + ' ' + (u.careers || []).join(' ')).toLowerCase().includes(q));
+  render(filtered);
+}
+
+$search.addEventListener('input', applyFilters);
+$type.addEventListener('change', applyFilters);
+$barrio.addEventListener('change', applyFilters);
+$city.addEventListener('change', applyFilters);
+
+// Initialize the app
+document.addEventListener('DOMContentLoaded', async () => {
+  syncAuthUIFromStorage();
+  await loadUniversities();
+});
+
+// Handle logout
+if ($logoutBtn) {
+  $logoutBtn.addEventListener('click', async () => {
+    try {
+      const response = await fetch('/api/logout', {
+        method: 'GET',
+        credentials: 'same-origin'
+      });
+      const data = await response.json();
+      if (response.ok) {
+        currentUser = null;
+        $userInfo.style.display = 'none';
+        $authButtons.style.display = 'block';
+        // Redirect to home page
+        window.location.href = '/';
+      } else {
+        console.error('Logout failed:', data.message);
+      }
+    } catch (err) {
+      console.error('Logout error:', err);
+    }
+  });
+}
+
+// Sistema de autenticación basado en localStorage
+
+// Correos administradores
+const admins = [
+  "jgmejia@unibarranquilla.edu.co",
+  "erjaimes@unibarranquilla.edu.co"
+];
+
+// Contraseña admin
+const adminPassword = "22412620IUB";
+
+// Registrar usuario normal
+function register(email, password) {
+  if (admins.includes(email)) {
+    return { success: false, message: "Este correo es de administrador y no puede registrarse aqui." };
+  }
+  let users = JSON.parse(localStorage.getItem("users")) || [];
+  const existingUser = users.find(u => u.email === email);
+  if (existingUser) {
+    return { success: false, message: "Este correo ya esta registrado" };
+  }
+  users.push({
+    email: email,
+    password: password
+  });
+  localStorage.setItem("users", JSON.stringify(users));
+  return { success: true, message: "Registro exitoso. Ahora puedes iniciar sesion." };
+}
+// Login
+function login(email, password) {
+  if (admins.includes(email)) {
+    if (password === adminPassword) {
+      localStorage.setItem("currentUser", JSON.stringify({
+        email,
+        name: "Administrador",
+        role: "admin"
+      }));
+      window.location.href = "index.html";
+      return { success: true, message: "Inicio de sesion exitoso" };
+    } else {
+      return { success: false, message: "Contrasena de administrador incorrecta" };
+    }
+  }
+  let users = JSON.parse(localStorage.getItem("users")) || [];
+  const user = users.find(u => u.email === email && u.password === password);
+  if (!user) {
+    return { success: false, message: "Correo o contrasena incorrectos" };
+  }
+  localStorage.setItem("currentUser", JSON.stringify(user));
+  window.location.href = "dashboard.html";
+  return { success: true, message: "Inicio de sesion exitoso" };
+}
+// Logout
+function logout() {
+  localStorage.removeItem("currentUser");
+  window.location.href = "index.html";
+}
+
+// Verificar sesión
+function checkSession() {
+
+  const user = JSON.parse(localStorage.getItem("currentUser"));
+
+  if (!user) {
+    window.location.href = "index.html";
+    return;
+  }
+
+  return user;
+}
+
+// Verificar admin
+function checkAdmin() {
+
+  const user = checkSession();
+
+  if (!admins.includes(user.email)) {
+    window.location.href = "dashboard.html";
+  }
+}
+
+// Manejo del formulario de autenticación
+document.getElementById('login-form')?.addEventListener('submit', function (e) {
+  e.preventDefault();
+  const email = document.getElementById('loginEmail').value;
+  const password = document.getElementById('loginPassword').value;
+  if (document.getElementById('name-field').style.display === 'block') {
+    // Registro
+    const result = register(email, password);
+    alert(result.message);
+    if (result.success) {
+      document.getElementById('name-field').style.display = 'none';
+      document.getElementById('modal-title').textContent = 'Iniciar sesión';
+    }
+  } else {
+    // Inicio de sesión
+    const result = login(email, password);
+    if (!result.success) {
+      alert(result.message);
+    }
+  }
+});
+
+// Botones de abrir modal de login/registro
+document.getElementById('open-login-btn')?.addEventListener('click', function () {
+  document.getElementById('name-field').style.display = 'none';
+  document.getElementById('modal-title').textContent = 'Iniciar sesión';
+  document.getElementById('auth-modal').style.display = 'block';
+});
+
+document.getElementById('signup-btn')?.addEventListener('click', function () {
+  document.getElementById('name-field').style.display = 'block';
+  document.getElementById('modal-title').textContent = 'Registrarse';
+  document.getElementById('auth-modal').style.display = 'block';
+});
+
+document.querySelector('.close')?.addEventListener('click', function () {
+  document.getElementById('auth-modal').style.display = 'none';
+});
+
+
+
+
+

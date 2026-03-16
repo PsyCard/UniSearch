@@ -1,0 +1,92 @@
+﻿<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Buscar Universidades en Colombia</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-top">
+        <h1>Buscar universidades</h1>
+        <div class="auth-section">
+          <a id="dashboard-btn" href="dashboard.html" style="color:white;text-decoration:none;margin-right:15px;font-weight:600;" title="Ver dashboard">Dashboard</a>
+          <a id="admin-btn" href="admin.html" style="color:white;text-decoration:none;margin-right:15px;font-weight:600;" title="Ver panel de administrador">Admin</a>
+          <div id="user-info" style="display:none;">
+            <span id="user-name"></span>
+            <button id="logout-btn" class="btn-secondary">Cerrar sesión</button>
+          </div>
+          <div id="auth-buttons">
+            <button type="button" id="open-login-btn" class="btn-secondary">Iniciar sesión</button>
+            <button type="button" id="signup-btn" class="btn-secondary">Registrarse</button>
+          </div>
+        </div>
+      </div>
+      <p class="lead">Encuentra universidades por nombre, tipo y ciudad. Datos de ejemplo.</p>
+      <div class="search-area">
+        <div>
+          <div class="card">
+            <input id="search" type="search" placeholder="Buscar por nombre, palabra clave o carrera" aria-label="Buscar universidades" />
+          </div>
+        </div>
+        <div>
+          <div class="card">
+            <div class="filters">
+              <select id="filterType" aria-label="Filtrar por tipo">
+                <option value="">Tipo: Todos</option>
+                <option value="Publica">Pública</option>
+                <option value="Privada">Privada</option>
+              </select>
+              <select id="filterCity" aria-label="Filtrar por ciudad">
+                <option value="">Ciudad: Todas</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="results" class="results"></section>
+  </main>
+
+  <div id="auth-modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2 id="modal-title">Iniciar sesión</h2>
+      <form id="login-form">
+        <div id="name-field" class="form-group" style="display:none;">
+          <label for="name">Nombre:</label>
+          <input type="text" id="name" name="name">
+        </div>
+        <div id="lastname-field" class="form-group" style="display:none;">
+          <label for="lastname">Apellido:</label>
+          <input type="text" id="lastname" name="lastname">
+        </div>
+        <div class="form-group">
+          <label for="loginEmail">Correo electrónico:</label>
+          <input type="email" id="loginEmail" name="email" placeholder="ejemplo@correo.com" required>
+        </div>
+        <div class="form-group">
+          <label for="loginPassword">contraseña:</label>
+          <input type="password" id="loginPassword" name="password" required>
+        </div>
+        <button type="submit" class="btn-primary">Iniciar sesión</button>
+      </form>
+      <p id="auth-message"></p>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">Sugerencia: haz clic en "Ver en mapa" para abrir la ubicación en Google Maps.</div>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
+
+
+

@@ -1,0 +1,18 @@
+{
+    "jgmejia@unibarranquilla.edu.co":  {
+                                           "password":  "pbkdf2:sha256:600000$EoCEInLiu6zuP31D$f70cf3764c101bca63084a4dadbf832b006d4982120196bff1972ad30b007291",
+                                           "name":  "J.G. Mejia",
+                                           "role":  "admin",
+                                           "favorites":  [
+
+                                                         ]
+                                       },
+    "erjaimes@unibarranquilla.edu.co":  {
+                                            "password":  "pbkdf2:sha256:600000$EoCEInLiu6zuP31D$f70cf3764c101bca63084a4dadbf832b006d4982120196bff1972ad30b007291",
+                                            "name":  "E.R. Jaimes",
+                                            "role":  "admin",
+                                            "favorites":  [
+
+                                                          ]
+                                        }
+}
