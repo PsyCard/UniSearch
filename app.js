@@ -3,7 +3,7 @@ let currentUser = null;
 
 const STATIC_HOSTS = ['github.io'];
 const isStaticHost = 
-const API_BASE = isStaticHost ? 'https://unisearch-m9vm.onrender.com' : '';
+const API_BASE = isStaticHost ? 'https://unisearch-1sv1.onrender.com' : '';
 const useBackend = true;
 
 const admins = [
@@ -971,5 +971,6 @@ document.addEventListener('DOMContentLoaded', async () => {
   syncAuthUI();
   await loadUniversities();
 });
+
 
 
