@@ -1,9 +1,9 @@
-﻿[
+﻿?[
     {
         "id":  1,
         "name":  "Universidad Nacional de Colombia",
         "type":  "Publica",
-        "city":  "BogotÃ¡",
+        "city":  "Bogotá",
         "barrio":  "",
         "address":  "",
         "phone":  "+57 1 3165000",
@@ -13,51 +13,51 @@
         "careers":  [
                         {
                             "name":  "Medicina",
-                            "price":  "$0 â€“ $8.800.000 COP"
+                            "price":  "$0 –" $8.800.000 COP"
                         },
                         {
-                            "name":  "IngenierÃ­a de Sistemas",
-                            "price":  "$0 â€“ $6.400.000 COP"
+                            "name":  "Ingeniería de Sistemas",
+                            "price":  "$0 –" $6.400.000 COP"
                         },
                         {
                             "name":  "Derecho",
-                            "price":  "$0 â€“ $5.040.000 COP"
+                            "price":  "$0 –" $5.040.000 COP"
                         },
                         {
-                            "name":  "AdministraciÃ³n de Empresas",
-                            "price":  "$0 â€“ $5.000.000 COP"
+                            "name":  "Administración de Empresas",
+                            "price":  "$0 –" $5.000.000 COP"
                         },
                         {
-                            "name":  "EconomÃ­a",
-                            "price":  "$0 â€“ $4.680.000 COP"
+                            "name":  "Economía",
+                            "price":  "$0 –" $4.680.000 COP"
                         },
                         {
-                            "name":  "PsicologÃ­a",
-                            "price":  "$0 â€“ $4.140.000 COP"
+                            "name":  "Psicología",
+                            "price":  "$0 –" $4.140.000 COP"
                         },
                         {
                             "name":  "Arquitectura",
-                            "price":  "$0 â€“ $6.820.000 COP"
+                            "price":  "$0 –" $6.820.000 COP"
                         }
                     ],
         "reviews":  [
                         {
-                            "author":  "Carlos AndrÃ©s RamÃ­rez",
-                            "role":  "Estudiante de IngenierÃ­a",
+                            "author":  "Carlos Andrés Ramírez",
+                            "role":  "Estudiante de Ingeniería",
                             "rating":  5,
-                            "text":  "La universidad tiene un nivel acadÃ©mico muy alto y profesores con gran experiencia. El campus es grande y tiene muchos espacios para estudiar."
+                            "text":  "La universidad tiene un nivel académico muy alto y profesores con gran experiencia. El campus es grande y tiene muchos espacios para estudiar."
                         },
                         {
-                            "author":  "MarÃ­a Fernanda LÃ³pez",
-                            "role":  "Egresada de SociologÃ­a",
+                            "author":  "María Fernanda López",
+                            "role":  "Egresada de Sociología",
                             "rating":  4,
-                            "text":  "La formaciÃ³n es excelente, aunque algunos trÃ¡mites administrativos pueden tardar mÃ¡s de lo esperado."
+                            "text":  "La formación es excelente, aunque algunos trámites administrativos pueden tardar más de lo esperado."
                         },
                         {
-                            "author":  "Juan Pablo CÃ¡rdenas",
+                            "author":  "Juan Pablo Cárdenas",
                             "role":  "Estudiante",
                             "rating":  3,
-                            "text":  "Es una gran universidad pÃºblica, pero a veces hay paros o problemas administrativos que afectan el calendario."
+                            "text":  "Es una gran universidad pública, pero a veces hay paros o problemas administrativos que afectan el calendario."
                         }
                     ]
     },
@@ -65,7 +65,7 @@
         "id":  2,
         "name":  "Universidad de los Andes",
         "type":  "Privada",
-        "city":  "BogotÃ¡",
+        "city":  "Bogotá",
         "barrio":  "",
         "address":  "",
         "phone":  "+57 1 3394949",
@@ -78,15 +78,15 @@
                             "price":  "$36.230.000 COP"
                         },
                         {
-                            "name":  "IngenierÃ­a de Sistemas",
+                            "name":  "Ingeniería de Sistemas",
                             "price":  "$25.460.000 COP"
                         },
                         {
-                            "name":  "AdministraciÃ³n de Empresas",
+                            "name":  "Administración de Empresas",
                             "price":  "$24.000.000 COP"
                         },
                         {
-                            "name":  "EconomÃ­a",
+                            "name":  "Economía",
                             "price":  "$24.000.000 COP"
                         },
                         {
@@ -101,21 +101,21 @@
         "reviews":  [
                         {
                             "author":  "Valentina Torres",
-                            "role":  "Estudiante de EconomÃ­a",
+                            "role":  "Estudiante de Economía",
                             "rating":  5,
-                            "text":  "Excelente universidad con muchas oportunidades acadÃ©micas y profesores muy preparados."
+                            "text":  "Excelente universidad con muchas oportunidades académicas y profesores muy preparados."
                         },
                         {
-                            "author":  "AndrÃ©s Felipe GarcÃ­a",
-                            "role":  "Egresado de IngenierÃ­a Industrial",
+                            "author":  "Andrés Felipe García",
+                            "role":  "Egresado de Ingeniería Industrial",
                             "rating":  4,
-                            "text":  "El nivel acadÃ©mico es muy bueno, aunque la matrÃ­cula es bastante costosa."
+                            "text":  "El nivel académico es muy bueno, aunque la matrícula es bastante costosa."
                         },
                         {
-                            "author":  "Laura GÃ³mez",
+                            "author":  "Laura Gómez",
                             "role":  "Estudiante",
                             "rating":  3,
-                            "text":  "Las instalaciones son muy buenas, pero la presiÃ³n acadÃ©mica puede ser bastante alta."
+                            "text":  "Las instalaciones son muy buenas, pero la presión académica puede ser bastante alta."
                         }
                     ]
     },
@@ -123,7 +123,7 @@
         "id":  3,
         "name":  "Pontificia Universidad Javeriana",
         "type":  "Privada",
-        "city":  "BogotÃ¡",
+        "city":  "Bogotá",
         "barrio":  "",
         "address":  "",
         "phone":  "+57 1 3208320",
@@ -136,7 +136,7 @@
                             "price":  "$35.041.000 COP"
                         },
                         {
-                            "name":  "IngenierÃ­a de Sistemas",
+                            "name":  "Ingeniería de Sistemas",
                             "price":  "$16.971.000 COP"
                         },
                         {
@@ -144,23 +144,23 @@
                             "price":  "$17.000.000 COP"
                         },
                         {
-                            "name":  "PsicologÃ­a",
+                            "name":  "Psicología",
                             "price":  "$14.000.000 COP"
                         },
                         {
-                            "name":  "ComunicaciÃ³n Social",
+                            "name":  "Comunicación Social",
                             "price":  "$13.000.000 COP"
                         }
                     ],
         "reviews":  [
                         {
                             "author":  "Daniela Rojas",
-                            "role":  "Estudiante de PsicologÃ­a",
+                            "role":  "Estudiante de Psicología",
                             "rating":  5,
-                            "text":  "Los profesores son excelentes y la universidad tiene muchas actividades acadÃ©micas y culturales."
+                            "text":  "Los profesores son excelentes y la universidad tiene muchas actividades académicas y culturales."
                         },
                         {
-                            "author":  "SebastiÃ¡n MÃ©ndez",
+                            "author":  "Sebastián Méndez",
                             "role":  "Egresado de Derecho",
                             "rating":  4,
                             "text":  "Es una universidad muy completa, aunque algunos programas son bastante exigentes."
@@ -169,15 +169,15 @@
                             "author":  "Natalia Vargas",
                             "role":  "Estudiante",
                             "rating":  3,
-                            "text":  "La educaciÃ³n es buena, pero los costos de matrÃ­cula pueden ser elevados."
+                            "text":  "La educación es buena, pero los costos de matrícula pueden ser elevados."
                         }
                     ]
     },
     {
         "id":  4,
-        "name":  "Universidad Distrital Francisco JosÃ© de Caldas",
+        "name":  "Universidad Distrital Francisco José de Caldas",
         "type":  "Publica",
-        "city":  "BogotÃ¡",
+        "city":  "Bogotá",
         "barrio":  "",
         "address":  "",
         "phone":  "+57 1 3239300",
@@ -186,44 +186,44 @@
         "tuition":  "",
         "careers":  [
                         {
-                            "name":  "IngenierÃ­a de Sistemas",
-                            "price":  "$0 â€“ $1.500.000 COP"
+                            "name":  "Ingeniería de Sistemas",
+                            "price":  "$0 –" $1.500.000 COP"
                         },
                         {
-                            "name":  "IngenierÃ­a ElectrÃ³nica",
-                            "price":  "$0 â€“ $1.500.000 COP"
+                            "name":  "Ingeniería Electrónica",
+                            "price":  "$0 –" $1.500.000 COP"
                         },
                         {
-                            "name":  "IngenierÃ­a Industrial",
-                            "price":  "$0 â€“ $1.500.000 COP"
+                            "name":  "Ingeniería Industrial",
+                            "price":  "$0 –" $1.500.000 COP"
                         },
                         {
-                            "name":  "IngenierÃ­a Catastral",
-                            "price":  "$0 â€“ $1.500.000 COP"
+                            "name":  "Ingeniería Catastral",
+                            "price":  "$0 –" $1.500.000 COP"
                         },
                         {
-                            "name":  "Licenciatura en MatemÃ¡ticas",
-                            "price":  "$0 â€“ $800.000 COP"
+                            "name":  "Licenciatura en Matemáticas",
+                            "price":  "$0 –" $800.000 COP"
                         }
                     ],
         "reviews":  [
                         {
-                            "author":  "Camilo RodrÃ­guez",
-                            "role":  "Estudiante de IngenierÃ­a de Sistemas",
+                            "author":  "Camilo Rodríguez",
+                            "role":  "Estudiante de Ingeniería de Sistemas",
                             "rating":  5,
-                            "text":  "Muy buen nivel acadÃ©mico y profesores comprometidos con la formaciÃ³n de los estudiantes."
+                            "text":  "Muy buen nivel académico y profesores comprometidos con la formación de los estudiantes."
                         },
                         {
-                            "author":  "Paula HernÃ¡ndez",
-                            "role":  "Estudiante de TecnologÃ­a",
+                            "author":  "Paula Hernández",
+                            "role":  "Estudiante de Tecnología",
                             "rating":  4,
-                            "text":  "La educaciÃ³n es buena, aunque algunas sedes necesitan mejorar sus instalaciones."
+                            "text":  "La educación es buena, aunque algunas sedes necesitan mejorar sus instalaciones."
                         },
                         {
                             "author":  "Luis Alberto Castro",
                             "role":  "Egresado",
                             "rating":  3,
-                            "text":  "Es una universidad pÃºblica con buen nivel acadÃ©mico, pero los procesos administrativos pueden ser lentos."
+                            "text":  "Es una universidad pública con buen nivel académico, pero los procesos administrativos pueden ser lentos."
                         }
                     ]
     },
@@ -231,7 +231,7 @@
         "id":  5,
         "name":  "Universidad Externado de Colombia",
         "type":  "Privada",
-        "city":  "BogotÃ¡",
+        "city":  "Bogotá",
         "barrio":  "",
         "address":  "",
         "phone":  "+57 1 3537000",
@@ -244,11 +244,11 @@
                             "price":  "$18.000.000 COP"
                         },
                         {
-                            "name":  "AdministraciÃ³n de Empresas",
+                            "name":  "Administración de Empresas",
                             "price":  "$16.000.000 COP"
                         },
                         {
-                            "name":  "EconomÃ­a",
+                            "name":  "Economía",
                             "price":  "$16.000.000 COP"
                         },
                         {
@@ -256,28 +256,28 @@
                             "price":  "$17.000.000 COP"
                         },
                         {
-                            "name":  "ComunicaciÃ³n Social",
+                            "name":  "Comunicación Social",
                             "price":  "$14.000.000 COP"
                         }
                     ],
         "reviews":  [
                         {
-                            "author":  "Juan Esteban MartÃ­nez",
+                            "author":  "Juan Esteban Martínez",
                             "role":  "Estudiante de Derecho",
                             "rating":  5,
                             "text":  "Excelente universidad para estudiar derecho, con gran reconocimiento nacional."
                         },
                         {
-                            "author":  "Andrea GonzÃ¡lez",
-                            "role":  "Egresada de EconomÃ­a",
+                            "author":  "Andrea González",
+                            "role":  "Egresada de Economía",
                             "rating":  4,
-                            "text":  "Tiene muy buen ambiente acadÃ©mico, aunque la matrÃ­cula puede ser costosa."
+                            "text":  "Tiene muy buen ambiente académico, aunque la matrícula puede ser costosa."
                         },
                         {
                             "author":  "Felipe Torres",
                             "role":  "Estudiante",
                             "rating":  3,
-                            "text":  "Los profesores son muy buenos, pero algunos trÃ¡mites internos pueden tardar bastante."
+                            "text":  "Los profesores son muy buenos, pero algunos trámites internos pueden tardar bastante."
                         }
                     ]
     },
@@ -285,7 +285,7 @@
         "id":  6,
         "name":  "Universidad de Antioquia",
         "type":  "Publica",
-        "city":  "MedellÃ­n",
+        "city":  "Medellín",
         "barrio":  "",
         "address":  "",
         "phone":  "+57 4 2198332",
@@ -295,23 +295,23 @@
         "careers":  [
                         {
                             "name":  "Medicina",
-                            "price":  "$0 â€“ $6.000.000 COP"
+                            "price":  "$0 –" $6.000.000 COP"
                         },
                         {
-                            "name":  "IngenierÃ­a de Sistemas",
-                            "price":  "$0 â€“ $4.000.000 COP"
+                            "name":  "Ingeniería de Sistemas",
+                            "price":  "$0 –" $4.000.000 COP"
                         },
                         {
                             "name":  "Derecho",
-                            "price":  "$0 â€“ $3.500.000 COP"
+                            "price":  "$0 –" $3.500.000 COP"
                         },
                         {
-                            "name":  "PsicologÃ­a",
-                            "price":  "$0 â€“ $3.000.000 COP"
+                            "name":  "Psicología",
+                            "price":  "$0 –" $3.000.000 COP"
                         },
                         {
-                            "name":  "OdontologÃ­a",
-                            "price":  "$0 â€“ $5.000.000 COP"
+                            "name":  "Odontología",
+                            "price":  "$0 –" $5.000.000 COP"
                         }
                     ],
         "reviews":  [
@@ -319,19 +319,19 @@
                             "author":  "Santiago Restrepo",
                             "role":  "Estudiante de Medicina",
                             "rating":  5,
-                            "text":  "Una de las mejores universidades pÃºblicas del paÃ­s, con excelente nivel acadÃ©mico."
+                            "text":  "Una de las mejores universidades públicas del país, con excelente nivel académico."
                         },
                         {
                             "author":  "Laura Giraldo",
-                            "role":  "Egresada de PsicologÃ­a",
+                            "role":  "Egresada de Psicología",
                             "rating":  4,
-                            "text":  "Los profesores tienen gran experiencia y el ambiente acadÃ©mico es muy bueno."
+                            "text":  "Los profesores tienen gran experiencia y el ambiente académico es muy bueno."
                         },
                         {
                             "author":  "Juan David Salazar",
                             "role":  "Estudiante",
                             "rating":  3,
-                            "text":  "La educaciÃ³n es muy buena, pero los paros pueden afectar el calendario acadÃ©mico."
+                            "text":  "La educación es muy buena, pero los paros pueden afectar el calendario académico."
                         }
                     ]
     },
@@ -339,7 +339,7 @@
         "id":  7,
         "name":  "Universidad EAFIT",
         "type":  "Privada",
-        "city":  "MedellÃ­n",
+        "city":  "Medellín",
         "barrio":  "",
         "address":  "",
         "phone":  "+57 4 2619500",
@@ -348,19 +348,19 @@
         "tuition":  "",
         "careers":  [
                         {
-                            "name":  "IngenierÃ­a de Sistemas",
+                            "name":  "Ingeniería de Sistemas",
                             "price":  "$13.000.000 COP"
                         },
                         {
-                            "name":  "IngenierÃ­a MecÃ¡nica",
+                            "name":  "Ingeniería Mecánica",
                             "price":  "$13.000.000 COP"
                         },
                         {
-                            "name":  "AdministraciÃ³n de Empresas",
+                            "name":  "Administración de Empresas",
                             "price":  "$12.000.000 COP"
                         },
                         {
-                            "name":  "EconomÃ­a",
+                            "name":  "Economía",
                             "price":  "$11.500.000 COP"
                         },
                         {
@@ -371,21 +371,21 @@
         "reviews":  [
                         {
                             "author":  "Camilo Restrepo",
-                            "role":  "Estudiante de IngenierÃ­a de Sistemas",
+                            "role":  "Estudiante de Ingeniería de Sistemas",
                             "rating":  5,
                             "text":  "El campus es excelente y los profesores tienen mucha experiencia."
                         },
                         {
                             "author":  "Paola Arango",
-                            "role":  "Egresada de AdministraciÃ³n",
+                            "role":  "Egresada de Administración",
                             "rating":  4,
-                            "text":  "La universidad ofrece buenas oportunidades de prÃ¡cticas profesionales."
+                            "text":  "La universidad ofrece buenas oportunidades de prácticas profesionales."
                         },
                         {
-                            "author":  "SebastiÃ¡n VÃ©lez",
+                            "author":  "Sebastián Vélez",
                             "role":  "Estudiante",
                             "rating":  3,
-                            "text":  "La calidad acadÃ©mica es buena, pero las matrÃ­culas pueden ser costosas."
+                            "text":  "La calidad académica es buena, pero las matrículas pueden ser costosas."
                         }
                     ]
     },
@@ -393,7 +393,7 @@
         "id":  8,
         "name":  "Universidad Pontificia Bolivariana",
         "type":  "Privada",
-        "city":  "MedellÃ­n",
+        "city":  "Medellín",
         "barrio":  "",
         "address":  "",
         "phone":  "+57 4 4488388",
@@ -406,7 +406,7 @@
                             "price":  "$28.000.000 COP"
                         },
                         {
-                            "name":  "IngenierÃ­a de Sistemas",
+                            "name":  "Ingeniería de Sistemas",
                             "price":  "$11.000.000 COP"
                         },
                         {
@@ -418,36 +418,36 @@
                             "price":  "$12.000.000 COP"
                         },
                         {
-                            "name":  "AdministraciÃ³n de Empresas",
+                            "name":  "Administración de Empresas",
                             "price":  "$10.500.000 COP"
                         }
                     ],
         "reviews":  [
                         {
-                            "author":  "Valentina GÃ³mez",
+                            "author":  "Valentina Gómez",
                             "role":  "Estudiante de Derecho",
                             "rating":  4,
                             "text":  "Las instalaciones son muy buenas."
                         },
                         {
-                            "author":  "JuliÃ¡n Torres",
-                            "role":  "Egresado de IngenierÃ­a",
+                            "author":  "Julián Torres",
+                            "role":  "Egresado de Ingeniería",
                             "rating":  5,
-                            "text":  "La formaciÃ³n profesional es muy sÃ³lida."
+                            "text":  "La formación profesional es muy sólida."
                         },
                         {
                             "author":  "Ricardo Salazar",
                             "role":  "Profesor de Arquitectura",
                             "rating":  4,
-                            "text":  "La universidad fomenta mucho el desarrollo acadÃ©mico."
+                            "text":  "La universidad fomenta mucho el desarrollo académico."
                         }
                     ]
     },
     {
         "id":  9,
-        "name":  "Universidad de MedellÃ­n",
+        "name":  "Universidad de Medellín",
         "type":  "Privada",
-        "city":  "MedellÃ­n",
+        "city":  "Medellín",
         "barrio":  "",
         "address":  "",
         "phone":  "+57 4 3405555",
@@ -460,40 +460,40 @@
                             "price":  "$9.500.000 COP"
                         },
                         {
-                            "name":  "IngenierÃ­a de Sistemas",
+                            "name":  "Ingeniería de Sistemas",
                             "price":  "$9.000.000 COP"
                         },
                         {
-                            "name":  "IngenierÃ­a Civil",
+                            "name":  "Ingeniería Civil",
                             "price":  "$9.500.000 COP"
                         },
                         {
-                            "name":  "AdministraciÃ³n de Empresas",
+                            "name":  "Administración de Empresas",
                             "price":  "$8.500.000 COP"
                         },
                         {
-                            "name":  "ComunicaciÃ³n Social",
+                            "name":  "Comunicación Social",
                             "price":  "$8.000.000 COP"
                         }
                     ],
         "reviews":  [
                         {
-                            "author":  "David HernÃ¡ndez",
+                            "author":  "David Hernández",
                             "role":  "Estudiante de Derecho",
                             "rating":  4,
                             "text":  "El campus es amplio y moderno."
                         },
                         {
-                            "author":  "Andrea LÃ³pez",
-                            "role":  "Egresada de AdministraciÃ³n",
+                            "author":  "Andrea López",
+                            "role":  "Egresada de Administración",
                             "rating":  5,
                             "text":  "La universidad ofrece buenas oportunidades laborales."
                         },
                         {
-                            "author":  "Carlos MejÃ­a",
-                            "role":  "Profesor de IngenierÃ­a Civil",
+                            "author":  "Carlos Mejía",
+                            "role":  "Profesor de Ingeniería Civil",
                             "rating":  4,
-                            "text":  "La calidad acadÃ©mica es buena."
+                            "text":  "La calidad académica es buena."
                         }
                     ]
     },
@@ -501,7 +501,7 @@
         "id":  10,
         "name":  "Universidad CES",
         "type":  "Privada",
-        "city":  "MedellÃ­n",
+        "city":  "Medellín",
         "barrio":  "",
         "address":  "",
         "phone":  "+57 4 4440555",
@@ -514,11 +514,11 @@
                             "price":  "$25.000.000 COP"
                         },
                         {
-                            "name":  "OdontologÃ­a",
+                            "name":  "Odontología",
                             "price":  "$19.000.000 COP"
                         },
                         {
-                            "name":  "PsicologÃ­a",
+                            "name":  "Psicología",
                             "price":  "$10.000.000 COP"
                         },
                         {
@@ -526,28 +526,28 @@
                             "price":  "$9.500.000 COP"
                         },
                         {
-                            "name":  "EnfermerÃ­a",
+                            "name":  "Enfermería",
                             "price":  "$8.500.000 COP"
                         }
                     ],
         "reviews":  [
                         {
-                            "author":  "Paula RamÃ­rez",
+                            "author":  "Paula Ramírez",
                             "role":  "Estudiante de Medicina",
                             "rating":  5,
                             "text":  "Muy buenos laboratorios y profesores."
                         },
                         {
                             "author":  "Jorge Vargas",
-                            "role":  "Egresado de OdontologÃ­a",
+                            "role":  "Egresado de Odontología",
                             "rating":  4,
-                            "text":  "La formaciÃ³n clÃ­nica es excelente."
+                            "text":  "La formación clínica es excelente."
                         },
                         {
                             "author":  "Diana Castro",
-                            "role":  "Profesora de PsicologÃ­a",
+                            "role":  "Profesora de Psicología",
                             "rating":  5,
-                            "text":  "La universidad se enfoca mucho en investigaciÃ³n en salud."
+                            "text":  "La universidad se enfoca mucho en investigación en salud."
                         }
                     ]
     },
@@ -565,43 +565,43 @@
         "careers":  [
                         {
                             "name":  "Medicina",
-                            "price":  "$0 â€“ $5.500.000 COP"
+                            "price":  "$0 –" $5.500.000 COP"
                         },
                         {
-                            "name":  "IngenierÃ­a de Sistemas",
-                            "price":  "$0 â€“ $4.000.000 COP"
+                            "name":  "Ingeniería de Sistemas",
+                            "price":  "$0 –" $4.000.000 COP"
                         },
                         {
-                            "name":  "AdministraciÃ³n de Empresas",
-                            "price":  "$0 â€“ $3.500.000 COP"
+                            "name":  "Administración de Empresas",
+                            "price":  "$0 –" $3.500.000 COP"
                         },
                         {
                             "name":  "Arquitectura",
-                            "price":  "$0 â€“ $4.500.000 COP"
+                            "price":  "$0 –" $4.500.000 COP"
                         },
                         {
-                            "name":  "PsicologÃ­a",
-                            "price":  "$0 â€“ $3.500.000 COP"
+                            "name":  "Psicología",
+                            "price":  "$0 –" $3.500.000 COP"
                         }
                     ],
         "reviews":  [
                         {
                             "author":  "Daniel Rojas",
-                            "role":  "Estudiante de IngenierÃ­a",
+                            "role":  "Estudiante de Ingeniería",
                             "rating":  5,
-                            "text":  "El nivel acadÃ©mico es alto y los profesores exigen bastante."
+                            "text":  "El nivel académico es alto y los profesores exigen bastante."
                         },
                         {
-                            "author":  "Natalia RodrÃ­guez",
+                            "author":  "Natalia Rodríguez",
                             "role":  "Egresada de Medicina",
                             "rating":  4,
-                            "text":  "Es una universidad pÃºblica con excelente reputaciÃ³n."
+                            "text":  "Es una universidad pública con excelente reputación."
                         },
                         {
                             "author":  "Mauricio Salazar",
                             "role":  "Profesor",
                             "rating":  3,
-                            "text":  "La formaciÃ³n es buena, aunque algunas instalaciones podrÃ­an modernizarse."
+                            "text":  "La formación es buena, aunque algunas instalaciones podrían modernizarse."
                         }
                     ]
     },
@@ -622,7 +622,7 @@
                             "price":  "$28.000.000 COP"
                         },
                         {
-                            "name":  "IngenierÃ­a de Sistemas",
+                            "name":  "Ingeniería de Sistemas",
                             "price":  "$14.000.000 COP"
                         },
                         {
@@ -630,11 +630,11 @@
                             "price":  "$13.500.000 COP"
                         },
                         {
-                            "name":  "PsicologÃ­a",
+                            "name":  "Psicología",
                             "price":  "$12.000.000 COP"
                         },
                         {
-                            "name":  "AdministraciÃ³n de Empresas",
+                            "name":  "Administración de Empresas",
                             "price":  "$13.000.000 COP"
                         }
                     ],
@@ -647,15 +647,15 @@
                         },
                         {
                             "author":  "Santiago Pineda",
-                            "role":  "Egresado de IngenierÃ­a",
+                            "role":  "Egresado de Ingeniería",
                             "rating":  4,
-                            "text":  "La universidad tiene buena reputaciÃ³n."
+                            "text":  "La universidad tiene buena reputación."
                         },
                         {
-                            "author":  "Carolina MÃ©ndez",
-                            "role":  "Profesora de PsicologÃ­a",
+                            "author":  "Carolina Méndez",
+                            "role":  "Profesora de Psicología",
                             "rating":  5,
-                            "text":  "Los estudiantes tienen muchas oportunidades acadÃ©micas."
+                            "text":  "Los estudiantes tienen muchas oportunidades académicas."
                         }
                     ]
     },
@@ -672,15 +672,15 @@
         "tuition":  "",
         "careers":  [
                         {
-                            "name":  "IngenierÃ­a de Sistemas",
+                            "name":  "Ingeniería de Sistemas",
                             "price":  "$14.000.000 COP"
                         },
                         {
-                            "name":  "AdministraciÃ³n de Empresas",
+                            "name":  "Administración de Empresas",
                             "price":  "$13.000.000 COP"
                         },
                         {
-                            "name":  "EconomÃ­a",
+                            "name":  "Economía",
                             "price":  "$12.500.000 COP"
                         },
                         {
@@ -688,7 +688,7 @@
                             "price":  "$13.500.000 COP"
                         },
                         {
-                            "name":  "DiseÃ±o de Medios Interactivos",
+                            "name":  "Diseño de Medios Interactivos",
                             "price":  "$12.000.000 COP"
                         }
                     ],
@@ -700,22 +700,22 @@
                             "text":  "La universidad tiene muy buenas oportunidades de intercambio internacional."
                         },
                         {
-                            "author":  "SebastiÃ¡n RamÃ­rez",
-                            "role":  "Egresado de IngenierÃ­a",
+                            "author":  "Sebastián Ramírez",
+                            "role":  "Egresado de Ingeniería",
                             "rating":  4,
-                            "text":  "Las clases son exigentes y los profesores estÃ¡n bien preparados."
+                            "text":  "Las clases son exigentes y los profesores están bien preparados."
                         },
                         {
-                            "author":  "Diana LÃ³pez",
+                            "author":  "Diana López",
                             "role":  "Profesora",
                             "rating":  3,
-                            "text":  "La universidad es buena, aunque los costos de matrÃ­cula pueden ser altos."
+                            "text":  "La universidad es buena, aunque los costos de matrícula pueden ser altos."
                         }
                     ]
     },
     {
         "id":  14,
-        "name":  "Universidad AutÃ³noma de Occidente",
+        "name":  "Universidad Autónoma de Occidente",
         "type":  "Privada",
         "city":  "Cali",
         "barrio":  "",
@@ -726,42 +726,42 @@
         "tuition":  "",
         "careers":  [
                         {
-                            "name":  "IngenierÃ­a de Sistemas",
+                            "name":  "Ingeniería de Sistemas",
                             "price":  "$9.500.000 COP"
                         },
                         {
-                            "name":  "IngenierÃ­a Industrial",
+                            "name":  "Ingeniería Industrial",
                             "price":  "$9.000.000 COP"
                         },
                         {
-                            "name":  "ComunicaciÃ³n Social",
+                            "name":  "Comunicación Social",
                             "price":  "$8.500.000 COP"
                         },
                         {
-                            "name":  "AdministraciÃ³n de Empresas",
+                            "name":  "Administración de Empresas",
                             "price":  "$8.500.000 COP"
                         },
                         {
-                            "name":  "DiseÃ±o GrÃ¡fico",
+                            "name":  "Diseño Gráfico",
                             "price":  "$8.000.000 COP"
                         }
                     ],
         "reviews":  [
                         {
                             "author":  "Carlos Pardo",
-                            "role":  "Estudiante de IngenierÃ­a",
+                            "role":  "Estudiante de Ingeniería",
                             "rating":  4,
                             "text":  "Las instalaciones son modernas."
                         },
                         {
-                            "author":  "MarÃ­a Paula GÃ³mez",
-                            "role":  "Egresada de ComunicaciÃ³n",
+                            "author":  "María Paula Gómez",
+                            "role":  "Egresada de Comunicación",
                             "rating":  5,
-                            "text":  "El ambiente acadÃ©mico es muy bueno."
+                            "text":  "El ambiente académico es muy bueno."
                         },
                         {
                             "author":  "Ricardo Molina",
-                            "role":  "Profesor de DiseÃ±o",
+                            "role":  "Profesor de Diseño",
                             "rating":  4,
                             "text":  "La universidad impulsa la creatividad."
                         }
@@ -788,15 +788,15 @@
                             "price":  "$8.000.000 COP"
                         },
                         {
-                            "name":  "AdministraciÃ³n de Empresas",
+                            "name":  "Administración de Empresas",
                             "price":  "$7.500.000 COP"
                         },
                         {
-                            "name":  "IngenierÃ­a de Sistemas",
+                            "name":  "Ingeniería de Sistemas",
                             "price":  "$7.500.000 COP"
                         },
                         {
-                            "name":  "PsicologÃ­a",
+                            "name":  "Psicología",
                             "price":  "$7.000.000 COP"
                         }
                     ],
@@ -805,19 +805,19 @@
                             "author":  "Luis Fernando Rojas",
                             "role":  "Estudiante de Medicina",
                             "rating":  4,
-                            "text":  "Buen nivel acadÃ©mico."
+                            "text":  "Buen nivel académico."
                         },
                         {
-                            "author":  "Camila PÃ©rez",
+                            "author":  "Camila Pérez",
                             "role":  "Egresada de Derecho",
                             "rating":  5,
                             "text":  "La universidad ofrece buenas oportunidades."
                         },
                         {
-                            "author":  "AndrÃ©s Vargas",
-                            "role":  "Profesor de AdministraciÃ³n",
+                            "author":  "Andrés Vargas",
+                            "role":  "Profesor de Administración",
                             "rating":  4,
-                            "text":  "El ambiente acadÃ©mico es positivo."
+                            "text":  "El ambiente académico es positivo."
                         }
                     ]
     },
@@ -838,11 +838,11 @@
                             "price":  "$27.000.000 COP"
                         },
                         {
-                            "name":  "IngenierÃ­a de Sistemas",
+                            "name":  "Ingeniería de Sistemas",
                             "price":  "$13.500.000 COP"
                         },
                         {
-                            "name":  "AdministraciÃ³n de Empresas",
+                            "name":  "Administración de Empresas",
                             "price":  "$12.500.000 COP"
                         },
                         {
@@ -850,20 +850,20 @@
                             "price":  "$13.000.000 COP"
                         },
                         {
-                            "name":  "PsicologÃ­a",
+                            "name":  "Psicología",
                             "price":  "$11.500.000 COP"
                         }
                     ],
         "reviews":  [
                         {
-                            "author":  "MarÃ­a Fernanda GÃ³mez",
-                            "role":  "Estudiante de PsicologÃ­a",
+                            "author":  "María Fernanda Gómez",
+                            "role":  "Estudiante de Psicología",
                             "rating":  5,
-                            "text":  "Tiene un campus moderno y muchas oportunidades acadÃ©micas."
+                            "text":  "Tiene un campus moderno y muchas oportunidades académicas."
                         },
                         {
-                            "author":  "Juan Carlos HernÃ¡ndez",
-                            "role":  "Egresado de AdministraciÃ³n",
+                            "author":  "Juan Carlos Hernández",
+                            "role":  "Egresado de Administración",
                             "rating":  4,
                             "text":  "Es una de las mejores universidades del Caribe colombiano."
                         },
@@ -871,13 +871,13 @@
                             "author":  "Carlos Pacheco",
                             "role":  "Profesor",
                             "rating":  3,
-                            "text":  "La universidad es buena, pero algunos procesos administrativos podrÃ­an mejorar."
+                            "text":  "La universidad es buena, pero algunos procesos administrativos podrían mejorar."
                         }
                     ]
     },
     {
         "id":  17,
-        "name":  "Universidad SimÃ³n BolÃ­var",
+        "name":  "Universidad Simón Bolívar",
         "type":  "Privada",
         "city":  "Barranquilla",
         "barrio":  "",
@@ -896,42 +896,42 @@
                             "price":  "$7.500.000 COP"
                         },
                         {
-                            "name":  "IngenierÃ­a de Sistemas",
+                            "name":  "Ingeniería de Sistemas",
                             "price":  "$7.000.000 COP"
                         },
                         {
-                            "name":  "PsicologÃ­a",
+                            "name":  "Psicología",
                             "price":  "$7.000.000 COP"
                         },
                         {
-                            "name":  "AdministraciÃ³n de Empresas",
+                            "name":  "Administración de Empresas",
                             "price":  "$7.500.000 COP"
                         }
                     ],
         "reviews":  [
                         {
-                            "author":  "JosÃ© David PÃ©rez",
+                            "author":  "José David Pérez",
                             "role":  "Estudiante de Medicina",
                             "rating":  5,
                             "text":  "Tiene buenos laboratorios y profesores con experiencia."
                         },
                         {
                             "author":  "Paola Torres",
-                            "role":  "Egresada de PsicologÃ­a",
+                            "role":  "Egresada de Psicología",
                             "rating":  4,
-                            "text":  "Buen ambiente acadÃ©mico y oportunidades de aprendizaje."
+                            "text":  "Buen ambiente académico y oportunidades de aprendizaje."
                         },
                         {
-                            "author":  "Luis Eduardo GarcÃ­a",
+                            "author":  "Luis Eduardo García",
                             "role":  "Profesor",
                             "rating":  3,
-                            "text":  "La universidad es buena, aunque algunos procesos administrativos podrÃ­an mejorar."
+                            "text":  "La universidad es buena, aunque algunos procesos administrativos podrían mejorar."
                         }
                     ]
     },
     {
         "id":  18,
-        "name":  "Universidad del AtlÃ¡ntico",
+        "name":  "Universidad del Atlántico",
         "type":  "Publica",
         "city":  "Barranquilla",
         "barrio":  "",
@@ -943,43 +943,43 @@
         "careers":  [
                         {
                             "name":  "Medicina",
-                            "price":  "$0 â€“ $5.000.000 COP"
+                            "price":  "$0 –" $5.000.000 COP"
                         },
                         {
-                            "name":  "IngenierÃ­a de Sistemas",
-                            "price":  "$0 â€“ $3.500.000 COP"
+                            "name":  "Ingeniería de Sistemas",
+                            "price":  "$0 –" $3.500.000 COP"
                         },
                         {
                             "name":  "Derecho",
-                            "price":  "$0 â€“ $3.000.000 COP"
+                            "price":  "$0 –" $3.000.000 COP"
                         },
                         {
-                            "name":  "AdministraciÃ³n de Empresas",
-                            "price":  "$0 â€“ $3.000.000 COP"
+                            "name":  "Administración de Empresas",
+                            "price":  "$0 –" $3.000.000 COP"
                         },
                         {
-                            "name":  "PsicologÃ­a",
-                            "price":  "$0 â€“ $2.800.000 COP"
+                            "name":  "Psicología",
+                            "price":  "$0 –" $2.800.000 COP"
                         }
                     ],
         "reviews":  [
                         {
                             "author":  "Jorge Mendoza",
-                            "role":  "Estudiante de IngenierÃ­a",
+                            "role":  "Estudiante de Ingeniería",
                             "rating":  4,
-                            "text":  "Buen nivel acadÃ©mico."
+                            "text":  "Buen nivel académico."
                         },
                         {
-                            "author":  "Ana RodrÃ­guez",
+                            "author":  "Ana Rodríguez",
                             "role":  "Egresada de Derecho",
                             "rating":  5,
-                            "text":  "Excelente universidad pÃºblica."
+                            "text":  "Excelente universidad pública."
                         },
                         {
-                            "author":  "Carlos PÃ©rez",
-                            "role":  "Profesor de MatemÃ¡ticas",
+                            "author":  "Carlos Pérez",
+                            "role":  "Profesor de Matemáticas",
                             "rating":  4,
-                            "text":  "Los estudiantes reciben buena formaciÃ³n."
+                            "text":  "Los estudiantes reciben buena formación."
                         }
                     ]
     },
@@ -1000,11 +1000,11 @@
                             "price":  "$18.000.000 COP"
                         },
                         {
-                            "name":  "OdontologÃ­a",
+                            "name":  "Odontología",
                             "price":  "$12.000.000 COP"
                         },
                         {
-                            "name":  "PsicologÃ­a",
+                            "name":  "Psicología",
                             "price":  "$8.000.000 COP"
                         },
                         {
@@ -1012,28 +1012,28 @@
                             "price":  "$7.500.000 COP"
                         },
                         {
-                            "name":  "EnfermerÃ­a",
+                            "name":  "Enfermería",
                             "price":  "$7.000.000 COP"
                         }
                     ],
         "reviews":  [
                         {
-                            "author":  "Luis Alberto GÃ³mez",
+                            "author":  "Luis Alberto Gómez",
                             "role":  "Estudiante de Medicina",
                             "rating":  4,
-                            "text":  "Buen nivel acadÃ©mico."
+                            "text":  "Buen nivel académico."
                         },
                         {
-                            "author":  "Andrea RÃ­os",
-                            "role":  "Egresada de OdontologÃ­a",
+                            "author":  "Andrea Ríos",
+                            "role":  "Egresada de Odontología",
                             "rating":  5,
-                            "text":  "La formaciÃ³n clÃ­nica es muy buena."
+                            "text":  "La formación clínica es muy buena."
                         },
                         {
-                            "author":  "Pedro RamÃ­rez",
-                            "role":  "Profesor de Salud PÃºblica",
+                            "author":  "Pedro Ramírez",
+                            "role":  "Profesor de Salud Pública",
                             "rating":  4,
-                            "text":  "La universidad se enfoca en investigaciÃ³n."
+                            "text":  "La universidad se enfoca en investigación."
                         }
                     ]
     },
@@ -1054,37 +1054,37 @@
                             "price":  "$8.500.000 COP"
                         },
                         {
-                            "name":  "IngenierÃ­a de Sistemas",
+                            "name":  "Ingeniería de Sistemas",
                             "price":  "$7.500.000 COP"
                         },
                         {
-                            "name":  "AdministraciÃ³n de Empresas",
+                            "name":  "Administración de Empresas",
                             "price":  "$7.000.000 COP"
                         },
                         {
-                            "name":  "ContadurÃ­a PÃºblica",
+                            "name":  "Contaduría Pública",
                             "price":  "$6.500.000 COP"
                         },
                         {
-                            "name":  "PsicologÃ­a",
+                            "name":  "Psicología",
                             "price":  "$7.000.000 COP"
                         }
                     ],
         "reviews":  [
                         {
-                            "author":  "JuliÃ¡n Torres",
+                            "author":  "Julián Torres",
                             "role":  "Estudiante de Derecho",
                             "rating":  4,
                             "text":  "Buenos profesores."
                         },
                         {
                             "author":  "Laura Castro",
-                            "role":  "Egresada de ContadurÃ­a",
+                            "role":  "Egresada de Contaduría",
                             "rating":  5,
-                            "text":  "La formaciÃ³n profesional es buena."
+                            "text":  "La formación profesional es buena."
                         },
                         {
-                            "author":  "Carlos SÃ¡nchez",
+                            "author":  "Carlos Sánchez",
                             "role":  "Profesor de Derecho",
                             "rating":  4,
                             "text":  "Universidad reconocida."
@@ -1093,7 +1093,7 @@
     },
     {
         "id":  21,
-        "name":  "Universidad TecnolÃ³gica de BolÃ­var",
+        "name":  "Universidad Tecnológica de Bolívar",
         "type":  "Privada",
         "city":  "Cartagena",
         "barrio":  "",
@@ -1104,19 +1104,19 @@
         "tuition":  "",
         "careers":  [
                         {
-                            "name":  "IngenierÃ­a de Sistemas",
+                            "name":  "Ingeniería de Sistemas",
                             "price":  "$10.000.000 COP"
                         },
                         {
-                            "name":  "IngenierÃ­a Industrial",
+                            "name":  "Ingeniería Industrial",
                             "price":  "$9.500.000 COP"
                         },
                         {
-                            "name":  "AdministraciÃ³n de Empresas",
+                            "name":  "Administración de Empresas",
                             "price":  "$9.000.000 COP"
                         },
                         {
-                            "name":  "EconomÃ­a",
+                            "name":  "Economía",
                             "price":  "$9.000.000 COP"
                         },
                         {
@@ -1127,21 +1127,21 @@
         "reviews":  [
                         {
                             "author":  "Daniel Herrera",
-                            "role":  "Estudiante de IngenierÃ­a",
+                            "role":  "Estudiante de Ingeniería",
                             "rating":  4,
                             "text":  "Buen campus."
                         },
                         {
-                            "author":  "MarÃ­a LÃ³pez",
-                            "role":  "Egresada de AdministraciÃ³n",
+                            "author":  "María López",
+                            "role":  "Egresada de Administración",
                             "rating":  5,
-                            "text":  "Buena formaciÃ³n empresarial."
+                            "text":  "Buena formación empresarial."
                         },
                         {
-                            "author":  "Ricardo GÃ³mez",
-                            "role":  "Profesor de EconomÃ­a",
+                            "author":  "Ricardo Gómez",
+                            "role":  "Profesor de Economía",
                             "rating":  4,
-                            "text":  "La universidad impulsa innovaciÃ³n."
+                            "text":  "La universidad impulsa innovación."
                         }
                     ]
     },
@@ -1159,43 +1159,43 @@
         "careers":  [
                         {
                             "name":  "Medicina",
-                            "price":  "$0 â€“ $5.500.000 COP"
+                            "price":  "$0 –" $5.500.000 COP"
                         },
                         {
                             "name":  "Derecho",
-                            "price":  "$0 â€“ $3.000.000 COP"
+                            "price":  "$0 –" $3.000.000 COP"
                         },
                         {
-                            "name":  "IngenierÃ­a de Sistemas",
-                            "price":  "$0 â€“ $3.500.000 COP"
+                            "name":  "Ingeniería de Sistemas",
+                            "price":  "$0 –" $3.500.000 COP"
                         },
                         {
-                            "name":  "AdministraciÃ³n de Empresas",
-                            "price":  "$0 â€“ $3.000.000 COP"
+                            "name":  "Administración de Empresas",
+                            "price":  "$0 –" $3.000.000 COP"
                         },
                         {
-                            "name":  "OdontologÃ­a",
-                            "price":  "$0 â€“ $4.500.000 COP"
+                            "name":  "Odontología",
+                            "price":  "$0 –" $4.500.000 COP"
                         }
                     ],
         "reviews":  [
                         {
-                            "author":  "Santiago RamÃ­rez",
+                            "author":  "Santiago Ramírez",
                             "role":  "Estudiante de Medicina",
                             "rating":  5,
-                            "text":  "Gran universidad pÃºblica."
+                            "text":  "Gran universidad pública."
                         },
                         {
                             "author":  "Paola Herrera",
                             "role":  "Egresada de Derecho",
                             "rating":  4,
-                            "text":  "Buena formaciÃ³n acadÃ©mica."
+                            "text":  "Buena formación académica."
                         },
                         {
                             "author":  "Carlos Pineda",
                             "role":  "Profesor de Historia",
                             "rating":  4,
-                            "text":  "La universidad tiene mucha tradiciÃ³n."
+                            "text":  "La universidad tiene mucha tradición."
                         }
                     ]
     },
@@ -1216,28 +1216,28 @@
                             "price":  "$9.500.000 COP"
                         },
                         {
-                            "name":  "AdministraciÃ³n de Empresas",
+                            "name":  "Administración de Empresas",
                             "price":  "$9.000.000 COP"
                         },
                         {
-                            "name":  "IngenierÃ­a Industrial",
+                            "name":  "Ingeniería Industrial",
                             "price":  "$9.500.000 COP"
                         },
                         {
-                            "name":  "IngenierÃ­a de Sistemas",
+                            "name":  "Ingeniería de Sistemas",
                             "price":  "$9.500.000 COP"
                         },
                         {
-                            "name":  "PsicologÃ­a",
+                            "name":  "Psicología",
                             "price":  "$8.500.000 COP"
                         }
                     ],
         "reviews":  [
                         {
-                            "author":  "Valentina GÃ³mez",
-                            "role":  "Estudiante de AdministraciÃ³n",
+                            "author":  "Valentina Gómez",
+                            "role":  "Estudiante de Administración",
                             "rating":  4,
-                            "text":  "Buen ambiente acadÃ©mico."
+                            "text":  "Buen ambiente académico."
                         },
                         {
                             "author":  "David Torres",
@@ -1247,9 +1247,9 @@
                         },
                         {
                             "author":  "Ricardo Vargas",
-                            "role":  "Profesor de IngenierÃ­a",
+                            "role":  "Profesor de Ingeniería",
                             "rating":  4,
-                            "text":  "FormaciÃ³n sÃ³lida."
+                            "text":  "Formación sólida."
                         }
                     ]
     },
@@ -1270,40 +1270,40 @@
                             "price":  "$8.500.000 COP"
                         },
                         {
-                            "name":  "IngenierÃ­a de Sistemas",
+                            "name":  "Ingeniería de Sistemas",
                             "price":  "$7.500.000 COP"
                         },
                         {
-                            "name":  "AdministraciÃ³n de Empresas",
+                            "name":  "Administración de Empresas",
                             "price":  "$7.000.000 COP"
                         },
                         {
-                            "name":  "ContadurÃ­a PÃºblica",
+                            "name":  "Contaduría Pública",
                             "price":  "$6.500.000 COP"
                         },
                         {
-                            "name":  "PsicologÃ­a",
+                            "name":  "Psicología",
                             "price":  "$7.000.000 COP"
                         }
                     ],
         "reviews":  [
                         {
-                            "author":  "Juan MartÃ­nez",
+                            "author":  "Juan Martínez",
                             "role":  "Estudiante de Derecho",
                             "rating":  4,
-                            "text":  "Buen nivel acadÃ©mico."
+                            "text":  "Buen nivel académico."
                         },
                         {
-                            "author":  "Paula LÃ³pez",
-                            "role":  "Egresada de AdministraciÃ³n",
+                            "author":  "Paula López",
+                            "role":  "Egresada de Administración",
                             "rating":  5,
                             "text":  "La universidad ofrece buenas oportunidades."
                         },
                         {
-                            "author":  "Carlos MÃ©ndez",
-                            "role":  "Profesor de EconomÃ­a",
+                            "author":  "Carlos Méndez",
+                            "role":  "Profesor de Economía",
                             "rating":  4,
-                            "text":  "La formaciÃ³n es buena."
+                            "text":  "La formación es buena."
                         }
                     ]
     },
@@ -1320,15 +1320,15 @@
         "tuition":  "",
         "careers":  [
                         {
-                            "name":  "IngenierÃ­a de Sistemas",
+                            "name":  "Ingeniería de Sistemas",
                             "price":  "$8.500.000 COP"
                         },
                         {
-                            "name":  "IngenierÃ­a Civil",
+                            "name":  "Ingeniería Civil",
                             "price":  "$9.000.000 COP"
                         },
                         {
-                            "name":  "AdministraciÃ³n de Empresas",
+                            "name":  "Administración de Empresas",
                             "price":  "$7.500.000 COP"
                         },
                         {
@@ -1342,22 +1342,22 @@
                     ],
         "reviews":  [
                         {
-                            "author":  "SebastiÃ¡n Pardo",
-                            "role":  "Estudiante de IngenierÃ­a Civil",
+                            "author":  "Sebastián Pardo",
+                            "role":  "Estudiante de Ingeniería Civil",
                             "rating":  4,
                             "text":  "Instalaciones modernas."
                         },
                         {
-                            "author":  "Natalia GÃ³mez",
+                            "author":  "Natalia Gómez",
                             "role":  "Egresada de Arquitectura",
                             "rating":  5,
-                            "text":  "Buen ambiente acadÃ©mico."
+                            "text":  "Buen ambiente académico."
                         },
                         {
                             "author":  "Luis Rojas",
-                            "role":  "Profesor de IngenierÃ­a",
+                            "role":  "Profesor de Ingeniería",
                             "rating":  4,
-                            "text":  "FormaciÃ³n tÃ©cnica sÃ³lida."
+                            "text":  "Formación técnica sólida."
                         }
                     ]
     },
@@ -1375,49 +1375,49 @@
         "careers":  [
                         {
                             "name":  "Medicina",
-                            "price":  "$0 â€“ $6.000.000 COP"
+                            "price":  "$0 –" $6.000.000 COP"
                         },
                         {
-                            "name":  "IngenierÃ­a de Sistemas",
-                            "price":  "$0 â€“ $4.500.000 COP"
+                            "name":  "Ingeniería de Sistemas",
+                            "price":  "$0 –" $4.500.000 COP"
                         },
                         {
-                            "name":  "IngenierÃ­a Civil",
-                            "price":  "$0 â€“ $4.500.000 COP"
+                            "name":  "Ingeniería Civil",
+                            "price":  "$0 –" $4.500.000 COP"
                         },
                         {
-                            "name":  "IngenierÃ­a QuÃ­mica",
-                            "price":  "$0 â€“ $4.500.000 COP"
+                            "name":  "Ingeniería Química",
+                            "price":  "$0 –" $4.500.000 COP"
                         },
                         {
                             "name":  "Derecho",
-                            "price":  "$0 â€“ $3.500.000 COP"
+                            "price":  "$0 –" $3.500.000 COP"
                         }
                     ],
         "reviews":  [
                         {
                             "author":  "Felipe Vargas",
-                            "role":  "Estudiante de IngenierÃ­a Civil",
+                            "role":  "Estudiante de Ingeniería Civil",
                             "rating":  5,
-                            "text":  "Es una universidad exigente pero con excelente formaciÃ³n acadÃ©mica."
+                            "text":  "Es una universidad exigente pero con excelente formación académica."
                         },
                         {
                             "author":  "Andrea Mendoza",
-                            "role":  "Egresada de IngenierÃ­a de Sistemas",
+                            "role":  "Egresada de Ingeniería de Sistemas",
                             "rating":  4,
-                            "text":  "Tiene gran reconocimiento en ingenierÃ­a."
+                            "text":  "Tiene gran reconocimiento en ingeniería."
                         },
                         {
-                            "author":  "Jorge Humberto DÃ­az",
+                            "author":  "Jorge Humberto Díaz",
                             "role":  "Profesor",
                             "rating":  3,
-                            "text":  "La calidad acadÃ©mica es muy buena, aunque algunas instalaciones requieren mejoras."
+                            "text":  "La calidad académica es muy buena, aunque algunas instalaciones requieren mejoras."
                         }
                     ]
     },
     {
         "id":  27,
-        "name":  "Universidad AutÃ³noma de Bucaramanga",
+        "name":  "Universidad Autónoma de Bucaramanga",
         "type":  "Privada",
         "city":  "Bucaramanga",
         "barrio":  "",
@@ -1432,32 +1432,32 @@
                             "price":  "$9.500.000 COP"
                         },
                         {
-                            "name":  "IngenierÃ­a de Sistemas",
+                            "name":  "Ingeniería de Sistemas",
                             "price":  "$9.000.000 COP"
                         },
                         {
-                            "name":  "AdministraciÃ³n de Empresas",
+                            "name":  "Administración de Empresas",
                             "price":  "$8.500.000 COP"
                         },
                         {
-                            "name":  "PsicologÃ­a",
+                            "name":  "Psicología",
                             "price":  "$8.500.000 COP"
                         },
                         {
-                            "name":  "ComunicaciÃ³n Social",
+                            "name":  "Comunicación Social",
                             "price":  "$8.000.000 COP"
                         }
                     ],
         "reviews":  [
                         {
-                            "author":  "Daniel MartÃ­nez",
+                            "author":  "Daniel Martínez",
                             "role":  "Estudiante de Derecho",
                             "rating":  5,
-                            "text":  "Tiene buenos profesores y un ambiente acadÃ©mico agradable."
+                            "text":  "Tiene buenos profesores y un ambiente académico agradable."
                         },
                         {
-                            "author":  "Laura SÃ¡nchez",
-                            "role":  "Egresada de AdministraciÃ³n",
+                            "author":  "Laura Sánchez",
+                            "role":  "Egresada de Administración",
                             "rating":  4,
                             "text":  "La universidad ofrece buenas oportunidades profesionales."
                         },
@@ -1465,15 +1465,15 @@
                             "author":  "Carlos Torres",
                             "role":  "Estudiante",
                             "rating":  3,
-                            "text":  "La educaciÃ³n es buena, pero algunas instalaciones podrÃ­an mejorar."
+                            "text":  "La educación es buena, pero algunas instalaciones podrían mejorar."
                         }
                     ]
     },
     {
         "id":  28,
-        "name":  "Universidad Santo TomÃ¡s",
+        "name":  "Universidad Santo Tomás",
         "type":  "Privada",
-        "city":  "BogotÃ¡",
+        "city":  "Bogotá",
         "barrio":  "",
         "address":  "",
         "phone":  "+57 1 5878797",
@@ -1486,11 +1486,11 @@
                             "price":  "$9.500.000 COP"
                         },
                         {
-                            "name":  "IngenierÃ­a de Sistemas",
+                            "name":  "Ingeniería de Sistemas",
                             "price":  "$8.500.000 COP"
                         },
                         {
-                            "name":  "AdministraciÃ³n de Empresas",
+                            "name":  "Administración de Empresas",
                             "price":  "$8.000.000 COP"
                         },
                         {
@@ -1498,7 +1498,7 @@
                             "price":  "$9.000.000 COP"
                         },
                         {
-                            "name":  "PsicologÃ­a",
+                            "name":  "Psicología",
                             "price":  "$8.500.000 COP"
                         }
                     ],
@@ -1507,19 +1507,19 @@
                             "author":  "Alejandro Moreno",
                             "role":  "Estudiante de Derecho",
                             "rating":  5,
-                            "text":  "Una universidad con gran tradiciÃ³n acadÃ©mica."
+                            "text":  "Una universidad con gran tradición académica."
                         },
                         {
                             "author":  "Carolina Rojas",
-                            "role":  "Egresada de ContadurÃ­a",
+                            "role":  "Egresada de Contaduría",
                             "rating":  4,
-                            "text":  "Tiene buenos profesores y programas acadÃ©micos."
+                            "text":  "Tiene buenos profesores y programas académicos."
                         },
                         {
                             "author":  "Miguel Castro",
                             "role":  "Estudiante",
                             "rating":  3,
-                            "text":  "La formaciÃ³n es buena, aunque algunos procesos administrativos son lentos."
+                            "text":  "La formación es buena, aunque algunos procesos administrativos son lentos."
                         }
                     ]
     },
@@ -1527,7 +1527,7 @@
         "id":  29,
         "name":  "Universidad La Salle",
         "type":  "Privada",
-        "city":  "BogotÃ¡",
+        "city":  "Bogotá",
         "barrio":  "",
         "address":  "",
         "phone":  "+57 1 3488000",
@@ -1536,11 +1536,11 @@
         "tuition":  "",
         "careers":  [
                         {
-                            "name":  "IngenierÃ­a de Sistemas",
+                            "name":  "Ingeniería de Sistemas",
                             "price":  "$8.500.000 COP"
                         },
                         {
-                            "name":  "AdministraciÃ³n de Empresas",
+                            "name":  "Administración de Empresas",
                             "price":  "$8.000.000 COP"
                         },
                         {
@@ -1552,28 +1552,28 @@
                             "price":  "$9.000.000 COP"
                         },
                         {
-                            "name":  "EconomÃ­a",
+                            "name":  "Economía",
                             "price":  "$8.000.000 COP"
                         }
                     ],
         "reviews":  [
                         {
-                            "author":  "Juan Camilo RodrÃ­guez",
-                            "role":  "Estudiante de IngenierÃ­a",
+                            "author":  "Juan Camilo Rodríguez",
+                            "role":  "Estudiante de Ingeniería",
                             "rating":  5,
-                            "text":  "La universidad tiene buenos programas acadÃ©micos."
+                            "text":  "La universidad tiene buenos programas académicos."
                         },
                         {
-                            "author":  "Ana MarÃ­a LÃ³pez",
-                            "role":  "Egresada de AdministraciÃ³n",
+                            "author":  "Ana María López",
+                            "role":  "Egresada de Administración",
                             "rating":  4,
                             "text":  "Buen ambiente universitario y profesores preparados."
                         },
                         {
-                            "author":  "Pedro GarcÃ­a",
+                            "author":  "Pedro García",
                             "role":  "Estudiante",
                             "rating":  3,
-                            "text":  "La educaciÃ³n es buena, aunque el campus podrÃ­a modernizarse mÃ¡s."
+                            "text":  "La educación es buena, aunque el campus podría modernizarse más."
                         }
                     ]
     },
@@ -1581,7 +1581,7 @@
         "id":  30,
         "name":  "Universidad Militar Nueva Granada",
         "type":  "Publica",
-        "city":  "BogotÃ¡",
+        "city":  "Bogotá",
         "barrio":  "",
         "address":  "",
         "phone":  "+57 1 6500000",
@@ -1591,10 +1591,10 @@
         "careers":  [
                         {
                             "name":  "Medicina",
-                            "price":  "$8.000.000 â€“ $12.000.000 COP"
+                            "price":  "$8.000.000 –" $12.000.000 COP"
                         },
                         {
-                            "name":  "IngenierÃ­a de Sistemas",
+                            "name":  "Ingeniería de Sistemas",
                             "price":  "$6.000.000 COP"
                         },
                         {
@@ -1602,7 +1602,7 @@
                             "price":  "$6.500.000 COP"
                         },
                         {
-                            "name":  "AdministraciÃ³n de Empresas",
+                            "name":  "Administración de Empresas",
                             "price":  "$6.000.000 COP"
                         },
                         {
@@ -1612,23 +1612,24 @@
                     ],
         "reviews":  [
                         {
-                            "author":  "AndrÃ©s GÃ³mez",
-                            "role":  "Estudiante de IngenierÃ­a",
+                            "author":  "Andrés Gómez",
+                            "role":  "Estudiante de Ingeniería",
                             "rating":  5,
                             "text":  "Tiene buenos laboratorios y profesores con experiencia."
                         },
                         {
-                            "author":  "Natalia PÃ©rez",
+                            "author":  "Natalia Pérez",
                             "role":  "Egresada de Medicina",
                             "rating":  4,
-                            "text":  "La formaciÃ³n es exigente y prepara bien para el campo laboral."
+                            "text":  "La formación es exigente y prepara bien para el campo laboral."
                         },
                         {
-                            "author":  "Luis RodrÃ­guez",
+                            "author":  "Luis Rodríguez",
                             "role":  "Estudiante",
                             "rating":  3,
-                            "text":  "La universidad es buena, aunque la carga acadÃ©mica puede ser fuerte."
+                            "text":  "La universidad es buena, aunque la carga académica puede ser fuerte."
                         }
                     ]
     }
 ]
+
