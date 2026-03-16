@@ -95,6 +95,13 @@ def get_universities():
     unis = load_universities()
     return jsonify(unis)
 
+@app.route('/api/ping')
+def api_ping():
+    return jsonify({
+        'ok': True,
+        'app': os.path.basename(__file__)
+    })
+
 # reviews endpoints
 @app.route('/api/universities/<int:uid>/reviews')
 def get_reviews(uid):
