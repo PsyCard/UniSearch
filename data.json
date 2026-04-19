@@ -1,1636 +1,1775 @@
-﻿[
-    {
-        "id":  1,
-        "name":  "Universidad Nacional de Colombia",
-        "type":  "Publica",
-        "city":  "Bogotá",
-        "barrio":  "",
-        "address":  "",
-        "phone":  "+57 1 3165000",
-        "email":  "admisiones_bog@unal.edu.co",
-        "website":  "https://unal.edu.co",
-        "tuition":  "",
-        "careers":  [
-                        {
-                            "name":  "Medicina",
-                            "price": "$0 – $8.800.000 COP"
-                        },
-                        {
-                            "name":  "Ingeniería de Sistemas",
-                            "price": "$0 – $6.400.000 COP"
-                        },
-                        {
-                            "name":  "Derecho",
-                            "price": "$0 – $5.040.000 COP"
-                        },
-                        {
-                            "name":  "Administración de Empresas",
-                            "price": "$0 – $5.000.000 COP"
-                        },
-                        {
-                            "name":  "Economía",
-                            "price": "$0 – $4.680.000 COP"
-                        },
-                        {
-                            "name":  "Psicología",
-                            "price": "$0 – $4.140.000 COP"
-                        },
-                        {
-                            "name":  "Arquitectura",
-                            "price": "$0 – $6.820.000 COP"
-                        }
-                    ],
-        "reviews":  [
-                        {
-                            "author":  "Carlos Andrés Ramírez",
-                            "role":  "Estudiante de Ingeniería",
-                            "rating":  5,
-                            "text":  "La universidad tiene un nivel académico muy alto y profesores con gran experiencia. El campus es grande y tiene muchos espacios para estudiar."
-                        },
-                        {
-                            "author":  "María Fernanda López",
-                            "role":  "Egresada de Sociología",
-                            "rating":  4,
-                            "text":  "La formación es excelente, aunque algunos trámites administrativos pueden tardar más de lo esperado."
-                        },
-                        {
-                            "author":  "Juan Pablo Cárdenas",
-                            "role":  "Estudiante",
-                            "rating":  3,
-                            "text":  "Es una gran universidad pública, pero a veces hay paros o problemas administrativos que afectan el calendario."
-                        }
-                    ]
-    },
-    {
-        "id":  2,
-        "name":  "Universidad de los Andes",
-        "type":  "Privada",
-        "city":  "Bogotá",
-        "barrio":  "",
-        "address":  "",
-        "phone":  "+57 1 3394949",
-        "email":  "info@uniandes.edu.co",
-        "website":  "https://uniandes.edu.co",
-        "tuition":  "",
-        "careers":  [
-                        {
-                            "name":  "Medicina",
-                            "price":  "$36.230.000 COP"
-                        },
-                        {
-                            "name":  "Ingeniería de Sistemas",
-                            "price":  "$25.460.000 COP"
-                        },
-                        {
-                            "name":  "Administración de Empresas",
-                            "price":  "$24.000.000 COP"
-                        },
-                        {
-                            "name":  "Economía",
-                            "price":  "$24.000.000 COP"
-                        },
-                        {
-                            "name":  "Derecho",
-                            "price":  "$22.000.000 COP"
-                        },
-                        {
-                            "name":  "Arquitectura",
-                            "price":  "$20.000.000 COP"
-                        }
-                    ],
-        "reviews":  [
-                        {
-                            "author":  "Valentina Torres",
-                            "role":  "Estudiante de Economía",
-                            "rating":  5,
-                            "text":  "Excelente universidad con muchas oportunidades académicas y profesores muy preparados."
-                        },
-                        {
-                            "author":  "Andrés Felipe García",
-                            "role":  "Egresado de Ingeniería Industrial",
-                            "rating":  4,
-                            "text":  "El nivel académico es muy bueno, aunque la matrícula es bastante costosa."
-                        },
-                        {
-                            "author":  "Laura Gómez",
-                            "role":  "Estudiante",
-                            "rating":  3,
-                            "text":  "Las instalaciones son muy buenas, pero la presión académica puede ser bastante alta."
-                        }
-                    ]
-    },
-    {
-        "id":  3,
-        "name":  "Pontificia Universidad Javeriana",
-        "type":  "Privada",
-        "city":  "Bogotá",
-        "barrio":  "",
-        "address":  "",
-        "phone":  "+57 1 3208320",
-        "email":  "info@javeriana.edu.co",
-        "website":  "https://www.javeriana.edu.co",
-        "tuition":  "",
-        "careers":  [
-                        {
-                            "name":  "Medicina",
-                            "price":  "$35.041.000 COP"
-                        },
-                        {
-                            "name":  "Ingeniería de Sistemas",
-                            "price":  "$16.971.000 COP"
-                        },
-                        {
-                            "name":  "Derecho",
-                            "price":  "$17.000.000 COP"
-                        },
-                        {
-                            "name":  "Psicología",
-                            "price":  "$14.000.000 COP"
-                        },
-                        {
-                            "name":  "Comunicación Social",
-                            "price":  "$13.000.000 COP"
-                        }
-                    ],
-        "reviews":  [
-                        {
-                            "author":  "Daniela Rojas",
-                            "role":  "Estudiante de Psicología",
-                            "rating":  5,
-                            "text":  "Los profesores son excelentes y la universidad tiene muchas actividades académicas y culturales."
-                        },
-                        {
-                            "author":  "Sebastián Méndez",
-                            "role":  "Egresado de Derecho",
-                            "rating":  4,
-                            "text":  "Es una universidad muy completa, aunque algunos programas son bastante exigentes."
-                        },
-                        {
-                            "author":  "Natalia Vargas",
-                            "role":  "Estudiante",
-                            "rating":  3,
-                            "text":  "La educación es buena, pero los costos de matrícula pueden ser elevados."
-                        }
-                    ]
-    },
-    {
-        "id":  4,
-        "name":  "Universidad Distrital Francisco José de Caldas",
-        "type":  "Publica",
-        "city":  "Bogotá",
-        "barrio":  "",
-        "address":  "",
-        "phone":  "+57 1 3239300",
-        "email":  "atencionalciudadano@udistrital.edu.co",
-        "website":  "https://www.udistrital.edu.co",
-        "tuition":  "",
-        "careers":  [
-                        {
-                            "name":  "Ingeniería de Sistemas",
-                            "price": "$0 – $1.500.000 COP"
-                        },
-                        {
-                            "name":  "Ingeniería Electrónica",
-                            "price": "$0 – $1.500.000 COP"
-                        },
-                        {
-                            "name":  "Ingeniería Industrial",
-                            "price": "$0 – $1.500.000 COP"
-                        },
-                        {
-                            "name":  "Ingeniería Catastral",
-                            "price": "$0 – $1.500.000 COP"
-                        },
-                        {
-                            "name":  "Licenciatura en Matemáticas",
-                            "price": "$0 – $800.000 COP"
-                        }
-                    ],
-        "reviews":  [
-                        {
-                            "author":  "Camilo Rodríguez",
-                            "role":  "Estudiante de Ingeniería de Sistemas",
-                            "rating":  5,
-                            "text":  "Muy buen nivel académico y profesores comprometidos con la formación de los estudiantes."
-                        },
-                        {
-                            "author":  "Paula Hernández",
-                            "role":  "Estudiante de Tecnología",
-                            "rating":  4,
-                            "text":  "La educación es buena, aunque algunas sedes necesitan mejorar sus instalaciones."
-                        },
-                        {
-                            "author":  "Luis Alberto Castro",
-                            "role":  "Egresado",
-                            "rating":  3,
-                            "text":  "Es una universidad pública con buen nivel académico, pero los procesos administrativos pueden ser lentos."
-                        }
-                    ]
-    },
-    {
-        "id":  5,
-        "name":  "Universidad Externado de Colombia",
-        "type":  "Privada",
-        "city":  "Bogotá",
-        "barrio":  "",
-        "address":  "",
-        "phone":  "+57 1 3537000",
-        "email":  "informes@uexternado.edu.co",
-        "website":  "https://www.uexternado.edu.co",
-        "tuition":  "",
-        "careers":  [
-                        {
-                            "name":  "Derecho",
-                            "price":  "$18.000.000 COP"
-                        },
-                        {
-                            "name":  "Administración de Empresas",
-                            "price":  "$16.000.000 COP"
-                        },
-                        {
-                            "name":  "Economía",
-                            "price":  "$16.000.000 COP"
-                        },
-                        {
-                            "name":  "Finanzas y Relaciones Internacionales",
-                            "price":  "$17.000.000 COP"
-                        },
-                        {
-                            "name":  "Comunicación Social",
-                            "price":  "$14.000.000 COP"
-                        }
-                    ],
-        "reviews":  [
-                        {
-                            "author":  "Juan Esteban Martínez",
-                            "role":  "Estudiante de Derecho",
-                            "rating":  5,
-                            "text":  "Excelente universidad para estudiar derecho, con gran reconocimiento nacional."
-                        },
-                        {
-                            "author":  "Andrea González",
-                            "role":  "Egresada de Economía",
-                            "rating":  4,
-                            "text":  "Tiene muy buen ambiente académico, aunque la matrícula puede ser costosa."
-                        },
-                        {
-                            "author":  "Felipe Torres",
-                            "role":  "Estudiante",
-                            "rating":  3,
-                            "text":  "Los profesores son muy buenos, pero algunos trámites internos pueden tardar bastante."
-                        }
-                    ]
-    },
-    {
-        "id":  6,
-        "name":  "Universidad de Antioquia",
-        "type":  "Publica",
-        "city":  "Medellín",
-        "barrio":  "",
-        "address":  "",
-        "phone":  "+57 4 2198332",
-        "email":  "atencionalciudadano@udea.edu.co",
-        "website":  "https://www.udea.edu.co",
-        "tuition":  "",
-        "careers":  [
-                        {
-                            "name":  "Medicina",
-                            "price": "$0 – $6.000.000 COP"
-                        },
-                        {
-                            "name":  "Ingeniería de Sistemas",
-                            "price": "$0 – $4.000.000 COP"
-                        },
-                        {
-                            "name":  "Derecho",
-                            "price": "$0 – $3.500.000 COP"
-                        },
-                        {
-                            "name":  "Psicología",
-                            "price": "$0 – $3.000.000 COP"
-                        },
-                        {
-                            "name":  "Odontología",
-                            "price": "$0 – $5.000.000 COP"
-                        }
-                    ],
-        "reviews":  [
-                        {
-                            "author":  "Santiago Restrepo",
-                            "role":  "Estudiante de Medicina",
-                            "rating":  5,
-                            "text":  "Una de las mejores universidades públicas del país, con excelente nivel académico."
-                        },
-                        {
-                            "author":  "Laura Giraldo",
-                            "role":  "Egresada de Psicología",
-                            "rating":  4,
-                            "text":  "Los profesores tienen gran experiencia y el ambiente académico es muy bueno."
-                        },
-                        {
-                            "author":  "Juan David Salazar",
-                            "role":  "Estudiante",
-                            "rating":  3,
-                            "text":  "La educación es muy buena, pero los paros pueden afectar el calendario académico."
-                        }
-                    ]
-    },
-    {
-        "id":  7,
-        "name":  "Universidad EAFIT",
-        "type":  "Privada",
-        "city":  "Medellín",
-        "barrio":  "",
-        "address":  "",
-        "phone":  "+57 4 2619500",
-        "email":  "admisiones@eafit.edu.co",
-        "website":  "https://www.eafit.edu.co",
-        "tuition":  "",
-        "careers":  [
-                        {
-                            "name":  "Ingeniería de Sistemas",
-                            "price":  "$13.000.000 COP"
-                        },
-                        {
-                            "name":  "Ingeniería Mecánica",
-                            "price":  "$13.000.000 COP"
-                        },
-                        {
-                            "name":  "Administración de Empresas",
-                            "price":  "$12.000.000 COP"
-                        },
-                        {
-                            "name":  "Economía",
-                            "price":  "$11.500.000 COP"
-                        },
-                        {
-                            "name":  "Negocios Internacionales",
-                            "price":  "$12.000.000 COP"
-                        }
-                    ],
-        "reviews":  [
-                        {
-                            "author":  "Camilo Restrepo",
-                            "role":  "Estudiante de Ingeniería de Sistemas",
-                            "rating":  5,
-                            "text":  "El campus es excelente y los profesores tienen mucha experiencia."
-                        },
-                        {
-                            "author":  "Paola Arango",
-                            "role":  "Egresada de Administración",
-                            "rating":  4,
-                            "text":  "La universidad ofrece buenas oportunidades de prácticas profesionales."
-                        },
-                        {
-                            "author":  "Sebastián Vélez",
-                            "role":  "Estudiante",
-                            "rating":  3,
-                            "text":  "La calidad académica es buena, pero las matrículas pueden ser costosas."
-                        }
-                    ]
-    },
-    {
-        "id":  8,
-        "name":  "Universidad Pontificia Bolivariana",
-        "type":  "Privada",
-        "city":  "Medellín",
-        "barrio":  "",
-        "address":  "",
-        "phone":  "+57 4 4488388",
-        "email":  "info@upb.edu.co",
-        "website":  "https://www.upb.edu.co",
-        "tuition":  "",
-        "careers":  [
-                        {
-                            "name":  "Medicina",
-                            "price":  "$28.000.000 COP"
-                        },
-                        {
-                            "name":  "Ingeniería de Sistemas",
-                            "price":  "$11.000.000 COP"
-                        },
-                        {
-                            "name":  "Derecho",
-                            "price":  "$10.000.000 COP"
-                        },
-                        {
-                            "name":  "Arquitectura",
-                            "price":  "$12.000.000 COP"
-                        },
-                        {
-                            "name":  "Administración de Empresas",
-                            "price":  "$10.500.000 COP"
-                        }
-                    ],
-        "reviews":  [
-                        {
-                            "author":  "Valentina Gómez",
-                            "role":  "Estudiante de Derecho",
-                            "rating":  4,
-                            "text":  "Las instalaciones son muy buenas."
-                        },
-                        {
-                            "author":  "Julián Torres",
-                            "role":  "Egresado de Ingeniería",
-                            "rating":  5,
-                            "text":  "La formación profesional es muy sólida."
-                        },
-                        {
-                            "author":  "Ricardo Salazar",
-                            "role":  "Profesor de Arquitectura",
-                            "rating":  4,
-                            "text":  "La universidad fomenta mucho el desarrollo académico."
-                        }
-                    ]
-    },
-    {
-        "id":  9,
-        "name":  "Universidad de Medellín",
-        "type":  "Privada",
-        "city":  "Medellín",
-        "barrio":  "",
-        "address":  "",
-        "phone":  "+57 4 3405555",
-        "email":  "info@udem.edu.co",
-        "website":  "https://www.udem.edu.co",
-        "tuition":  "",
-        "careers":  [
-                        {
-                            "name":  "Derecho",
-                            "price":  "$9.500.000 COP"
-                        },
-                        {
-                            "name":  "Ingeniería de Sistemas",
-                            "price":  "$9.000.000 COP"
-                        },
-                        {
-                            "name":  "Ingeniería Civil",
-                            "price":  "$9.500.000 COP"
-                        },
-                        {
-                            "name":  "Administración de Empresas",
-                            "price":  "$8.500.000 COP"
-                        },
-                        {
-                            "name":  "Comunicación Social",
-                            "price":  "$8.000.000 COP"
-                        }
-                    ],
-        "reviews":  [
-                        {
-                            "author":  "David Hernández",
-                            "role":  "Estudiante de Derecho",
-                            "rating":  4,
-                            "text":  "El campus es amplio y moderno."
-                        },
-                        {
-                            "author":  "Andrea López",
-                            "role":  "Egresada de Administración",
-                            "rating":  5,
-                            "text":  "La universidad ofrece buenas oportunidades laborales."
-                        },
-                        {
-                            "author":  "Carlos Mejía",
-                            "role":  "Profesor de Ingeniería Civil",
-                            "rating":  4,
-                            "text":  "La calidad académica es buena."
-                        }
-                    ]
-    },
-    {
-        "id":  10,
-        "name":  "Universidad CES",
-        "type":  "Privada",
-        "city":  "Medellín",
-        "barrio":  "",
-        "address":  "",
-        "phone":  "+57 4 4440555",
-        "email":  "info@ces.edu.co",
-        "website":  "https://www.ces.edu.co",
-        "tuition":  "",
-        "careers":  [
-                        {
-                            "name":  "Medicina",
-                            "price":  "$25.000.000 COP"
-                        },
-                        {
-                            "name":  "Odontología",
-                            "price":  "$19.000.000 COP"
-                        },
-                        {
-                            "name":  "Psicología",
-                            "price":  "$10.000.000 COP"
-                        },
-                        {
-                            "name":  "Fisioterapia",
-                            "price":  "$9.500.000 COP"
-                        },
-                        {
-                            "name":  "Enfermería",
-                            "price":  "$8.500.000 COP"
-                        }
-                    ],
-        "reviews":  [
-                        {
-                            "author":  "Paula Ramírez",
-                            "role":  "Estudiante de Medicina",
-                            "rating":  5,
-                            "text":  "Muy buenos laboratorios y profesores."
-                        },
-                        {
-                            "author":  "Jorge Vargas",
-                            "role":  "Egresado de Odontología",
-                            "rating":  4,
-                            "text":  "La formación clínica es excelente."
-                        },
-                        {
-                            "author":  "Diana Castro",
-                            "role":  "Profesora de Psicología",
-                            "rating":  5,
-                            "text":  "La universidad se enfoca mucho en investigación en salud."
-                        }
-                    ]
-    },
-    {
-        "id":  11,
-        "name":  "Universidad del Valle",
-        "type":  "Publica",
-        "city":  "Cali",
-        "barrio":  "",
-        "address":  "",
-        "phone":  "+57 2 3212100",
-        "email":  "rectoria@univalle.edu.co",
-        "website":  "https://www.univalle.edu.co",
-        "tuition":  "",
-        "careers":  [
-                        {
-                            "name":  "Medicina",
-                            "price": "$0 – $5.500.000 COP"
-                        },
-                        {
-                            "name":  "Ingeniería de Sistemas",
-                            "price": "$0 – $4.000.000 COP"
-                        },
-                        {
-                            "name":  "Administración de Empresas",
-                            "price": "$0 – $3.500.000 COP"
-                        },
-                        {
-                            "name":  "Arquitectura",
-                            "price": "$0 – $4.500.000 COP"
-                        },
-                        {
-                            "name":  "Psicología",
-                            "price": "$0 – $3.500.000 COP"
-                        }
-                    ],
-        "reviews":  [
-                        {
-                            "author":  "Daniel Rojas",
-                            "role":  "Estudiante de Ingeniería",
-                            "rating":  5,
-                            "text":  "El nivel académico es alto y los profesores exigen bastante."
-                        },
-                        {
-                            "author":  "Natalia Rodríguez",
-                            "role":  "Egresada de Medicina",
-                            "rating":  4,
-                            "text":  "Es una universidad pública con excelente reputación."
-                        },
-                        {
-                            "author":  "Mauricio Salazar",
-                            "role":  "Profesor",
-                            "rating":  3,
-                            "text":  "La formación es buena, aunque algunas instalaciones podrían modernizarse."
-                        }
-                    ]
-    },
-    {
-        "id":  12,
-        "name":  "Pontificia Universidad Javeriana Cali",
-        "type":  "Privada",
-        "city":  "Cali",
-        "barrio":  "",
-        "address":  "",
-        "phone":  "+57 2 3218200",
-        "email":  "info@javerianacali.edu.co",
-        "website":  "https://www.javerianacali.edu.co",
-        "tuition":  "",
-        "careers":  [
-                        {
-                            "name":  "Medicina",
-                            "price":  "$28.000.000 COP"
-                        },
-                        {
-                            "name":  "Ingeniería de Sistemas",
-                            "price":  "$14.000.000 COP"
-                        },
-                        {
-                            "name":  "Derecho",
-                            "price":  "$13.500.000 COP"
-                        },
-                        {
-                            "name":  "Psicología",
-                            "price":  "$12.000.000 COP"
-                        },
-                        {
-                            "name":  "Administración de Empresas",
-                            "price":  "$13.000.000 COP"
-                        }
-                    ],
-        "reviews":  [
-                        {
-                            "author":  "Valeria Castro",
-                            "role":  "Estudiante de Derecho",
-                            "rating":  5,
-                            "text":  "El campus es muy moderno."
-                        },
-                        {
-                            "author":  "Santiago Pineda",
-                            "role":  "Egresado de Ingeniería",
-                            "rating":  4,
-                            "text":  "La universidad tiene buena reputación."
-                        },
-                        {
-                            "author":  "Carolina Méndez",
-                            "role":  "Profesora de Psicología",
-                            "rating":  5,
-                            "text":  "Los estudiantes tienen muchas oportunidades académicas."
-                        }
-                    ]
-    },
-    {
-        "id":  13,
-        "name":  "Universidad ICESI",
-        "type":  "Privada",
-        "city":  "Cali",
-        "barrio":  "",
-        "address":  "",
-        "phone":  "+57 2 5552334",
-        "email":  "info@icesi.edu.co",
-        "website":  "https://www.icesi.edu.co",
-        "tuition":  "",
-        "careers":  [
-                        {
-                            "name":  "Ingeniería de Sistemas",
-                            "price":  "$14.000.000 COP"
-                        },
-                        {
-                            "name":  "Administración de Empresas",
-                            "price":  "$13.000.000 COP"
-                        },
-                        {
-                            "name":  "Economía",
-                            "price":  "$12.500.000 COP"
-                        },
-                        {
-                            "name":  "Derecho",
-                            "price":  "$13.500.000 COP"
-                        },
-                        {
-                            "name":  "Diseño de Medios Interactivos",
-                            "price":  "$12.000.000 COP"
-                        }
-                    ],
-        "reviews":  [
-                        {
-                            "author":  "Valentina Castro",
-                            "role":  "Estudiante de Negocios Internacionales",
-                            "rating":  5,
-                            "text":  "La universidad tiene muy buenas oportunidades de intercambio internacional."
-                        },
-                        {
-                            "author":  "Sebastián Ramírez",
-                            "role":  "Egresado de Ingeniería",
-                            "rating":  4,
-                            "text":  "Las clases son exigentes y los profesores están bien preparados."
-                        },
-                        {
-                            "author":  "Diana López",
-                            "role":  "Profesora",
-                            "rating":  3,
-                            "text":  "La universidad es buena, aunque los costos de matrícula pueden ser altos."
-                        }
-                    ]
-    },
-    {
-        "id":  14,
-        "name":  "Universidad Autónoma de Occidente",
-        "type":  "Privada",
-        "city":  "Cali",
-        "barrio":  "",
-        "address":  "",
-        "phone":  "+57 2 3188000",
-        "email":  "info@uao.edu.co",
-        "website":  "https://www.uao.edu.co",
-        "tuition":  "",
-        "careers":  [
-                        {
-                            "name":  "Ingeniería de Sistemas",
-                            "price":  "$9.500.000 COP"
-                        },
-                        {
-                            "name":  "Ingeniería Industrial",
-                            "price":  "$9.000.000 COP"
-                        },
-                        {
-                            "name":  "Comunicación Social",
-                            "price":  "$8.500.000 COP"
-                        },
-                        {
-                            "name":  "Administración de Empresas",
-                            "price":  "$8.500.000 COP"
-                        },
-                        {
-                            "name":  "Diseño Gráfico",
-                            "price":  "$8.000.000 COP"
-                        }
-                    ],
-        "reviews":  [
-                        {
-                            "author":  "Carlos Pardo",
-                            "role":  "Estudiante de Ingeniería",
-                            "rating":  4,
-                            "text":  "Las instalaciones son modernas."
-                        },
-                        {
-                            "author":  "María Paula Gómez",
-                            "role":  "Egresada de Comunicación",
-                            "rating":  5,
-                            "text":  "El ambiente académico es muy bueno."
-                        },
-                        {
-                            "author":  "Ricardo Molina",
-                            "role":  "Profesor de Diseño",
-                            "rating":  4,
-                            "text":  "La universidad impulsa la creatividad."
-                        }
-                    ]
-    },
-    {
-        "id":  15,
-        "name":  "Universidad Santiago de Cali",
-        "type":  "Privada",
-        "city":  "Cali",
-        "barrio":  "",
-        "address":  "",
-        "phone":  "+57 2 5183000",
-        "email":  "info@usc.edu.co",
-        "website":  "https://www.usc.edu.co",
-        "tuition":  "",
-        "careers":  [
-                        {
-                            "name":  "Medicina",
-                            "price":  "$17.000.000 COP"
-                        },
-                        {
-                            "name":  "Derecho",
-                            "price":  "$8.000.000 COP"
-                        },
-                        {
-                            "name":  "Administración de Empresas",
-                            "price":  "$7.500.000 COP"
-                        },
-                        {
-                            "name":  "Ingeniería de Sistemas",
-                            "price":  "$7.500.000 COP"
-                        },
-                        {
-                            "name":  "Psicología",
-                            "price":  "$7.000.000 COP"
-                        }
-                    ],
-        "reviews":  [
-                        {
-                            "author":  "Luis Fernando Rojas",
-                            "role":  "Estudiante de Medicina",
-                            "rating":  4,
-                            "text":  "Buen nivel académico."
-                        },
-                        {
-                            "author":  "Camila Pérez",
-                            "role":  "Egresada de Derecho",
-                            "rating":  5,
-                            "text":  "La universidad ofrece buenas oportunidades."
-                        },
-                        {
-                            "author":  "Andrés Vargas",
-                            "role":  "Profesor de Administración",
-                            "rating":  4,
-                            "text":  "El ambiente académico es positivo."
-                        }
-                    ]
-    },
-    {
-        "id":  16,
-        "name":  "Universidad del Norte",
-        "type":  "Privada",
-        "city":  "Barranquilla",
-        "barrio":  "",
-        "address":  "",
-        "phone":  "+57 5 3509509",
-        "email":  "info@uninorte.edu.co",
-        "website":  "https://www.uninorte.edu.co",
-        "tuition":  "",
-        "careers":  [
-                        {
-                            "name":  "Medicina",
-                            "price":  "$27.000.000 COP"
-                        },
-                        {
-                            "name":  "Ingeniería de Sistemas",
-                            "price":  "$13.500.000 COP"
-                        },
-                        {
-                            "name":  "Administración de Empresas",
-                            "price":  "$12.500.000 COP"
-                        },
-                        {
-                            "name":  "Derecho",
-                            "price":  "$13.000.000 COP"
-                        },
-                        {
-                            "name":  "Psicología",
-                            "price":  "$11.500.000 COP"
-                        }
-                    ],
-        "reviews":  [
-                        {
-                            "author":  "María Fernanda Gómez",
-                            "role":  "Estudiante de Psicología",
-                            "rating":  5,
-                            "text":  "Tiene un campus moderno y muchas oportunidades académicas."
-                        },
-                        {
-                            "author":  "Juan Carlos Hernández",
-                            "role":  "Egresado de Administración",
-                            "rating":  4,
-                            "text":  "Es una de las mejores universidades del Caribe colombiano."
-                        },
-                        {
-                            "author":  "Carlos Pacheco",
-                            "role":  "Profesor",
-                            "rating":  3,
-                            "text":  "La universidad es buena, pero algunos procesos administrativos podrían mejorar."
-                        }
-                    ]
-    },
-    {
-        "id":  17,
-        "name":  "Universidad Simón Bolívar",
-        "type":  "Privada",
-        "city":  "Barranquilla",
-        "barrio":  "",
-        "address":  "",
-        "phone":  "+57 5 3444333",
-        "email":  "info@unisimon.edu.co",
-        "website":  "https://www.unisimon.edu.co",
-        "tuition":  "",
-        "careers":  [
-                        {
-                            "name":  "Medicina",
-                            "price":  "$16.000.000 COP"
-                        },
-                        {
-                            "name":  "Derecho",
-                            "price":  "$7.500.000 COP"
-                        },
-                        {
-                            "name":  "Ingeniería de Sistemas",
-                            "price":  "$7.000.000 COP"
-                        },
-                        {
-                            "name":  "Psicología",
-                            "price":  "$7.000.000 COP"
-                        },
-                        {
-                            "name":  "Administración de Empresas",
-                            "price":  "$7.500.000 COP"
-                        }
-                    ],
-        "reviews":  [
-                        {
-                            "author":  "José David Pérez",
-                            "role":  "Estudiante de Medicina",
-                            "rating":  5,
-                            "text":  "Tiene buenos laboratorios y profesores con experiencia."
-                        },
-                        {
-                            "author":  "Paola Torres",
-                            "role":  "Egresada de Psicología",
-                            "rating":  4,
-                            "text":  "Buen ambiente académico y oportunidades de aprendizaje."
-                        },
-                        {
-                            "author":  "Luis Eduardo García",
-                            "role":  "Profesor",
-                            "rating":  3,
-                            "text":  "La universidad es buena, aunque algunos procesos administrativos podrían mejorar."
-                        }
-                    ]
-    },
-    {
-        "id":  18,
-        "name":  "Universidad del Atlántico",
-        "type":  "Publica",
-        "city":  "Barranquilla",
-        "barrio":  "",
-        "address":  "",
-        "phone":  "+57 5 3852266",
-        "email":  "atencionalciudadano@mail.uniatlantico.edu.co",
-        "website":  "https://www.uniatlantico.edu.co",
-        "tuition":  "",
-        "careers":  [
-                        {
-                            "name":  "Medicina",
-                            "price": "$0 – $5.000.000 COP"
-                        },
-                        {
-                            "name":  "Ingeniería de Sistemas",
-                            "price": "$0 – $3.500.000 COP"
-                        },
-                        {
-                            "name":  "Derecho",
-                            "price": "$0 – $3.000.000 COP"
-                        },
-                        {
-                            "name":  "Administración de Empresas",
-                            "price": "$0 – $3.000.000 COP"
-                        },
-                        {
-                            "name":  "Psicología",
-                            "price": "$0 – $2.800.000 COP"
-                        }
-                    ],
-        "reviews":  [
-                        {
-                            "author":  "Jorge Mendoza",
-                            "role":  "Estudiante de Ingeniería",
-                            "rating":  4,
-                            "text":  "Buen nivel académico."
-                        },
-                        {
-                            "author":  "Ana Rodríguez",
-                            "role":  "Egresada de Derecho",
-                            "rating":  5,
-                            "text":  "Excelente universidad pública."
-                        },
-                        {
-                            "author":  "Carlos Pérez",
-                            "role":  "Profesor de Matemáticas",
-                            "rating":  4,
-                            "text":  "Los estudiantes reciben buena formación."
-                        }
-                    ]
-    },
-    {
-        "id":  19,
-        "name":  "Universidad Metropolitana",
-        "type":  "Privada",
-        "city":  "Barranquilla",
-        "barrio":  "",
-        "address":  "",
-        "phone":  "+57 5 3851234",
-        "email":  "info@unimetro.edu.co",
-        "website":  "https://www.unimetro.edu.co",
-        "tuition":  "",
-        "careers":  [
-                        {
-                            "name":  "Medicina",
-                            "price":  "$18.000.000 COP"
-                        },
-                        {
-                            "name":  "Odontología",
-                            "price":  "$12.000.000 COP"
-                        },
-                        {
-                            "name":  "Psicología",
-                            "price":  "$8.000.000 COP"
-                        },
-                        {
-                            "name":  "Fisioterapia",
-                            "price":  "$7.500.000 COP"
-                        },
-                        {
-                            "name":  "Enfermería",
-                            "price":  "$7.000.000 COP"
-                        }
-                    ],
-        "reviews":  [
-                        {
-                            "author":  "Luis Alberto Gómez",
-                            "role":  "Estudiante de Medicina",
-                            "rating":  4,
-                            "text":  "Buen nivel académico."
-                        },
-                        {
-                            "author":  "Andrea Ríos",
-                            "role":  "Egresada de Odontología",
-                            "rating":  5,
-                            "text":  "La formación clínica es muy buena."
-                        },
-                        {
-                            "author":  "Pedro Ramírez",
-                            "role":  "Profesor de Salud Pública",
-                            "rating":  4,
-                            "text":  "La universidad se enfoca en investigación."
-                        }
-                    ]
-    },
-    {
-        "id":  20,
-        "name":  "Universidad Libre Seccional Barranquilla",
-        "type":  "Privada",
-        "city":  "Barranquilla",
-        "barrio":  "",
-        "address":  "",
-        "phone":  "+57 5 3851057",
-        "email":  "info@unilibre.edu.co",
-        "website":  "https://www.unilibre.edu.co",
-        "tuition":  "",
-        "careers":  [
-                        {
-                            "name":  "Derecho",
-                            "price":  "$8.500.000 COP"
-                        },
-                        {
-                            "name":  "Ingeniería de Sistemas",
-                            "price":  "$7.500.000 COP"
-                        },
-                        {
-                            "name":  "Administración de Empresas",
-                            "price":  "$7.000.000 COP"
-                        },
-                        {
-                            "name":  "Contaduría Pública",
-                            "price":  "$6.500.000 COP"
-                        },
-                        {
-                            "name":  "Psicología",
-                            "price":  "$7.000.000 COP"
-                        }
-                    ],
-        "reviews":  [
-                        {
-                            "author":  "Julián Torres",
-                            "role":  "Estudiante de Derecho",
-                            "rating":  4,
-                            "text":  "Buenos profesores."
-                        },
-                        {
-                            "author":  "Laura Castro",
-                            "role":  "Egresada de Contaduría",
-                            "rating":  5,
-                            "text":  "La formación profesional es buena."
-                        },
-                        {
-                            "author":  "Carlos Sánchez",
-                            "role":  "Profesor de Derecho",
-                            "rating":  4,
-                            "text":  "Universidad reconocida."
-                        }
-                    ]
-    },
-    {
-        "id":  21,
-        "name":  "Universidad Tecnológica de Bolívar",
-        "type":  "Privada",
-        "city":  "Cartagena",
-        "barrio":  "",
-        "address":  "",
-        "phone":  "+57 5 6932121",
-        "email":  "info@utb.edu.co",
-        "website":  "https://www.utb.edu.co",
-        "tuition":  "",
-        "careers":  [
-                        {
-                            "name":  "Ingeniería de Sistemas",
-                            "price":  "$10.000.000 COP"
-                        },
-                        {
-                            "name":  "Ingeniería Industrial",
-                            "price":  "$9.500.000 COP"
-                        },
-                        {
-                            "name":  "Administración de Empresas",
-                            "price":  "$9.000.000 COP"
-                        },
-                        {
-                            "name":  "Economía",
-                            "price":  "$9.000.000 COP"
-                        },
-                        {
-                            "name":  "Derecho",
-                            "price":  "$9.500.000 COP"
-                        }
-                    ],
-        "reviews":  [
-                        {
-                            "author":  "Daniel Herrera",
-                            "role":  "Estudiante de Ingeniería",
-                            "rating":  4,
-                            "text":  "Buen campus."
-                        },
-                        {
-                            "author":  "María López",
-                            "role":  "Egresada de Administración",
-                            "rating":  5,
-                            "text":  "Buena formación empresarial."
-                        },
-                        {
-                            "author":  "Ricardo Gómez",
-                            "role":  "Profesor de Economía",
-                            "rating":  4,
-                            "text":  "La universidad impulsa innovación."
-                        }
-                    ]
-    },
-    {
-        "id":  22,
-        "name":  "Universidad de Cartagena",
-        "type":  "Publica",
-        "city":  "Cartagena",
-        "barrio":  "",
-        "address":  "",
-        "phone":  "+57 5 6641411",
-        "email":  "atencionalciudadano@unicartagena.edu.co",
-        "website":  "https://www.unicartagena.edu.co",
-        "tuition":  "",
-        "careers":  [
-                        {
-                            "name":  "Medicina",
-                            "price": "$0 – $5.500.000 COP"
-                        },
-                        {
-                            "name":  "Derecho",
-                            "price": "$0 – $3.000.000 COP"
-                        },
-                        {
-                            "name":  "Ingeniería de Sistemas",
-                            "price": "$0 – $3.500.000 COP"
-                        },
-                        {
-                            "name":  "Administración de Empresas",
-                            "price": "$0 – $3.000.000 COP"
-                        },
-                        {
-                            "name":  "Odontología",
-                            "price": "$0 – $4.500.000 COP"
-                        }
-                    ],
-        "reviews":  [
-                        {
-                            "author":  "Santiago Ramírez",
-                            "role":  "Estudiante de Medicina",
-                            "rating":  5,
-                            "text":  "Gran universidad pública."
-                        },
-                        {
-                            "author":  "Paola Herrera",
-                            "role":  "Egresada de Derecho",
-                            "rating":  4,
-                            "text":  "Buena formación académica."
-                        },
-                        {
-                            "author":  "Carlos Pineda",
-                            "role":  "Profesor de Historia",
-                            "rating":  4,
-                            "text":  "La universidad tiene mucha tradición."
-                        }
-                    ]
-    },
-    {
-        "id":  23,
-        "name":  "Universidad Pontificia Bolivariana Seccional Cartagena",
-        "type":  "Privada",
-        "city":  "Cartagena",
-        "barrio":  "",
-        "address":  "",
-        "phone":  "+57 5 6939000",
-        "email":  "info@upb.edu.co",
-        "website":  "https://www.upb.edu.co",
-        "tuition":  "",
-        "careers":  [
-                        {
-                            "name":  "Derecho",
-                            "price":  "$9.500.000 COP"
-                        },
-                        {
-                            "name":  "Administración de Empresas",
-                            "price":  "$9.000.000 COP"
-                        },
-                        {
-                            "name":  "Ingeniería Industrial",
-                            "price":  "$9.500.000 COP"
-                        },
-                        {
-                            "name":  "Ingeniería de Sistemas",
-                            "price":  "$9.500.000 COP"
-                        },
-                        {
-                            "name":  "Psicología",
-                            "price":  "$8.500.000 COP"
-                        }
-                    ],
-        "reviews":  [
-                        {
-                            "author":  "Valentina Gómez",
-                            "role":  "Estudiante de Administración",
-                            "rating":  4,
-                            "text":  "Buen ambiente académico."
-                        },
-                        {
-                            "author":  "David Torres",
-                            "role":  "Egresado de Derecho",
-                            "rating":  5,
-                            "text":  "Profesores muy preparados."
-                        },
-                        {
-                            "author":  "Ricardo Vargas",
-                            "role":  "Profesor de Ingeniería",
-                            "rating":  4,
-                            "text":  "Formación sólida."
-                        }
-                    ]
-    },
-    {
-        "id":  24,
-        "name":  "Universidad Libre Seccional Cartagena",
-        "type":  "Privada",
-        "city":  "Cartagena",
-        "barrio":  "",
-        "address":  "",
-        "phone":  "+57 5 6640184",
-        "email":  "info@unilibre.edu.co",
-        "website":  "https://www.unilibre.edu.co",
-        "tuition":  "",
-        "careers":  [
-                        {
-                            "name":  "Derecho",
-                            "price":  "$8.500.000 COP"
-                        },
-                        {
-                            "name":  "Ingeniería de Sistemas",
-                            "price":  "$7.500.000 COP"
-                        },
-                        {
-                            "name":  "Administración de Empresas",
-                            "price":  "$7.000.000 COP"
-                        },
-                        {
-                            "name":  "Contaduría Pública",
-                            "price":  "$6.500.000 COP"
-                        },
-                        {
-                            "name":  "Psicología",
-                            "price":  "$7.000.000 COP"
-                        }
-                    ],
-        "reviews":  [
-                        {
-                            "author":  "Juan Martínez",
-                            "role":  "Estudiante de Derecho",
-                            "rating":  4,
-                            "text":  "Buen nivel académico."
-                        },
-                        {
-                            "author":  "Paula López",
-                            "role":  "Egresada de Administración",
-                            "rating":  5,
-                            "text":  "La universidad ofrece buenas oportunidades."
-                        },
-                        {
-                            "author":  "Carlos Méndez",
-                            "role":  "Profesor de Economía",
-                            "rating":  4,
-                            "text":  "La formación es buena."
-                        }
-                    ]
-    },
-    {
-        "id":  25,
-        "name":  "Universidad de la Costa",
-        "type":  "Privada",
-        "city":  "Barranquilla",
-        "barrio":  "",
-        "address":  "",
-        "phone":  "+57 5 3362222",
-        "email":  "info@cuc.edu.co",
-        "website":  "https://www.cuc.edu.co",
-        "tuition":  "",
-        "careers":  [
-                        {
-                            "name":  "Ingeniería de Sistemas",
-                            "price":  "$8.500.000 COP"
-                        },
-                        {
-                            "name":  "Ingeniería Civil",
-                            "price":  "$9.000.000 COP"
-                        },
-                        {
-                            "name":  "Administración de Empresas",
-                            "price":  "$7.500.000 COP"
-                        },
-                        {
-                            "name":  "Derecho",
-                            "price":  "$8.000.000 COP"
-                        },
-                        {
-                            "name":  "Arquitectura",
-                            "price":  "$9.500.000 COP"
-                        }
-                    ],
-        "reviews":  [
-                        {
-                            "author":  "Sebastián Pardo",
-                            "role":  "Estudiante de Ingeniería Civil",
-                            "rating":  4,
-                            "text":  "Instalaciones modernas."
-                        },
-                        {
-                            "author":  "Natalia Gómez",
-                            "role":  "Egresada de Arquitectura",
-                            "rating":  5,
-                            "text":  "Buen ambiente académico."
-                        },
-                        {
-                            "author":  "Luis Rojas",
-                            "role":  "Profesor de Ingeniería",
-                            "rating":  4,
-                            "text":  "Formación técnica sólida."
-                        }
-                    ]
-    },
-    {
-        "id":  26,
-        "name":  "Universidad Industrial de Santander",
-        "type":  "Publica",
-        "city":  "Bucaramanga",
-        "barrio":  "",
-        "address":  "",
-        "phone":  "+57 7 6344000",
-        "email":  "atencionalciudadano@uis.edu.co",
-        "website":  "https://www.uis.edu.co",
-        "tuition":  "",
-        "careers":  [
-                        {
-                            "name":  "Medicina",
-                            "price": "$0 – $6.000.000 COP"
-                        },
-                        {
-                            "name":  "Ingeniería de Sistemas",
-                            "price": "$0 – $4.500.000 COP"
-                        },
-                        {
-                            "name":  "Ingeniería Civil",
-                            "price": "$0 – $4.500.000 COP"
-                        },
-                        {
-                            "name":  "Ingeniería Química",
-                            "price": "$0 – $4.500.000 COP"
-                        },
-                        {
-                            "name":  "Derecho",
-                            "price": "$0 – $3.500.000 COP"
-                        }
-                    ],
-        "reviews":  [
-                        {
-                            "author":  "Felipe Vargas",
-                            "role":  "Estudiante de Ingeniería Civil",
-                            "rating":  5,
-                            "text":  "Es una universidad exigente pero con excelente formación académica."
-                        },
-                        {
-                            "author":  "Andrea Mendoza",
-                            "role":  "Egresada de Ingeniería de Sistemas",
-                            "rating":  4,
-                            "text":  "Tiene gran reconocimiento en ingeniería."
-                        },
-                        {
-                            "author":  "Jorge Humberto Díaz",
-                            "role":  "Profesor",
-                            "rating":  3,
-                            "text":  "La calidad académica es muy buena, aunque algunas instalaciones requieren mejoras."
-                        }
-                    ]
-    },
-    {
-        "id":  27,
-        "name":  "Universidad Autónoma de Bucaramanga",
-        "type":  "Privada",
-        "city":  "Bucaramanga",
-        "barrio":  "",
-        "address":  "",
-        "phone":  "+57 7 6436111",
-        "email":  "info@unab.edu.co",
-        "website":  "https://www.unab.edu.co",
-        "tuition":  "",
-        "careers":  [
-                        {
-                            "name":  "Derecho",
-                            "price":  "$9.500.000 COP"
-                        },
-                        {
-                            "name":  "Ingeniería de Sistemas",
-                            "price":  "$9.000.000 COP"
-                        },
-                        {
-                            "name":  "Administración de Empresas",
-                            "price":  "$8.500.000 COP"
-                        },
-                        {
-                            "name":  "Psicología",
-                            "price":  "$8.500.000 COP"
-                        },
-                        {
-                            "name":  "Comunicación Social",
-                            "price":  "$8.000.000 COP"
-                        }
-                    ],
-        "reviews":  [
-                        {
-                            "author":  "Daniel Martínez",
-                            "role":  "Estudiante de Derecho",
-                            "rating":  5,
-                            "text":  "Tiene buenos profesores y un ambiente académico agradable."
-                        },
-                        {
-                            "author":  "Laura Sánchez",
-                            "role":  "Egresada de Administración",
-                            "rating":  4,
-                            "text":  "La universidad ofrece buenas oportunidades profesionales."
-                        },
-                        {
-                            "author":  "Carlos Torres",
-                            "role":  "Estudiante",
-                            "rating":  3,
-                            "text":  "La educación es buena, pero algunas instalaciones podrían mejorar."
-                        }
-                    ]
-    },
-    {
-        "id":  28,
-        "name":  "Universidad Santo Tomás",
-        "type":  "Privada",
-        "city":  "Bogotá",
-        "barrio":  "",
-        "address":  "",
-        "phone":  "+57 1 5878797",
-        "email":  "info@usta.edu.co",
-        "website":  "https://www.usta.edu.co",
-        "tuition":  "",
-        "careers":  [
-                        {
-                            "name":  "Derecho",
-                            "price":  "$9.500.000 COP"
-                        },
-                        {
-                            "name":  "Ingeniería de Sistemas",
-                            "price":  "$8.500.000 COP"
-                        },
-                        {
-                            "name":  "Administración de Empresas",
-                            "price":  "$8.000.000 COP"
-                        },
-                        {
-                            "name":  "Arquitectura",
-                            "price":  "$9.000.000 COP"
-                        },
-                        {
-                            "name":  "Psicología",
-                            "price":  "$8.500.000 COP"
-                        }
-                    ],
-        "reviews":  [
-                        {
-                            "author":  "Alejandro Moreno",
-                            "role":  "Estudiante de Derecho",
-                            "rating":  5,
-                            "text":  "Una universidad con gran tradición académica."
-                        },
-                        {
-                            "author":  "Carolina Rojas",
-                            "role":  "Egresada de Contaduría",
-                            "rating":  4,
-                            "text":  "Tiene buenos profesores y programas académicos."
-                        },
-                        {
-                            "author":  "Miguel Castro",
-                            "role":  "Estudiante",
-                            "rating":  3,
-                            "text":  "La formación es buena, aunque algunos procesos administrativos son lentos."
-                        }
-                    ]
-    },
-    {
-        "id":  29,
-        "name":  "Universidad La Salle",
-        "type":  "Privada",
-        "city":  "Bogotá",
-        "barrio":  "",
-        "address":  "",
-        "phone":  "+57 1 3488000",
-        "email":  "info@lasalle.edu.co",
-        "website":  "https://www.lasalle.edu.co",
-        "tuition":  "",
-        "careers":  [
-                        {
-                            "name":  "Ingeniería de Sistemas",
-                            "price":  "$8.500.000 COP"
-                        },
-                        {
-                            "name":  "Administración de Empresas",
-                            "price":  "$8.000.000 COP"
-                        },
-                        {
-                            "name":  "Medicina Veterinaria",
-                            "price":  "$9.500.000 COP"
-                        },
-                        {
-                            "name":  "Arquitectura",
-                            "price":  "$9.000.000 COP"
-                        },
-                        {
-                            "name":  "Economía",
-                            "price":  "$8.000.000 COP"
-                        }
-                    ],
-        "reviews":  [
-                        {
-                            "author":  "Juan Camilo Rodríguez",
-                            "role":  "Estudiante de Ingeniería",
-                            "rating":  5,
-                            "text":  "La universidad tiene buenos programas académicos."
-                        },
-                        {
-                            "author":  "Ana María López",
-                            "role":  "Egresada de Administración",
-                            "rating":  4,
-                            "text":  "Buen ambiente universitario y profesores preparados."
-                        },
-                        {
-                            "author":  "Pedro García",
-                            "role":  "Estudiante",
-                            "rating":  3,
-                            "text":  "La educación es buena, aunque el campus podría modernizarse más."
-                        }
-                    ]
-    },
-    {
-        "id":  30,
-        "name":  "Universidad Militar Nueva Granada",
-        "type":  "Publica",
-        "city":  "Bogotá",
-        "barrio":  "",
-        "address":  "",
-        "phone":  "+57 1 6500000",
-        "email":  "informacion@unimilitar.edu.co",
-        "website":  "https://www.unimilitar.edu.co",
-        "tuition":  "",
-        "careers":  [
-                        {
-                            "name":  "Medicina",
-                            "price": "$8.000.000 – $12.000.000 COP"
-                        },
-                        {
-                            "name":  "Ingeniería de Sistemas",
-                            "price":  "$6.000.000 COP"
-                        },
-                        {
-                            "name":  "Derecho",
-                            "price":  "$6.500.000 COP"
-                        },
-                        {
-                            "name":  "Administración de Empresas",
-                            "price":  "$6.000.000 COP"
-                        },
-                        {
-                            "name":  "Relaciones Internacionales",
-                            "price":  "$6.500.000 COP"
-                        }
-                    ],
-        "reviews":  [
-                        {
-                            "author":  "Andrés Gómez",
-                            "role":  "Estudiante de Ingeniería",
-                            "rating":  5,
-                            "text":  "Tiene buenos laboratorios y profesores con experiencia."
-                        },
-                        {
-                            "author":  "Natalia Pérez",
-                            "role":  "Egresada de Medicina",
-                            "rating":  4,
-                            "text":  "La formación es exigente y prepara bien para el campo laboral."
-                        },
-                        {
-                            "author":  "Luis Rodríguez",
-                            "role":  "Estudiante",
-                            "rating":  3,
-                            "text":  "La universidad es buena, aunque la carga académica puede ser fuerte."
-                        }
-                    ]
-    }
+[
+  {
+    "id": 1,
+    "name": "Universidad Nacional de Colombia",
+    "type": "Publica",
+    "city": "Bogotá",
+    "barrio": "",
+    "address": "",
+    "phone": "+57 1 3165000",
+    "email": "admisiones_bog@unal.edu.co",
+    "website": "https://unal.edu.co",
+    "tuition": "",
+    "careers": [
+      {
+        "name": "Medicina",
+        "price": "$0 – $8.800.000 COP"
+      },
+      {
+        "name": "Ingeniería de Sistemas",
+        "price": "$0 – $6.400.000 COP"
+      },
+      {
+        "name": "Derecho",
+        "price": "$0 – $5.040.000 COP"
+      },
+      {
+        "name": "Administración de Empresas",
+        "price": "$0 – $5.000.000 COP"
+      },
+      {
+        "name": "Economía",
+        "price": "$0 – $4.680.000 COP"
+      },
+      {
+        "name": "Psicología",
+        "price": "$0 – $4.140.000 COP"
+      },
+      {
+        "name": "Arquitectura",
+        "price": "$0 – $6.820.000 COP"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Estudiante de Sociología",
+        "author_email": "s1@unal.edu.co",
+        "role": "Estudiante",
+        "rating": 5,
+        "text": "La mejor universidad del país, con una educación tan crítica como para autocuestionarse desde sus bases. Forma con alta exigencia académica. Totalmente recomendada."
+      },
+      {
+        "author": "Camilo Andres L.",
+        "author_email": "s2@unal.edu.co",
+        "role": "Estudiante de Mecatrónica",
+        "rating": 4,
+        "text": "Muy buena en general. Pública con costos accesibles. Hay muchos paros y algo de politización de las aulas, pero académicamente es sólida. Aprovecha los semilleros de investigación."
+      },
+      {
+        "author": "Manuel Mora",
+        "author_email": "s3@unal.edu.co",
+        "role": "Estudiante de Economía",
+        "rating": 5,
+        "text": "Si no fuera por los tropeles y la mala gestión de cupos sería perfecta. El campus es el más grande de Colombia, ambiente diverso y acogedor."
+      },
+      {
+        "author": "Sebastian Botero",
+        "author_email": "s4@unal.edu.co",
+        "role": "Estudiante de Arquitectura",
+        "rating": 5,
+        "text": "Increíble. Se siente el ambiente de estar en la mejor universidad de Colombia. Estudiantes sumamente preparados. 100/100."
+      },
+      {
+        "author": "Estudiante de Ing. Agronómica",
+        "author_email": "s5@unal.edu.co",
+        "role": "Estudiante",
+        "rating": 5,
+        "text": "Excelente nivel de exigencia, muchos grupos y semilleros de investigación, salidas de campo. Mi facultad es la mejor del país en ese campo. Sin duda 20/10."
+      }
+    ],
+    "rating": 4.65
+  },
+  {
+    "id": 2,
+    "name": "Universidad de los Andes",
+    "type": "Privada",
+    "city": "Bogotá",
+    "barrio": "",
+    "address": "",
+    "phone": "+57 1 3394949",
+    "email": "info@uniandes.edu.co",
+    "website": "https://uniandes.edu.co",
+    "tuition": "",
+    "careers": [
+      {
+        "name": "Medicina",
+        "price": "$36.230.000 COP"
+      },
+      {
+        "name": "Ingeniería de Sistemas",
+        "price": "$25.460.000 COP"
+      },
+      {
+        "name": "Administración de Empresas",
+        "price": "$24.000.000 COP"
+      },
+      {
+        "name": "Economía",
+        "price": "$24.000.000 COP"
+      },
+      {
+        "name": "Derecho",
+        "price": "$22.000.000 COP"
+      },
+      {
+        "name": "Arquitectura",
+        "price": "$20.000.000 COP"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Simón Caicedo",
+        "author_email": "s1@uniandes.edu.co",
+        "role": "Estudiante",
+        "rating": 5,
+        "text": "La calidad académica es altísima: los profesores tienen gran formación y están comprometidos con el aprendizaje. Infraestructura moderna, oportunidades de investigación y emprendimiento sobresalientes."
+      },
+      {
+        "author": "David Espinosa",
+        "author_email": "s2@uniandes.edu.co",
+        "role": "Egresado",
+        "rating": 4,
+        "text": "Puede ser cara, pero por sus instalaciones, seguridad, recursos, oportunidades laborales y reconocimiento nacional e internacional vale la pena. Los Andes abre puertas como ninguna otra."
+      },
+      {
+        "author": "Estudiante anónimo",
+        "author_email": "s3@uniandes.edu.co",
+        "role": "Estudiante",
+        "rating": 4,
+        "text": "Excelente universidad. Campus de primera calidad, profesores buenos y estudiantes en su mayoría amigables. El único contra es el costo semestral, que es elevado."
+      },
+      {
+        "author": "Becaria Uniandes",
+        "author_email": "s4@uniandes.edu.co",
+        "role": "Estudiante",
+        "rating": 5,
+        "text": "Tuve la oportunidad de estudiar gracias a una beca y la recomiendo totalmente. Excelentes instalaciones y cultura organizacional orientada a la excelencia y la disciplina."
+      }
+    ],
+    "rating": 4.2
+  },
+  {
+    "id": 3,
+    "name": "Pontificia Universidad Javeriana",
+    "type": "Privada",
+    "city": "Bogotá",
+    "barrio": "",
+    "address": "",
+    "phone": "+57 1 3208320",
+    "email": "info@javeriana.edu.co",
+    "website": "https://www.javeriana.edu.co",
+    "tuition": "",
+    "careers": [
+      {
+        "name": "Medicina",
+        "price": "$35.041.000 COP"
+      },
+      {
+        "name": "Ingeniería de Sistemas",
+        "price": "$16.971.000 COP"
+      },
+      {
+        "name": "Derecho",
+        "price": "$17.000.000 COP"
+      },
+      {
+        "name": "Psicología",
+        "price": "$14.000.000 COP"
+      },
+      {
+        "name": "Comunicación Social",
+        "price": "$13.000.000 COP"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Egresado de Derecho",
+        "author_email": "s1@javeriana.edu.co",
+        "role": "Egresado",
+        "rating": 5,
+        "text": "Formación humanista integral que te distingue en el mercado laboral. Los profesores mezclan excelencia académica con valores. Una de las mejores en Colombia sin duda."
+      },
+      {
+        "author": "Estudiante de Comunicación",
+        "author_email": "s2@javeriana.edu.co",
+        "role": "Estudiante",
+        "rating": 4,
+        "text": "Muy buena universidad, ambiente agradable y campus hermoso en Bogotá. El costo es alto pero se justifica con la calidad de los docentes y los recursos disponibles."
+      },
+      {
+        "author": "Estudiante de Medicina",
+        "author_email": "s3@javeriana.edu.co",
+        "role": "Estudiante",
+        "rating": 4,
+        "text": "Programa de medicina muy sólido con hospital universitario propio. La exigencia es alta y los profesores son especialistas reconocidos. Recomendada para ciencias de la salud."
+      }
+    ],
+    "rating": 4.3
+  },
+  {
+    "id": 4,
+    "name": "Universidad Distrital Francisco José de Caldas",
+    "type": "Publica",
+    "city": "Bogotá",
+    "barrio": "",
+    "address": "",
+    "phone": "+57 1 3239300",
+    "email": "atencionalciudadano@udistrital.edu.co",
+    "website": "https://www.udistrital.edu.co",
+    "tuition": "",
+    "careers": [
+      {
+        "name": "Ingeniería de Sistemas",
+        "price": "$0 – $1.500.000 COP"
+      },
+      {
+        "name": "Ingeniería Electrónica",
+        "price": "$0 – $1.500.000 COP"
+      },
+      {
+        "name": "Ingeniería Industrial",
+        "price": "$0 – $1.500.000 COP"
+      },
+      {
+        "name": "Ingeniería Catastral",
+        "price": "$0 – $1.500.000 COP"
+      },
+      {
+        "name": "Licenciatura en Matemáticas",
+        "price": "$0 – $800.000 COP"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Estudiante de Ingeniería",
+        "author_email": "s1@udistrital.edu.co",
+        "role": "Estudiante",
+        "rating": 4,
+        "text": "La opción pública más accesible de Bogotá. Buen nivel en ingeniería, aunque la infraestructura es limitada comparada con otras universidades. El ambiente es muy diverso y auténtico."
+      },
+      {
+        "author": "Egresado de Sistemas",
+        "author_email": "s2@udistrital.edu.co",
+        "role": "Egresado",
+        "rating": 3,
+        "text": "Excelentes profesores en algunas áreas, pero los trámites administrativos son lentos y la planta física necesita mejoras urgentes. El título tiene buen reconocimiento en el sector público."
+      },
+      {
+        "author": "Estudiante de Electrónica",
+        "author_email": "s3@udistrital.edu.co",
+        "role": "Estudiante",
+        "rating": 4,
+        "text": "Muy buena para ingeniería electrónica. Hay profesores con doctorado en el exterior que enseñan con criterio. Sí hay paros seguidos pero la formación técnica es sólida."
+      }
+    ],
+    "rating": 3.6
+  },
+  {
+    "id": 5,
+    "name": "Universidad Externado de Colombia",
+    "type": "Privada",
+    "city": "Bogotá",
+    "barrio": "",
+    "address": "",
+    "phone": "+57 1 3537000",
+    "email": "informes@uexternado.edu.co",
+    "website": "https://www.uexternado.edu.co",
+    "tuition": "",
+    "careers": [
+      {
+        "name": "Derecho",
+        "price": "$18.000.000 COP"
+      },
+      {
+        "name": "Administración de Empresas",
+        "price": "$16.000.000 COP"
+      },
+      {
+        "name": "Economía",
+        "price": "$16.000.000 COP"
+      },
+      {
+        "name": "Finanzas y Relaciones Internacionales",
+        "price": "$17.000.000 COP"
+      },
+      {
+        "name": "Comunicación Social",
+        "price": "$14.000.000 COP"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Estudiante de Derecho",
+        "author_email": "s1@uexternado.edu.co",
+        "role": "Estudiante",
+        "rating": 5,
+        "text": "La mejor facultad de Derecho de Colombia en mi opinión. Profesores que son referentes nacionales en sus áreas, biblioteca jurídica excepcional y un ambiente muy académico."
+      },
+      {
+        "author": "Estudiante de Economía",
+        "author_email": "s2@uexternado.edu.co",
+        "role": "Estudiante",
+        "rating": 4,
+        "text": "Muy buena en ciencias jurídicas y sociales. El campus en el centro de Bogotá es bonito y la biblioteca es de las mejores. Algo costosa pero el nivel académico lo justifica."
+      },
+      {
+        "author": "Egresado de Administración",
+        "author_email": "s3@uexternado.edu.co",
+        "role": "Egresado",
+        "rating": 4,
+        "text": "Formación sólida y reconocida. El networking entre egresados es muy valioso. Los profesores mezclan práctica profesional con teoría de manera equilibrada."
+      }
+    ],
+    "rating": 4.1
+  },
+  {
+    "id": 6,
+    "name": "Universidad de Antioquia",
+    "type": "Publica",
+    "city": "Medellín",
+    "barrio": "",
+    "address": "",
+    "phone": "+57 4 2198332",
+    "email": "atencionalciudadano@udea.edu.co",
+    "website": "https://www.udea.edu.co",
+    "tuition": "",
+    "careers": [
+      {
+        "name": "Medicina",
+        "price": "$0 – $6.000.000 COP"
+      },
+      {
+        "name": "Ingeniería de Sistemas",
+        "price": "$0 – $4.000.000 COP"
+      },
+      {
+        "name": "Derecho",
+        "price": "$0 – $3.500.000 COP"
+      },
+      {
+        "name": "Psicología",
+        "price": "$0 – $3.000.000 COP"
+      },
+      {
+        "name": "Odontología",
+        "price": "$0 – $5.000.000 COP"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Estudiante de Medicina",
+        "author_email": "s1@udea.edu.co",
+        "role": "Estudiante",
+        "rating": 5,
+        "text": "La mejor universidad pública de Antioquia y de las más reconocidas del país. Medicina, derecho e ingeniería tienen un nivel muy alto. El campus es hermoso y la diversidad estudiantil es enorme."
+      },
+      {
+        "author": "Egresado de Ingeniería",
+        "author_email": "s2@udea.edu.co",
+        "role": "Egresado",
+        "rating": 5,
+        "text": "Formación de primer nivel a un costo accesible. Los profesores son doctores comprometidos con la investigación. Un título de la UdeA te abre puertas en todo el país."
+      },
+      {
+        "author": "Estudiante de Derecho",
+        "author_email": "s3@udea.edu.co",
+        "role": "Estudiante",
+        "rating": 4,
+        "text": "Excelente calidad académica aunque con los problemas típicos de la universidad pública: paros, infraestructura limitada en algunas sedes. Pero la formación vale muchísimo."
+      }
+    ],
+    "rating": 4.5
+  },
+  {
+    "id": 7,
+    "name": "Universidad EAFIT",
+    "type": "Privada",
+    "city": "Medellín",
+    "barrio": "",
+    "address": "",
+    "phone": "+57 4 2619500",
+    "email": "admisiones@eafit.edu.co",
+    "website": "https://www.eafit.edu.co",
+    "tuition": "",
+    "careers": [
+      {
+        "name": "Ingeniería de Sistemas",
+        "price": "$13.000.000 COP"
+      },
+      {
+        "name": "Ingeniería Mecánica",
+        "price": "$13.000.000 COP"
+      },
+      {
+        "name": "Administración de Empresas",
+        "price": "$12.000.000 COP"
+      },
+      {
+        "name": "Economía",
+        "price": "$11.500.000 COP"
+      },
+      {
+        "name": "Negocios Internacionales",
+        "price": "$12.000.000 COP"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Estudiante de Ingeniería",
+        "author_email": "s1@eafit.edu.co",
+        "role": "Estudiante",
+        "rating": 5,
+        "text": "EAFIT es una universidad con un nivel académico impresionante. Los profesores son altamente calificados y el enfoque práctico es perfecto para el mundo empresarial de Medellín."
+      },
+      {
+        "author": "Egresado de Administración",
+        "author_email": "s2@eafit.edu.co",
+        "role": "Egresado",
+        "rating": 5,
+        "text": "La mejor universidad privada de Antioquia. El campus es moderno, los recursos son excelentes y los egresados tienen muy buena reputación entre empleadores. Totalmente recomendada."
+      },
+      {
+        "author": "Estudiante de Derecho",
+        "author_email": "s3@eafit.edu.co",
+        "role": "Estudiante",
+        "rating": 4,
+        "text": "Muy buena formación, especialmente en negocios e ingeniería. El costo es elevado pero los recursos, la internacionalización y la empleabilidad lo justifican ampliamente."
+      }
+    ],
+    "rating": 4.5
+  },
+  {
+    "id": 8,
+    "name": "Universidad Pontificia Bolivariana",
+    "type": "Privada",
+    "city": "Medellín",
+    "barrio": "",
+    "address": "",
+    "phone": "+57 4 4488388",
+    "email": "info@upb.edu.co",
+    "website": "https://www.upb.edu.co",
+    "tuition": "",
+    "careers": [
+      {
+        "name": "Medicina",
+        "price": "$28.000.000 COP"
+      },
+      {
+        "name": "Ingeniería de Sistemas",
+        "price": "$11.000.000 COP"
+      },
+      {
+        "name": "Derecho",
+        "price": "$10.000.000 COP"
+      },
+      {
+        "name": "Arquitectura",
+        "price": "$12.000.000 COP"
+      },
+      {
+        "name": "Administración de Empresas",
+        "price": "$10.500.000 COP"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Estudiante de Ingeniería Civil",
+        "author_email": "s1@upb.edu.co",
+        "role": "Estudiante",
+        "rating": 4,
+        "text": "Universidad con valores sólidos y buena formación técnica. El ambiente es tranquilo y los profesores son comprometidos. La sede de Medellín tiene muy buenas instalaciones."
+      },
+      {
+        "author": "Egresado de Arquitectura",
+        "author_email": "s2@upb.edu.co",
+        "role": "Egresado",
+        "rating": 5,
+        "text": "Excelente programa de arquitectura con enfoque humano y técnico. Los proyectos de práctica con la comunidad son una experiencia formativa invaluable."
+      },
+      {
+        "author": "Estudiante de Medicina",
+        "author_email": "s3@upb.edu.co",
+        "role": "Estudiante",
+        "rating": 4,
+        "text": "Buena universidad con fuerte énfasis en valores y responsabilidad social. El cuerpo docente de medicina es competente y hay convenios hospitalarios importantes."
+      }
+    ],
+    "rating": 4.2
+  },
+  {
+    "id": 9,
+    "name": "Universidad de Medellín",
+    "type": "Privada",
+    "city": "Medellín",
+    "barrio": "",
+    "address": "",
+    "phone": "+57 4 3405555",
+    "email": "info@udem.edu.co",
+    "website": "https://www.udem.edu.co",
+    "tuition": "",
+    "careers": [
+      {
+        "name": "Derecho",
+        "price": "$9.500.000 COP"
+      },
+      {
+        "name": "Ingeniería de Sistemas",
+        "price": "$9.000.000 COP"
+      },
+      {
+        "name": "Ingeniería Civil",
+        "price": "$9.500.000 COP"
+      },
+      {
+        "name": "Administración de Empresas",
+        "price": "$8.500.000 COP"
+      },
+      {
+        "name": "Comunicación Social",
+        "price": "$8.000.000 COP"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Estudiante de Derecho",
+        "author_email": "s1@udem.edu.co",
+        "role": "Estudiante",
+        "rating": 4,
+        "text": "Buena opción en Medellín con costos más accesibles que EAFIT o la UPB. El programa de derecho tiene profesores con amplia experiencia práctica en el sector judicial."
+      },
+      {
+        "author": "Egresado de Ingeniería",
+        "author_email": "s2@udem.edu.co",
+        "role": "Egresado",
+        "rating": 4,
+        "text": "Universidad con buena reputación regional. Las instalaciones son modernas y el enfoque práctico de las carreras de ingeniería facilita la inserción laboral."
+      },
+      {
+        "author": "Estudiante de Comunicación",
+        "author_email": "s3@udem.edu.co",
+        "role": "Estudiante",
+        "rating": 3,
+        "text": "Correcta en su nivel. Algunos programas son mejores que otros. Lo mejor es su precio y la cercanía con el sector empresarial de Medellín."
+      }
+    ],
+    "rating": 3.9
+  },
+  {
+    "id": 10,
+    "name": "Universidad CES",
+    "type": "Privada",
+    "city": "Medellín",
+    "barrio": "",
+    "address": "",
+    "phone": "+57 4 4440555",
+    "email": "info@ces.edu.co",
+    "website": "https://www.ces.edu.co",
+    "tuition": "",
+    "careers": [
+      {
+        "name": "Medicina",
+        "price": "$25.000.000 COP"
+      },
+      {
+        "name": "Odontología",
+        "price": "$19.000.000 COP"
+      },
+      {
+        "name": "Psicología",
+        "price": "$10.000.000 COP"
+      },
+      {
+        "name": "Fisioterapia",
+        "price": "$9.500.000 COP"
+      },
+      {
+        "name": "Enfermería",
+        "price": "$8.500.000 COP"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Estudiante de Medicina",
+        "author_email": "s1@ces.edu.co",
+        "role": "Estudiante",
+        "rating": 5,
+        "text": "La CES es referente en salud en Medellín. La clínica universitaria es excelente para las prácticas y los profesores son especialistas activos en sus campos."
+      },
+      {
+        "author": "Estudiante de Odontología",
+        "author_email": "s2@ces.edu.co",
+        "role": "Estudiante",
+        "rating": 4,
+        "text": "Muy buena universidad en ciencias de la salud. Las instalaciones son modernas y hay mucha inversión en tecnología clínica. Recomendada para carreras del área médica."
+      },
+      {
+        "author": "Egresado de Psicología",
+        "author_email": "s3@ces.edu.co",
+        "role": "Egresado",
+        "rating": 4,
+        "text": "Formación integral con énfasis en investigación. El ambiente estudiantil es colaborativo y los docentes están bien actualizados en las tendencias de la psicología clínica."
+      }
+    ],
+    "rating": 4.3
+  },
+  {
+    "id": 11,
+    "name": "Universidad del Valle",
+    "type": "Publica",
+    "city": "Cali",
+    "barrio": "",
+    "address": "",
+    "phone": "+57 2 3212100",
+    "email": "rectoria@univalle.edu.co",
+    "website": "https://www.univalle.edu.co",
+    "tuition": "",
+    "careers": [
+      {
+        "name": "Medicina",
+        "price": "$0 – $5.500.000 COP"
+      },
+      {
+        "name": "Ingeniería de Sistemas",
+        "price": "$0 – $4.000.000 COP"
+      },
+      {
+        "name": "Administración de Empresas",
+        "price": "$0 – $3.500.000 COP"
+      },
+      {
+        "name": "Arquitectura",
+        "price": "$0 – $4.500.000 COP"
+      },
+      {
+        "name": "Psicología",
+        "price": "$0 – $3.500.000 COP"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Estudiante de Ingeniería",
+        "author_email": "s1@univalle.edu.co",
+        "role": "Estudiante",
+        "rating": 5,
+        "text": "La mejor universidad pública del suroccidente colombiano. Reconocida internacionalmente por investigación. El nivel de ingeniería y ciencias es comparable con la Nacional."
+      },
+      {
+        "author": "Egresado de Química",
+        "author_email": "s2@univalle.edu.co",
+        "role": "Egresado",
+        "rating": 4,
+        "text": "Excelentes laboratorios y docentes investigadores. Los grupos de investigación en ciencias básicas son de primer nivel. La formación es rigurosa y reconocida en el exterior."
+      },
+      {
+        "author": "Estudiante de Administración",
+        "author_email": "s3@univalle.edu.co",
+        "role": "Estudiante",
+        "rating": 4,
+        "text": "Campus grande y con mucha vida estudiantil. Los paros son el mayor problema, pero la calidad académica es muy alta para ser una universidad pública. Vale la pena."
+      }
+    ],
+    "rating": 4.4
+  },
+  {
+    "id": 12,
+    "name": "Pontificia Universidad Javeriana Cali",
+    "type": "Privada",
+    "city": "Cali",
+    "barrio": "",
+    "address": "",
+    "phone": "+57 2 3218200",
+    "email": "info@javerianacali.edu.co",
+    "website": "https://www.javerianacali.edu.co",
+    "tuition": "",
+    "careers": [
+      {
+        "name": "Medicina",
+        "price": "$28.000.000 COP"
+      },
+      {
+        "name": "Ingeniería de Sistemas",
+        "price": "$14.000.000 COP"
+      },
+      {
+        "name": "Derecho",
+        "price": "$13.500.000 COP"
+      },
+      {
+        "name": "Psicología",
+        "price": "$12.000.000 COP"
+      },
+      {
+        "name": "Administración de Empresas",
+        "price": "$13.000.000 COP"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Estudiante de Derecho",
+        "author_email": "s1@javerianacali.edu.co",
+        "role": "Estudiante",
+        "rating": 4,
+        "text": "Excelente ambiente universitario en Cali. Los profesores son comprometidos y el campus es seguro y bien dotado. Una de las mejores opciones privadas en la región."
+      },
+      {
+        "author": "Egresado de Ingeniería",
+        "author_email": "s2@javerianacali.edu.co",
+        "role": "Egresado",
+        "rating": 4,
+        "text": "Buena formación con el sello jesuita de responsabilidad social. Las oportunidades de práctica empresarial con empresas del Valle del Cauca son muy valoradas."
+      },
+      {
+        "author": "Estudiante de Psicología",
+        "author_email": "s3@javerianacali.edu.co",
+        "role": "Estudiante",
+        "rating": 5,
+        "text": "Muy contenta con el programa. Profesores con doctorado, enfoque investigativo sólido y un ambiente estudiantil muy positivo. El campus en Cali es hermoso."
+      }
+    ],
+    "rating": 4.2
+  },
+  {
+    "id": 13,
+    "name": "Universidad ICESI",
+    "type": "Privada",
+    "city": "Cali",
+    "barrio": "",
+    "address": "",
+    "phone": "+57 2 5552334",
+    "email": "info@icesi.edu.co",
+    "website": "https://www.icesi.edu.co",
+    "tuition": "",
+    "careers": [
+      {
+        "name": "Ingeniería de Sistemas",
+        "price": "$14.000.000 COP"
+      },
+      {
+        "name": "Administración de Empresas",
+        "price": "$13.000.000 COP"
+      },
+      {
+        "name": "Economía",
+        "price": "$12.500.000 COP"
+      },
+      {
+        "name": "Derecho",
+        "price": "$13.500.000 COP"
+      },
+      {
+        "name": "Diseño de Medios Interactivos",
+        "price": "$12.000.000 COP"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Estudiante de Administración",
+        "author_email": "s1@icesi.edu.co",
+        "role": "Estudiante",
+        "rating": 5,
+        "text": "ICESI tiene un modelo pedagógico diferenciador con aprendizaje activo y trabajo por proyectos. Los profesores son excelentes y el campus en Cali es de primer nivel."
+      },
+      {
+        "author": "Egresado de Derecho",
+        "author_email": "s2@icesi.edu.co",
+        "role": "Egresado",
+        "rating": 4,
+        "text": "Universidad con muy buena reputación entre empleadores. El enfoque en innovación y emprendimiento es notable. Recomendada especialmente para negocios y tecnología."
+      },
+      {
+        "author": "Estudiante de Ingeniería",
+        "author_email": "s3@icesi.edu.co",
+        "role": "Estudiante",
+        "rating": 4,
+        "text": "Excelente relación calidad-precio para el sector privado en Cali. Los laboratorios son modernos y hay muchas oportunidades de intercambio internacional."
+      }
+    ],
+    "rating": 4.4
+  },
+  {
+    "id": 14,
+    "name": "Universidad Autónoma de Occidente",
+    "type": "Privada",
+    "city": "Cali",
+    "barrio": "",
+    "address": "",
+    "phone": "+57 2 3188000",
+    "email": "info@uao.edu.co",
+    "website": "https://www.uao.edu.co",
+    "tuition": "",
+    "careers": [
+      {
+        "name": "Ingeniería de Sistemas",
+        "price": "$9.500.000 COP"
+      },
+      {
+        "name": "Ingeniería Industrial",
+        "price": "$9.000.000 COP"
+      },
+      {
+        "name": "Comunicación Social",
+        "price": "$8.500.000 COP"
+      },
+      {
+        "name": "Administración de Empresas",
+        "price": "$8.500.000 COP"
+      },
+      {
+        "name": "Diseño Gráfico",
+        "price": "$8.000.000 COP"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Estudiante de Comunicación",
+        "author_email": "s1@uao.edu.co",
+        "role": "Estudiante",
+        "rating": 4,
+        "text": "Buena universidad en Cali con programas sólidos en comunicación y diseño. Las instalaciones son modernas y los profesores tienen experiencia profesional real."
+      },
+      {
+        "author": "Egresado de Ingeniería",
+        "author_email": "s2@uao.edu.co",
+        "role": "Egresado",
+        "rating": 4,
+        "text": "Universidad reconocida en el suroccidente colombiano. La UAO tiene convenios importantes con empresas de la región que facilitan las prácticas y el empleo."
+      },
+      {
+        "author": "Estudiante de Diseño",
+        "author_email": "s3@uao.edu.co",
+        "role": "Estudiante",
+        "rating": 3,
+        "text": "Correcta en su nivel. El programa de diseño tiene buenos recursos técnicos. La vida universitaria es activa aunque el reconocimiento nacional podría ser mayor."
+      }
+    ],
+    "rating": 3.8
+  },
+  {
+    "id": 15,
+    "name": "Universidad Santiago de Cali",
+    "type": "Privada",
+    "city": "Cali",
+    "barrio": "",
+    "address": "",
+    "phone": "+57 2 5183000",
+    "email": "info@usc.edu.co",
+    "website": "https://www.usc.edu.co",
+    "tuition": "",
+    "careers": [
+      {
+        "name": "Medicina",
+        "price": "$17.000.000 COP"
+      },
+      {
+        "name": "Derecho",
+        "price": "$8.000.000 COP"
+      },
+      {
+        "name": "Administración de Empresas",
+        "price": "$7.500.000 COP"
+      },
+      {
+        "name": "Ingeniería de Sistemas",
+        "price": "$7.500.000 COP"
+      },
+      {
+        "name": "Psicología",
+        "price": "$7.000.000 COP"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Estudiante de Derecho",
+        "author_email": "s1@usc.edu.co",
+        "role": "Estudiante",
+        "rating": 3,
+        "text": "Opción accesible en Cali. El precio es competitivo y hay facilidades de pago. La calidad varía mucho según el programa; derecho tiene buena reputación local."
+      },
+      {
+        "author": "Egresado de Administración",
+        "author_email": "s2@usc.edu.co",
+        "role": "Egresado",
+        "rating": 4,
+        "text": "Me formé aquí y conseguí empleo sin problemas en el Valle. Los profesores de administración son profesionales activos con mucha experiencia empresarial."
+      },
+      {
+        "author": "Estudiante de Psicología",
+        "author_email": "s3@usc.edu.co",
+        "role": "Estudiante",
+        "rating": 3,
+        "text": "Universidad con largo trayecto en Cali. Hay programas buenos y algunos que deben mejorar. El campus en el sur es cómodo y bien ubicado."
+      }
+    ],
+    "rating": 3.4
+  },
+  {
+    "id": 16,
+    "name": "Universidad del Norte",
+    "type": "Privada",
+    "city": "Barranquilla",
+    "barrio": "",
+    "address": "",
+    "phone": "+57 5 3509509",
+    "email": "info@uninorte.edu.co",
+    "website": "https://www.uninorte.edu.co",
+    "tuition": "",
+    "careers": [
+      {
+        "name": "Medicina",
+        "price": "$27.000.000 COP"
+      },
+      {
+        "name": "Ingeniería de Sistemas",
+        "price": "$13.500.000 COP"
+      },
+      {
+        "name": "Administración de Empresas",
+        "price": "$12.500.000 COP"
+      },
+      {
+        "name": "Derecho",
+        "price": "$13.000.000 COP"
+      },
+      {
+        "name": "Psicología",
+        "price": "$11.500.000 COP"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Estudiante de Ingeniería",
+        "author_email": "s1@uninorte.edu.co",
+        "role": "Estudiante",
+        "rating": 5,
+        "text": "La mejor universidad de la Costa Caribe sin discusión. El campus es impresionante, los profesores tienen formación internacional y hay muchas oportunidades de investigación."
+      },
+      {
+        "author": "Egresado de Medicina",
+        "author_email": "s2@uninorte.edu.co",
+        "role": "Egresado",
+        "rating": 5,
+        "text": "Programa de medicina de altísimo nivel con el hospital Universitario como escenario de práctica. Los egresados somos muy bien recibidos en especializaciones y empleos."
+      },
+      {
+        "author": "Estudiante de Derecho",
+        "author_email": "s3@uninorte.edu.co",
+        "role": "Estudiante",
+        "rating": 4,
+        "text": "Universidad que combina calidad académica con una vida universitaria muy activa. El bilingüismo es un diferencial real. El único contra es el costo semestral elevado."
+      }
+    ],
+    "rating": 4.4
+  },
+  {
+    "id": 17,
+    "name": "Universidad Simón Bolívar",
+    "type": "Privada",
+    "city": "Barranquilla",
+    "barrio": "",
+    "address": "",
+    "phone": "+57 5 3444333",
+    "email": "info@unisimon.edu.co",
+    "website": "https://www.unisimon.edu.co",
+    "tuition": "",
+    "careers": [
+      {
+        "name": "Medicina",
+        "price": "$16.000.000 COP"
+      },
+      {
+        "name": "Derecho",
+        "price": "$7.500.000 COP"
+      },
+      {
+        "name": "Ingeniería de Sistemas",
+        "price": "$7.000.000 COP"
+      },
+      {
+        "name": "Psicología",
+        "price": "$7.000.000 COP"
+      },
+      {
+        "name": "Administración de Empresas",
+        "price": "$7.500.000 COP"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Estudiante de Derecho",
+        "author_email": "s1@unisimonbolivar.edu.co",
+        "role": "Estudiante",
+        "rating": 3,
+        "text": "Opción accesible en Barranquilla. La facultad de derecho tiene profesores con experiencia en el litigio local. La infraestructura ha mejorado en los últimos años."
+      },
+      {
+        "author": "Egresado de Ingeniería",
+        "author_email": "s2@unisimonbolivar.edu.co",
+        "role": "Egresado",
+        "rating": 4,
+        "text": "Me gradué aquí y trabajo en una empresa grande del sector. La formación práctica en ingeniería es lo mejor que tiene la universidad."
+      },
+      {
+        "author": "Estudiante de Medicina",
+        "author_email": "s3@unisimonbolivar.edu.co",
+        "role": "Estudiante",
+        "rating": 3,
+        "text": "Universidad con varios programas de salud. Las prácticas clínicas son en centros reconocidos de Barranquilla. Hay áreas de mejora en recursos bibliográficos."
+      }
+    ],
+    "rating": 3.5
+  },
+  {
+    "id": 18,
+    "name": "Universidad del Atlántico",
+    "type": "Publica",
+    "city": "Barranquilla",
+    "barrio": "",
+    "address": "",
+    "phone": "+57 5 3852266",
+    "email": "atencionalciudadano@mail.uniatlantico.edu.co",
+    "website": "https://www.uniatlantico.edu.co",
+    "tuition": "",
+    "careers": [
+      {
+        "name": "Medicina",
+        "price": "$0 – $5.000.000 COP"
+      },
+      {
+        "name": "Ingeniería de Sistemas",
+        "price": "$0 – $3.500.000 COP"
+      },
+      {
+        "name": "Derecho",
+        "price": "$0 – $3.000.000 COP"
+      },
+      {
+        "name": "Administración de Empresas",
+        "price": "$0 – $3.000.000 COP"
+      },
+      {
+        "name": "Psicología",
+        "price": "$0 – $2.800.000 COP"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Estudiante de Ingeniería Química",
+        "author_email": "s1@uniatlantico.edu.co",
+        "role": "Estudiante",
+        "rating": 4,
+        "text": "La universidad pública de Barranquilla con mejor historial académico. Ingeniería química y química pura son muy reconocidas. El costo es mínimo y la calidad es buena."
+      },
+      {
+        "author": "Egresado de Bellas Artes",
+        "author_email": "s2@uniatlantico.edu.co",
+        "role": "Egresado",
+        "rating": 4,
+        "text": "Una de las pocas universidades con programa de bellas artes en la región. Formación con fuerte identidad cultural caribeña. Los profesores son artistas activos."
+      },
+      {
+        "author": "Estudiante de Derecho",
+        "author_email": "s3@uniatlantico.edu.co",
+        "role": "Estudiante",
+        "rating": 3,
+        "text": "Universidad pública con los retos típicos del sector: infraestructura limitada y paros ocasionales. Sin embargo la formación en derecho tiene buena reputación regional."
+      }
+    ],
+    "rating": 3.7
+  },
+  {
+    "id": 19,
+    "name": "Universidad Metropolitana",
+    "type": "Privada",
+    "city": "Barranquilla",
+    "barrio": "",
+    "address": "",
+    "phone": "+57 5 3851234",
+    "email": "info@unimetro.edu.co",
+    "website": "https://www.unimetro.edu.co",
+    "tuition": "",
+    "careers": [
+      {
+        "name": "Medicina",
+        "price": "$18.000.000 COP"
+      },
+      {
+        "name": "Odontología",
+        "price": "$12.000.000 COP"
+      },
+      {
+        "name": "Psicología",
+        "price": "$8.000.000 COP"
+      },
+      {
+        "name": "Fisioterapia",
+        "price": "$7.500.000 COP"
+      },
+      {
+        "name": "Enfermería",
+        "price": "$7.000.000 COP"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Estudiante de Medicina",
+        "author_email": "s1@unimetropolitana.edu.co",
+        "role": "Estudiante",
+        "rating": 4,
+        "text": "Buena opción para medicina en Barranquilla. Las prácticas en la clínica universitaria son de calidad y los docentes son especialistas clínicos en ejercicio."
+      },
+      {
+        "author": "Egresado de Odontología",
+        "author_email": "s2@unimetropolitana.edu.co",
+        "role": "Egresado",
+        "rating": 4,
+        "text": "Me gradué en odontología y la formación clínica fue muy completa. Los convenios con el hospital Universitario son un gran activo del programa."
+      },
+      {
+        "author": "Estudiante de Psicología",
+        "author_email": "s3@unimetropolitana.edu.co",
+        "role": "Estudiante",
+        "rating": 3,
+        "text": "Universidad con buena reputación en salud. El campus es pequeño pero bien dotado. La vida estudiantil es activa aunque el tamaño limita algunas actividades."
+      }
+    ],
+    "rating": 3.6
+  },
+  {
+    "id": 20,
+    "name": "Universidad Libre Seccional Barranquilla",
+    "type": "Privada",
+    "city": "Barranquilla",
+    "barrio": "",
+    "address": "",
+    "phone": "+57 5 3851057",
+    "email": "info@unilibre.edu.co",
+    "website": "https://www.unilibre.edu.co",
+    "tuition": "",
+    "careers": [
+      {
+        "name": "Derecho",
+        "price": "$8.500.000 COP"
+      },
+      {
+        "name": "Ingeniería de Sistemas",
+        "price": "$7.500.000 COP"
+      },
+      {
+        "name": "Administración de Empresas",
+        "price": "$7.000.000 COP"
+      },
+      {
+        "name": "Contaduría Pública",
+        "price": "$6.500.000 COP"
+      },
+      {
+        "name": "Psicología",
+        "price": "$7.000.000 COP"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Estudiante de Derecho",
+        "author_email": "s1@unilibrebaq.edu.co",
+        "role": "Estudiante",
+        "rating": 4,
+        "text": "La Libre tiene una larga tradición en derecho en Colombia. Los profesores son abogados activos con mucha experiencia en litigio y consultoría."
+      },
+      {
+        "author": "Egresado de Contaduría",
+        "author_email": "s2@unilibrebaq.edu.co",
+        "role": "Egresado",
+        "rating": 3,
+        "text": "Universidad con costos razonables y programas reconocidos en el Caribe. El nivel varía por programa pero la oferta es amplia y accesible para la región."
+      },
+      {
+        "author": "Estudiante de Ingeniería",
+        "author_email": "s3@unilibrebaq.edu.co",
+        "role": "Estudiante",
+        "rating": 3,
+        "text": "Correcta en su nivel. Hay programas con acreditación de alta calidad. La ubicación en Barranquilla facilita el acceso a prácticas en empresas de la región."
+      }
+    ],
+    "rating": 3.4
+  },
+  {
+    "id": 21,
+    "name": "Universidad Tecnológica de Bolívar",
+    "type": "Privada",
+    "city": "Cartagena",
+    "barrio": "",
+    "address": "",
+    "phone": "+57 5 6932121",
+    "email": "info@utb.edu.co",
+    "website": "https://www.utb.edu.co",
+    "tuition": "",
+    "careers": [
+      {
+        "name": "Ingeniería de Sistemas",
+        "price": "$10.000.000 COP"
+      },
+      {
+        "name": "Ingeniería Industrial",
+        "price": "$9.500.000 COP"
+      },
+      {
+        "name": "Administración de Empresas",
+        "price": "$9.000.000 COP"
+      },
+      {
+        "name": "Economía",
+        "price": "$9.000.000 COP"
+      },
+      {
+        "name": "Derecho",
+        "price": "$9.500.000 COP"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Estudiante de Ingeniería Industrial",
+        "author_email": "s1@utb.edu.co",
+        "role": "Estudiante",
+        "rating": 4,
+        "text": "UTB es la mejor universidad privada de Cartagena. El campus en el cabrero es moderno y los programas de ingeniería tienen muy buen nivel. Mucha conexión con el sector portuario."
+      },
+      {
+        "author": "Egresado de Administración",
+        "author_email": "s2@utb.edu.co",
+        "role": "Egresado",
+        "rating": 4,
+        "text": "Excelente formación empresarial con enfoque en el Caribe. Los convenios con empresas del Puerto de Cartagena y el turismo son un diferencial real para los egresados."
+      },
+      {
+        "author": "Estudiante de Finanzas",
+        "author_email": "s3@utb.edu.co",
+        "role": "Estudiante",
+        "rating": 4,
+        "text": "Universidad con muy buen ambiente. Los profesores son expertos en sus áreas y hay buenas oportunidades de intercambio internacional. Recomendada en la región Caribe."
+      }
+    ],
+    "rating": 4.0
+  },
+  {
+    "id": 22,
+    "name": "Universidad de Cartagena",
+    "type": "Publica",
+    "city": "Cartagena",
+    "barrio": "",
+    "address": "",
+    "phone": "+57 5 6641411",
+    "email": "atencionalciudadano@unicartagena.edu.co",
+    "website": "https://www.unicartagena.edu.co",
+    "tuition": "",
+    "careers": [
+      {
+        "name": "Medicina",
+        "price": "$0 – $5.500.000 COP"
+      },
+      {
+        "name": "Derecho",
+        "price": "$0 – $3.000.000 COP"
+      },
+      {
+        "name": "Ingeniería de Sistemas",
+        "price": "$0 – $3.500.000 COP"
+      },
+      {
+        "name": "Administración de Empresas",
+        "price": "$0 – $3.000.000 COP"
+      },
+      {
+        "name": "Odontología",
+        "price": "$0 – $4.500.000 COP"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Estudiante de Medicina",
+        "author_email": "s1@unicartagena.edu.co",
+        "role": "Estudiante",
+        "rating": 4,
+        "text": "La universidad pública más grande de Cartagena con una larga historia. Medicina tiene muy buena reputación regional y las prácticas en el Hospital Universitario son de calidad."
+      },
+      {
+        "author": "Egresado de Derecho",
+        "author_email": "s2@unicartagena.edu.co",
+        "role": "Egresado",
+        "rating": 4,
+        "text": "Formación sólida en derecho con un costo mínimo al ser pública. Los egresados somos respetados en el ejercicio jurídico de la región Caribe."
+      },
+      {
+        "author": "Estudiante de Ingeniería",
+        "author_email": "s3@unicartagena.edu.co",
+        "role": "Estudiante",
+        "rating": 3,
+        "text": "Universidad pública con retos de infraestructura pero con buenos profesores. El precio es inigualable y la formación técnica es suficiente para el mercado regional."
+      }
+    ],
+    "rating": 3.7
+  },
+  {
+    "id": 23,
+    "name": "Universidad Pontificia Bolivariana Seccional Cartagena",
+    "type": "Privada",
+    "city": "Cartagena",
+    "barrio": "",
+    "address": "",
+    "phone": "+57 5 6939000",
+    "email": "info@upb.edu.co",
+    "website": "https://www.upb.edu.co",
+    "tuition": "",
+    "careers": [
+      {
+        "name": "Derecho",
+        "price": "$9.500.000 COP"
+      },
+      {
+        "name": "Administración de Empresas",
+        "price": "$9.000.000 COP"
+      },
+      {
+        "name": "Ingeniería Industrial",
+        "price": "$9.500.000 COP"
+      },
+      {
+        "name": "Ingeniería de Sistemas",
+        "price": "$9.500.000 COP"
+      },
+      {
+        "name": "Psicología",
+        "price": "$8.500.000 COP"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Estudiante de Derecho",
+        "author_email": "s1@upbcartagena.edu.co",
+        "role": "Estudiante",
+        "rating": 4,
+        "text": "Buena opción privada en Cartagena con el sello de la Bolivariana. El ambiente es tranquilo y los profesores tienen buen nivel. La ubicación en el centro histórico es un plus."
+      },
+      {
+        "author": "Egresado de Ingeniería",
+        "author_email": "s2@upbcartagena.edu.co",
+        "role": "Egresado",
+        "rating": 4,
+        "text": "Me formé aquí y conseguí trabajo en el sector de construcción. La formación técnica es sólida y el nombre UPB pesa en el mercado laboral de la Costa."
+      },
+      {
+        "author": "Estudiante de Administración",
+        "author_email": "s3@upbcartagena.edu.co",
+        "role": "Estudiante",
+        "rating": 4,
+        "text": "Universidad con valores y buen nivel académico. Los recursos de biblioteca son buenos y el acompañamiento a los estudiantes es notable."
+      }
+    ],
+    "rating": 3.9
+  },
+  {
+    "id": 24,
+    "name": "Universidad Libre Seccional Cartagena",
+    "type": "Privada",
+    "city": "Cartagena",
+    "barrio": "",
+    "address": "",
+    "phone": "+57 5 6640184",
+    "email": "info@unilibre.edu.co",
+    "website": "https://www.unilibre.edu.co",
+    "tuition": "",
+    "careers": [
+      {
+        "name": "Derecho",
+        "price": "$8.500.000 COP"
+      },
+      {
+        "name": "Ingeniería de Sistemas",
+        "price": "$7.500.000 COP"
+      },
+      {
+        "name": "Administración de Empresas",
+        "price": "$7.000.000 COP"
+      },
+      {
+        "name": "Contaduría Pública",
+        "price": "$6.500.000 COP"
+      },
+      {
+        "name": "Psicología",
+        "price": "$7.000.000 COP"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Estudiante de Derecho",
+        "author_email": "s1@unilibrecar.edu.co",
+        "role": "Estudiante",
+        "rating": 3,
+        "text": "Opción económica en Cartagena con programas en derecho y contaduría. El nivel varía pero los precios son accesibles para la población estudiantil de la región."
+      },
+      {
+        "author": "Egresado de Contaduría",
+        "author_email": "s2@unilibrecar.edu.co",
+        "role": "Egresado",
+        "rating": 3,
+        "text": "Me gradué aquí y trabajo en contabilidad. La formación básica es suficiente para el campo laboral local aunque falta más exigencia académica en algunos programas."
+      },
+      {
+        "author": "Estudiante de Enfermería",
+        "author_email": "s3@unilibrecar.edu.co",
+        "role": "Estudiante",
+        "rating": 4,
+        "text": "El programa de enfermería tiene convenios con centros hospitalarios importantes de Cartagena. La práctica clínica es intensa y formadora."
+      }
+    ],
+    "rating": 3.3
+  },
+  {
+    "id": 25,
+    "name": "Universidad de la Costa",
+    "type": "Privada",
+    "city": "Barranquilla",
+    "barrio": "",
+    "address": "",
+    "phone": "+57 5 3362222",
+    "email": "info@cuc.edu.co",
+    "website": "https://www.cuc.edu.co",
+    "tuition": "",
+    "careers": [
+      {
+        "name": "Ingeniería de Sistemas",
+        "price": "$8.500.000 COP"
+      },
+      {
+        "name": "Ingeniería Civil",
+        "price": "$9.000.000 COP"
+      },
+      {
+        "name": "Administración de Empresas",
+        "price": "$7.500.000 COP"
+      },
+      {
+        "name": "Derecho",
+        "price": "$8.000.000 COP"
+      },
+      {
+        "name": "Arquitectura",
+        "price": "$9.500.000 COP"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Estudiante de Ingeniería Civil",
+        "author_email": "s1@cuc.edu.co",
+        "role": "Estudiante",
+        "rating": 4,
+        "text": "Universidad CUC con buena proyección en Barranquilla. El programa de ingeniería civil tiene convenios con empresas de construcción locales que facilitan las prácticas."
+      },
+      {
+        "author": "Egresado de Derecho",
+        "author_email": "s2@cuc.edu.co",
+        "role": "Egresado",
+        "rating": 4,
+        "text": "Formación en derecho con enfoque regional. Los profesores son abogados activos que traen casos reales al aula. El título es bien recibido en el mercado de la Costa."
+      },
+      {
+        "author": "Estudiante de Psicología",
+        "author_email": "s3@cuc.edu.co",
+        "role": "Estudiante",
+        "rating": 3,
+        "text": "Universidad con crecimiento notable en los últimos años. Las instalaciones han mejorado y hay más inversión en investigación. Buena relación calidad-precio."
+      }
+    ],
+    "rating": 3.8
+  },
+  {
+    "id": 26,
+    "name": "Universidad Industrial de Santander",
+    "type": "Publica",
+    "city": "Bucaramanga",
+    "barrio": "",
+    "address": "",
+    "phone": "+57 7 6344000",
+    "email": "atencionalciudadano@uis.edu.co",
+    "website": "https://www.uis.edu.co",
+    "tuition": "",
+    "careers": [
+      {
+        "name": "Medicina",
+        "price": "$0 – $6.000.000 COP"
+      },
+      {
+        "name": "Ingeniería de Sistemas",
+        "price": "$0 – $4.500.000 COP"
+      },
+      {
+        "name": "Ingeniería Civil",
+        "price": "$0 – $4.500.000 COP"
+      },
+      {
+        "name": "Ingeniería Química",
+        "price": "$0 – $4.500.000 COP"
+      },
+      {
+        "name": "Derecho",
+        "price": "$0 – $3.500.000 COP"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Estudiante de Ingeniería Petrolera",
+        "author_email": "s1@uis.edu.co",
+        "role": "Estudiante",
+        "rating": 5,
+        "text": "La UIS es la referencia en ingeniería del oriente colombiano. El programa de petróleos es el más reconocido del país y los egresados trabajan en Ecopetrol y multinacionales."
+      },
+      {
+        "author": "Egresado de Ingeniería Química",
+        "author_email": "s2@uis.edu.co",
+        "role": "Egresado",
+        "rating": 5,
+        "text": "Formación de altísimo nivel comparable con la Nacional. Los laboratorios son excelentes y la investigación en ciencias básicas e ingeniería es de nivel internacional."
+      },
+      {
+        "author": "Estudiante de Medicina",
+        "author_email": "s3@uis.edu.co",
+        "role": "Estudiante",
+        "rating": 4,
+        "text": "Muy buena universidad pública en Bucaramanga. La exigencia es alta pero la formación lo vale. El Hospital Universitario de Santander es el escenario de prácticas ideal."
+      }
+    ],
+    "rating": 4.4
+  },
+  {
+    "id": 27,
+    "name": "Universidad Autónoma de Bucaramanga",
+    "type": "Privada",
+    "city": "Bucaramanga",
+    "barrio": "",
+    "address": "",
+    "phone": "+57 7 6436111",
+    "email": "info@unab.edu.co",
+    "website": "https://www.unab.edu.co",
+    "tuition": "",
+    "careers": [
+      {
+        "name": "Derecho",
+        "price": "$9.500.000 COP"
+      },
+      {
+        "name": "Ingeniería de Sistemas",
+        "price": "$9.000.000 COP"
+      },
+      {
+        "name": "Administración de Empresas",
+        "price": "$8.500.000 COP"
+      },
+      {
+        "name": "Psicología",
+        "price": "$8.500.000 COP"
+      },
+      {
+        "name": "Comunicación Social",
+        "price": "$8.000.000 COP"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Estudiante de Medicina",
+        "author_email": "s1@unab.edu.co",
+        "role": "Estudiante",
+        "rating": 4,
+        "text": "UNAB tiene uno de los mejores programas de medicina privados de la región. El campus es moderno y las prácticas clínicas en la Clínica FOSCAL son de muy alta calidad."
+      },
+      {
+        "author": "Egresado de Ingeniería de Sistemas",
+        "author_email": "s2@unab.edu.co",
+        "role": "Egresado",
+        "rating": 4,
+        "text": "Buena universidad en Bucaramanga con fuerte orientación tecnológica. Los programas de ingeniería tienen buenos convenios con empresas del sector tech de Santander."
+      },
+      {
+        "author": "Estudiante de Derecho",
+        "author_email": "s3@unab.edu.co",
+        "role": "Estudiante",
+        "rating": 4,
+        "text": "Ambiente universitario positivo y profesores con mucha experiencia. La UNAB tiene buena reputación entre los empleadores de Bucaramanga y la región."
+      }
+    ],
+    "rating": 4.0
+  },
+  {
+    "id": 28,
+    "name": "Universidad Santo Tomás",
+    "type": "Privada",
+    "city": "Bogotá",
+    "barrio": "",
+    "address": "",
+    "phone": "+57 1 5878797",
+    "email": "info@usta.edu.co",
+    "website": "https://www.usta.edu.co",
+    "tuition": "",
+    "careers": [
+      {
+        "name": "Derecho",
+        "price": "$9.500.000 COP"
+      },
+      {
+        "name": "Ingeniería de Sistemas",
+        "price": "$8.500.000 COP"
+      },
+      {
+        "name": "Administración de Empresas",
+        "price": "$8.000.000 COP"
+      },
+      {
+        "name": "Arquitectura",
+        "price": "$9.000.000 COP"
+      },
+      {
+        "name": "Psicología",
+        "price": "$8.500.000 COP"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Estudiante de Derecho",
+        "author_email": "s1@usta.edu.co",
+        "role": "Estudiante",
+        "rating": 4,
+        "text": "Universidad con tradición dominica y fuerte énfasis humanístico. Derecho y filosofía tienen muy buenos profesores. El ambiente académico es serio y formador."
+      },
+      {
+        "author": "Egresado de Ingeniería",
+        "author_email": "s2@usta.edu.co",
+        "role": "Egresado",
+        "rating": 4,
+        "text": "Formación sólida con valores. Los programas de ingeniería han mejorado mucho en los últimos años con laboratorios nuevos y profesores con posgrado."
+      },
+      {
+        "author": "Estudiante de Psicología",
+        "author_email": "s3@usta.edu.co",
+        "role": "Estudiante",
+        "rating": 4,
+        "text": "Muy buena universidad con enfoque humanista. El programa de psicología integra la tradición filosófica con las corrientes actuales. Recomendada."
+      }
+    ],
+    "rating": 3.9
+  },
+  {
+    "id": 29,
+    "name": "Universidad La Salle",
+    "type": "Privada",
+    "city": "Bogotá",
+    "barrio": "",
+    "address": "",
+    "phone": "+57 1 3488000",
+    "email": "info@lasalle.edu.co",
+    "website": "https://www.lasalle.edu.co",
+    "tuition": "",
+    "careers": [
+      {
+        "name": "Ingeniería de Sistemas",
+        "price": "$8.500.000 COP"
+      },
+      {
+        "name": "Administración de Empresas",
+        "price": "$8.000.000 COP"
+      },
+      {
+        "name": "Medicina Veterinaria",
+        "price": "$9.500.000 COP"
+      },
+      {
+        "name": "Arquitectura",
+        "price": "$9.000.000 COP"
+      },
+      {
+        "name": "Economía",
+        "price": "$8.000.000 COP"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Estudiante de Optometría",
+        "author_email": "s1@lasalle.edu.co",
+        "role": "Estudiante",
+        "rating": 5,
+        "text": "La Salle tiene el mejor programa de optometría del país. Las clínicas ópticas son excelentes para practicar y los docentes son optómetras de alto nivel clínico."
+      },
+      {
+        "author": "Egresado de Ingeniería Ambiental",
+        "author_email": "s2@lasalle.edu.co",
+        "role": "Egresado",
+        "rating": 4,
+        "text": "Buena universidad lasallista con fuerte énfasis en ciencias agrarias y ambientales. La formación con responsabilidad social y ambiental es un diferencial claro."
+      },
+      {
+        "author": "Estudiante de Administración",
+        "author_email": "s3@lasalle.edu.co",
+        "role": "Estudiante",
+        "rating": 4,
+        "text": "Campus bonito en Bogotá con ambiente tranquilo. Los profesores son comprometidos y hay buenas opciones de intercambio con universidades lasallistas del mundo."
+      }
+    ],
+    "rating": 4.0
+  },
+  {
+    "id": 30,
+    "name": "Universidad Militar Nueva Granada",
+    "type": "Publica",
+    "city": "Bogotá",
+    "barrio": "",
+    "address": "",
+    "phone": "+57 1 6500000",
+    "email": "informacion@unimilitar.edu.co",
+    "website": "https://www.unimilitar.edu.co",
+    "tuition": "",
+    "careers": [
+      {
+        "name": "Medicina",
+        "price": "$8.000.000 – $12.000.000 COP"
+      },
+      {
+        "name": "Ingeniería de Sistemas",
+        "price": "$6.000.000 COP"
+      },
+      {
+        "name": "Derecho",
+        "price": "$6.500.000 COP"
+      },
+      {
+        "name": "Administración de Empresas",
+        "price": "$6.000.000 COP"
+      },
+      {
+        "name": "Relaciones Internacionales",
+        "price": "$6.500.000 COP"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Estudiante de Medicina",
+        "author_email": "s1@umng.edu.co",
+        "role": "Estudiante",
+        "rating": 4,
+        "text": "Universidad con excelentes precios para el sector privado. El programa de medicina tiene convenios con el Hospital Militar y varios hospitales públicos de Bogotá."
+      },
+      {
+        "author": "Egresado de Ingeniería",
+        "author_email": "s2@umng.edu.co",
+        "role": "Egresado",
+        "rating": 4,
+        "text": "Buena formación en ingeniería civil y mecatrónica. El enfoque en disciplina y orden propio del ambiente militar se refleja positivamente en la exigencia académica."
+      },
+      {
+        "author": "Estudiante de Derecho",
+        "author_email": "s3@umng.edu.co",
+        "role": "Estudiante",
+        "rating": 4,
+        "text": "Muy buena relación calidad-precio. Los costos son accesibles y la formación es reconocida. La UMNG tiene presencia en varios municipios de Cundinamarca."
+      }
+    ],
+    "rating": 3.9
+  }
 ]
-
-
