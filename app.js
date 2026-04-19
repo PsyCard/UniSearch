@@ -103,10 +103,17 @@ async function syncUserFromServer() {
   try {
     const data = await apiRequest('/api/user');
     if (data && data.logged_in) {
-      saveCurrentUser({ name: data.name, email: data.email, role: data.role || 'user' });
+      const user = { name: data.name, email: data.email, role: data.role || 'user' };
+      saveCurrentUser(user);
+      currentUser = user;
       syncAuthUI();
+      return true;
     }
-  } catch (_) {}
+    return false;
+  } catch (e) {
+    console.error('syncUserFromServer error:', e);
+    return false;
+  }
 }
 
 function getLocalUniversities() {
@@ -180,10 +187,16 @@ async function loginUser(email, password) {
     });
     if (data && data.success) {
       await syncUserFromServer();
+      // Verify user was actually saved
+      const user = getCurrentUser();
+      if (!user) {
+        return { success: false, message: 'Error al guardar la sesión. Intenta de nuevo.' };
+      }
       return { success: true };
     }
     return { success: false, message: data?.message || 'Credenciales inválidas.' };
   } catch (err) {
+    console.error('loginUser error:', err);
     return { success: false, message: err.message || 'No se pudo conectar con el servidor.' };
   }
 }
@@ -648,24 +661,35 @@ if ($authForm) {
     const password = document.getElementById('loginPassword')?.value || '';
 
     if (signUpMode) {
+      $authMessage.textContent = '⏳ Creando cuenta...';
+      const submitBtn = $authForm.querySelector('button[type="submit"]');
+      if (submitBtn) submitBtn.disabled = true;
       const result = await registerUser(name, lastName, email, password);
-      $authMessage.textContent = result.message;
+      if (submitBtn) submitBtn.disabled = false;
       if (result.success) {
-        signUpMode = false;
-        $modalTitle.textContent = 'Iniciar sesión';
-        $nameField.style.display = 'none';
-        if ($lastNameField) $lastNameField.style.display = 'none';
+        $authMessage.textContent = '✓ Registro exitoso.';
+        setTimeout(() => closeAuthModal(), 600);
+        return;
       }
+      $authMessage.textContent = result.message;
       return;
     }
+
+    $authMessage.textContent = '⏳ Conectando con el servidor...';
+    const submitBtn = $authForm.querySelector('button[type="submit"]');
+    if (submitBtn) submitBtn.disabled = true;
 
     const result = await loginUser(email, password);
+
+    if (submitBtn) submitBtn.disabled = false;
+
     if (!result.success) {
-      $authMessage.textContent = result.message;
+      $authMessage.textContent = result.message || 'Error al iniciar sesión. Intenta de nuevo.';
       return;
     }
 
-    closeAuthModal();
+    $authMessage.textContent = '✓ Sesión iniciada correctamente.';
+    setTimeout(() => closeAuthModal(), 600);
   });
 }
 

@@ -13,10 +13,16 @@ from werkzeug.security import generate_password_hash, check_password_hash
 # App setup
 # ---------------------------------------------------------------------------
 app = Flask(__name__, static_folder='.', static_url_path='')
-CORS(app, supports_credentials=True)
+CORS(app,
+     supports_credentials=True,
+     origins=[
+         'https://psycard.github.io',
+         'http://127.0.0.1:5000',
+         'http://localhost:5000',
+     ])
 
-app.config['SESSION_COOKIE_SAMESITE'] = 'Lax'
-app.config['SESSION_COOKIE_SECURE'] = os.environ.get('SESSION_COOKIE_SECURE', 'False') == 'True'
+app.config['SESSION_COOKIE_SAMESITE'] = 'None'  # cross-origin GitHub Pages → Render
+app.config['SESSION_COOKIE_SECURE'] = True  # required for SameSite=None on cross-origin
 if os.environ.get('SESSION_COOKIE_DOMAIN'):
     app.config['SESSION_COOKIE_DOMAIN'] = os.environ['SESSION_COOKIE_DOMAIN']
 
