@@ -1,7 +1,9 @@
 let universities = [];
 let currentUser = null;
 
-const API_BASE = '';
+const STATIC_HOSTS = ['github.io'];
+const isStaticHost = STATIC_HOSTS.some((h) => window.location.hostname.endsWith(h)) || window.location.protocol === 'file:';
+const API_BASE = isStaticHost ? 'https://unisearch-1sv1.onrender.com' : '';
 const useBackend = true;
 
 const admins = [
